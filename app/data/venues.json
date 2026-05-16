@@ -1059,5 +1059,150 @@
     "city": "Manchester, England",
     "lat": 53.4631,
     "lng": -2.2914
+  },
+
+  "bundesliga_bayern": {
+    "league": "bundesliga",
+    "team": "Bayern Munich",
+    "name": "Allianz Arena",
+    "city": "Munich, Germany",
+    "lat": 48.2188,
+    "lng": 11.6247
+  },
+  "bundesliga_leverkusen": {
+    "league": "bundesliga",
+    "team": "Bayer Leverkusen",
+    "name": "BayArena",
+    "city": "Leverkusen, Germany",
+    "lat": 51.0382,
+    "lng": 7.0023
+  },
+  "bundesliga_dortmund": {
+    "league": "bundesliga",
+    "team": "Borussia Dortmund",
+    "name": "Signal Iduna Park",
+    "city": "Dortmund, Germany",
+    "lat": 51.4926,
+    "lng": 7.4519
+  },
+  "bundesliga_leipzig": {
+    "league": "bundesliga",
+    "team": "RB Leipzig",
+    "name": "Red Bull Arena",
+    "city": "Leipzig, Germany",
+    "lat": 51.3458,
+    "lng": 12.3483
+  },
+  "bundesliga_frankfurt": {
+    "league": "bundesliga",
+    "team": "Eintracht Frankfurt",
+    "name": "Deutsche Bank Park",
+    "city": "Frankfurt, Germany",
+    "lat": 50.0686,
+    "lng": 8.6453
+  },
+  "bundesliga_stuttgart": {
+    "league": "bundesliga",
+    "team": "VfB Stuttgart",
+    "name": "MHPArena",
+    "city": "Stuttgart, Germany",
+    "lat": 48.7925,
+    "lng": 9.2317
+  },
+  "bundesliga_gladbach": {
+    "league": "bundesliga",
+    "team": "Borussia Mönchengladbach",
+    "name": "Borussia-Park",
+    "city": "Mönchengladbach, Germany",
+    "lat": 51.1747,
+    "lng": 6.3856
+  },
+  "bundesliga_bremen": {
+    "league": "bundesliga",
+    "team": "Werder Bremen",
+    "name": "Weserstadion",
+    "city": "Bremen, Germany",
+    "lat": 53.0664,
+    "lng": 8.8378
+  },
+  "bundesliga_freiburg": {
+    "league": "bundesliga",
+    "team": "SC Freiburg",
+    "name": "Europa-Park Stadion",
+    "city": "Freiburg, Germany",
+    "lat": 48.0211,
+    "lng": 7.8297
+  },
+  "bundesliga_augsburg": {
+    "league": "bundesliga",
+    "team": "FC Augsburg",
+    "name": "WWK Arena",
+    "city": "Augsburg, Germany",
+    "lat": 48.3231,
+    "lng": 10.8856
+  },
+  "bundesliga_wolfsburg": {
+    "league": "bundesliga",
+    "team": "VfL Wolfsburg",
+    "name": "Volkswagen Arena",
+    "city": "Wolfsburg, Germany",
+    "lat": 52.4322,
+    "lng": 10.8036
+  },
+  "bundesliga_mainz": {
+    "league": "bundesliga",
+    "team": "Mainz 05",
+    "name": "Mewa Arena",
+    "city": "Mainz, Germany",
+    "lat": 49.9842,
+    "lng": 8.2244
+  },
+  "bundesliga_hoffenheim": {
+    "league": "bundesliga",
+    "team": "TSG Hoffenheim",
+    "name": "PreZero Arena",
+    "city": "Sinsheim, Germany",
+    "lat": 49.2389,
+    "lng": 8.8881
+  },
+  "bundesliga_union": {
+    "league": "bundesliga",
+    "team": "Union Berlin",
+    "name": "Stadion An der Alten Försterei",
+    "city": "Berlin, Germany",
+    "lat": 52.4574,
+    "lng": 13.5685
+  },
+  "bundesliga_st_pauli": {
+    "league": "bundesliga",
+    "team": "FC St. Pauli",
+    "name": "Millerntor-Stadion",
+    "city": "Hamburg, Germany",
+    "lat": 53.5547,
+    "lng": 9.9669
+  },
+  "bundesliga_heidenheim": {
+    "league": "bundesliga",
+    "team": "1. FC Heidenheim",
+    "name": "Voith-Arena",
+    "city": "Heidenheim, Germany",
+    "lat": 48.6753,
+    "lng": 10.1408
+  },
+  "bundesliga_hamburg": {
+    "league": "bundesliga",
+    "team": "Hamburger SV",
+    "name": "Volksparkstadion",
+    "city": "Hamburg, Germany",
+    "lat": 53.5872,
+    "lng": 9.8989
+  },
+  "bundesliga_koln": {
+    "league": "bundesliga",
+    "team": "1. FC Köln",
+    "name": "RheinEnergieStadion",
+    "city": "Cologne, Germany",
+    "lat": 50.9336,
+    "lng": 6.8750
   }
 }

@@ -2907,5 +2907,402 @@
         "answer": "Ole Gunnar Solskjær"
       }
     ]
+  },
+
+  "bundesliga_bayern": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Bayern Munich's home stadium?",
+        "options": ["Allianz Arena", "Olympiastadion", "Signal Iduna Park", "MHPArena"],
+        "answer": "Allianz Arena"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has Bayern Munich won?",
+        "options": ["27", "30", "33", "36"],
+        "answer": "33"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Bayern Munich complete their second treble of Bundesliga, DFB-Pokal, and Champions League, under coach Hansi Flick?",
+        "options": ["2013", "2017", "2020", "2023"],
+        "answer": "2020"
+      }
+    ]
+  },
+  "bundesliga_leverkusen": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what western German city does Bayer Leverkusen play their home games?",
+        "options": ["Leverkusen", "Düsseldorf", "Cologne", "Bonn"],
+        "answer": "Leverkusen"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which German midfielder, who later joined Bayern Munich and Chelsea, captained Bayer Leverkusen in the early 2000s?",
+        "options": ["Michael Ballack", "Bastian Schweinsteiger", "Mesut Özil", "Toni Kroos"],
+        "answer": "Michael Ballack"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In which season did Bayer Leverkusen win their first-ever Bundesliga title, going unbeaten under Xabi Alonso?",
+        "options": ["2021-22", "2022-23", "2023-24", "2024-25"],
+        "answer": "2023-24"
+      }
+    ]
+  },
+  "bundesliga_dortmund": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Borussia Dortmund's iconic home stadium?",
+        "options": ["Signal Iduna Park", "Volksparkstadion", "Allianz Arena", "Red Bull Arena"],
+        "answer": "Signal Iduna Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has Borussia Dortmund won since the league's founding in 1963?",
+        "options": ["3", "5", "7", "9"],
+        "answer": "5"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Borussia Dortmund win the UEFA Champions League, defeating Juventus 3-1 in the final?",
+        "options": ["1995", "1997", "2001", "2013"],
+        "answer": "1997"
+      }
+    ]
+  },
+  "bundesliga_leipzig": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what eastern German city does RB Leipzig play their home games?",
+        "options": ["Leipzig", "Dresden", "Berlin", "Halle"],
+        "answer": "Leipzig"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Austrian energy drink company owns and bankrolls RB Leipzig?",
+        "options": ["Red Bull", "Monster", "Rockstar", "Burn"],
+        "answer": "Red Bull"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was RB Leipzig founded after Red Bull purchased a fifth-tier club's playing license?",
+        "options": ["2003", "2006", "2009", "2012"],
+        "answer": "2009"
+      }
+    ]
+  },
+  "bundesliga_frankfurt": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Eintracht Frankfurt's home stadium, also known as the Waldstadion?",
+        "options": ["Deutsche Bank Park", "Allianz Arena", "Mewa Arena", "BayArena"],
+        "answer": "Deutsche Bank Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has Eintracht Frankfurt won since the league's founding in 1963?",
+        "options": ["0", "1", "2", "4"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Eintracht Frankfurt won the 2022 UEFA Europa League final on penalties, defeating which Scottish club?",
+        "options": ["Rangers", "Celtic", "Aberdeen", "Hibernian"],
+        "answer": "Rangers"
+      }
+    ]
+  },
+  "bundesliga_stuttgart": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what southwestern German city does VfB Stuttgart play their home games?",
+        "options": ["Stuttgart", "Karlsruhe", "Ulm", "Heilbronn"],
+        "answer": "Stuttgart"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has VfB Stuttgart won?",
+        "options": ["1", "2", "3", "5"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was VfB Stuttgart founded?",
+        "options": ["1879", "1893", "1900", "1912"],
+        "answer": "1893"
+      }
+    ]
+  },
+  "bundesliga_gladbach": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Borussia Mönchengladbach's home stadium?",
+        "options": ["Borussia-Park", "Signal Iduna Park", "Weserstadion", "BayArena"],
+        "answer": "Borussia-Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has Borussia Mönchengladbach won, most during a dominant 1970s run?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Borussia Mönchengladbach defender later coached the West German national team to Euro 1996 glory?",
+        "options": ["Berti Vogts", "Franz Beckenbauer", "Helmut Schön", "Jürgen Klinsmann"],
+        "answer": "Berti Vogts"
+      }
+    ]
+  },
+  "bundesliga_bremen": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what northern German port city does Werder Bremen play their home games?",
+        "options": ["Bremen", "Hamburg", "Hanover", "Lübeck"],
+        "answer": "Bremen"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Werder Bremen striker went on to become the all-time leading goal scorer in FIFA World Cup history?",
+        "options": ["Miroslav Klose", "Jürgen Klinsmann", "Rudi Völler", "Oliver Bierhoff"],
+        "answer": "Miroslav Klose"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many Bundesliga titles has Werder Bremen won?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      }
+    ]
+  },
+  "bundesliga_freiburg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city near the Black Forest does SC Freiburg play their home games?",
+        "options": ["Freiburg", "Karlsruhe", "Heidelberg", "Mannheim"],
+        "answer": "Freiburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which iconic head coach managed SC Freiburg from 2011 to 2024, becoming one of the Bundesliga's longest-tenured managers?",
+        "options": ["Christian Streich", "Joachim Löw", "Volker Finke", "Jupp Heynckes"],
+        "answer": "Christian Streich"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was SC Freiburg founded?",
+        "options": ["1888", "1904", "1912", "1920"],
+        "answer": "1904"
+      }
+    ]
+  },
+  "bundesliga_augsburg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what southern German city does FC Augsburg play their home games?",
+        "options": ["Augsburg", "Nuremberg", "Munich", "Ingolstadt"],
+        "answer": "Augsburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has FC Augsburg won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was FC Augsburg founded?",
+        "options": ["1899", "1907", "1920", "1945"],
+        "answer": "1907"
+      }
+    ]
+  },
+  "bundesliga_wolfsburg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Lower Saxony city does VfL Wolfsburg play their home games?",
+        "options": ["Wolfsburg", "Hanover", "Braunschweig", "Hildesheim"],
+        "answer": "Wolfsburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has VfL Wolfsburg won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "1"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "VfL Wolfsburg is one of the few Bundesliga clubs exempt from Germany's 50+1 ownership rule because it is owned outright by which German automaker?",
+        "options": ["Volkswagen", "BMW", "Audi", "Porsche"],
+        "answer": "Volkswagen"
+      }
+    ]
+  },
+  "bundesliga_mainz": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On the banks of which river does Mainz 05 play their home games?",
+        "options": ["Rhine", "Elbe", "Danube", "Main"],
+        "answer": "Rhine"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which now-legendary head coach launched his managerial career at Mainz before moving on to Borussia Dortmund and Liverpool?",
+        "options": ["Jürgen Klopp", "Thomas Tuchel", "Joachim Löw", "Ralf Rangnick"],
+        "answer": "Jürgen Klopp"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The '05' in Mainz 05's name refers to the club's founding in what year?",
+        "options": ["1895", "1900", "1905", "1910"],
+        "answer": "1905"
+      }
+    ]
+  },
+  "bundesliga_hoffenheim": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what small Baden-Württemberg town does TSG Hoffenheim play its home games?",
+        "options": ["Sinsheim", "Heidelberg", "Heilbronn", "Karlsruhe"],
+        "answer": "Sinsheim"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which billionaire SAP co-founder bankrolled Hoffenheim's rise from amateur football to the Bundesliga?",
+        "options": ["Dietmar Hopp", "Hasso Plattner", "Klaus Tschira", "Henning Kagermann"],
+        "answer": "Dietmar Hopp"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was TSG Hoffenheim promoted to the Bundesliga for the first time?",
+        "options": ["2002", "2005", "2008", "2011"],
+        "answer": "2008"
+      }
+    ]
+  },
+  "bundesliga_union": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what German capital city does Union Berlin play their home games?",
+        "options": ["Berlin", "Hamburg", "Munich", "Frankfurt"],
+        "answer": "Berlin"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year was Union Berlin promoted to the Bundesliga for the first time in club history?",
+        "options": ["2015", "2017", "2019", "2021"],
+        "answer": "2019"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Union Berlin made their first-ever UEFA Champions League group stage appearance in which season?",
+        "options": ["2021-22", "2022-23", "2023-24", "2024-25"],
+        "answer": "2023-24"
+      }
+    ]
+  },
+  "bundesliga_st_pauli": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what major northern German port city does FC St. Pauli play their home games?",
+        "options": ["Hamburg", "Bremen", "Kiel", "Lübeck"],
+        "answer": "Hamburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "FC St. Pauli is famous for its anti-fascist, left-wing fan culture and what unofficial dark logo?",
+        "options": ["Skull and crossbones", "A red rose", "A clenched fist", "A black cat"],
+        "answer": "Skull and crossbones"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was FC St. Pauli founded as an independent football club?",
+        "options": ["1899", "1905", "1910", "1924"],
+        "answer": "1910"
+      }
+    ]
+  },
+  "bundesliga_heidenheim": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what small Baden-Württemberg town does 1. FC Heidenheim play their home games?",
+        "options": ["Heidenheim", "Ulm", "Augsburg", "Stuttgart"],
+        "answer": "Heidenheim"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year was 1. FC Heidenheim promoted to the Bundesliga for the first time in club history?",
+        "options": ["2019", "2021", "2023", "2024"],
+        "answer": "2023"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The '1846' in 1. FC Heidenheim 1846 refers to the founding year of the parent sports club. What year is that?",
+        "options": ["1846", "1886", "1906", "1946"],
+        "answer": "1846"
+      }
+    ]
+  },
+  "bundesliga_hamburg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what major German port city does Hamburger SV play their home games?",
+        "options": ["Hamburg", "Bremen", "Kiel", "Hanover"],
+        "answer": "Hamburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has Hamburger SV won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Hamburger SV was the only club present in every Bundesliga season from the league's 1963 founding until what year, when they were relegated for the first time?",
+        "options": ["2014", "2016", "2018", "2020"],
+        "answer": "2018"
+      }
+    ]
+  },
+  "bundesliga_koln": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what western German city on the Rhine does 1. FC Köln play their home games?",
+        "options": ["Cologne", "Düsseldorf", "Bonn", "Essen"],
+        "answer": "Cologne"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Bundesliga titles has 1. FC Köln won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "1. FC Köln won the inaugural Bundesliga title in which season?",
+        "options": ["1962-63", "1963-64", "1964-65", "1965-66"],
+        "answer": "1963-64"
+      }
+    ]
   }
 }
