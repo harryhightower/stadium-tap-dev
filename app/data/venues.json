@@ -1204,5 +1204,166 @@
     "city": "Cologne, Germany",
     "lat": 50.9336,
     "lng": 6.8750
+  },
+
+  "serie_a_juventus": {
+    "league": "serie_a",
+    "team": "Juventus",
+    "name": "Allianz Stadium",
+    "city": "Turin, Italy",
+    "lat": 45.1097,
+    "lng": 7.6413
+  },
+  "serie_a_inter": {
+    "league": "serie_a",
+    "team": "Inter Milan",
+    "name": "San Siro",
+    "city": "Milan, Italy",
+    "lat": 45.4781,
+    "lng": 9.1240
+  },
+  "serie_a_milan": {
+    "league": "serie_a",
+    "team": "AC Milan",
+    "name": "San Siro",
+    "city": "Milan, Italy",
+    "lat": 45.4781,
+    "lng": 9.1240
+  },
+  "serie_a_napoli": {
+    "league": "serie_a",
+    "team": "Napoli",
+    "name": "Stadio Diego Armando Maradona",
+    "city": "Naples, Italy",
+    "lat": 40.8280,
+    "lng": 14.1929
+  },
+  "serie_a_roma": {
+    "league": "serie_a",
+    "team": "AS Roma",
+    "name": "Stadio Olimpico",
+    "city": "Rome, Italy",
+    "lat": 41.9341,
+    "lng": 12.4548
+  },
+  "serie_a_lazio": {
+    "league": "serie_a",
+    "team": "Lazio",
+    "name": "Stadio Olimpico",
+    "city": "Rome, Italy",
+    "lat": 41.9341,
+    "lng": 12.4548
+  },
+  "serie_a_atalanta": {
+    "league": "serie_a",
+    "team": "Atalanta",
+    "name": "Gewiss Stadium",
+    "city": "Bergamo, Italy",
+    "lat": 45.7088,
+    "lng": 9.6810
+  },
+  "serie_a_fiorentina": {
+    "league": "serie_a",
+    "team": "Fiorentina",
+    "name": "Stadio Artemio Franchi",
+    "city": "Florence, Italy",
+    "lat": 43.7806,
+    "lng": 11.2820
+  },
+  "serie_a_bologna": {
+    "league": "serie_a",
+    "team": "Bologna",
+    "name": "Stadio Renato Dall'Ara",
+    "city": "Bologna, Italy",
+    "lat": 44.4925,
+    "lng": 11.3094
+  },
+  "serie_a_torino": {
+    "league": "serie_a",
+    "team": "Torino",
+    "name": "Stadio Olimpico Grande Torino",
+    "city": "Turin, Italy",
+    "lat": 45.0414,
+    "lng": 7.6499
+  },
+  "serie_a_udinese": {
+    "league": "serie_a",
+    "team": "Udinese",
+    "name": "Bluenergy Stadium",
+    "city": "Udine, Italy",
+    "lat": 46.0816,
+    "lng": 13.2002
+  },
+  "serie_a_genoa": {
+    "league": "serie_a",
+    "team": "Genoa CFC",
+    "name": "Stadio Luigi Ferraris",
+    "city": "Genoa, Italy",
+    "lat": 44.4163,
+    "lng": 8.9521
+  },
+  "serie_a_como": {
+    "league": "serie_a",
+    "team": "Como",
+    "name": "Stadio Giuseppe Sinigaglia",
+    "city": "Como, Italy",
+    "lat": 45.8147,
+    "lng": 9.0708
+  },
+  "serie_a_verona": {
+    "league": "serie_a",
+    "team": "Hellas Verona",
+    "name": "Stadio Marc'Antonio Bentegodi",
+    "city": "Verona, Italy",
+    "lat": 45.4358,
+    "lng": 10.9683
+  },
+  "serie_a_cagliari": {
+    "league": "serie_a",
+    "team": "Cagliari",
+    "name": "Unipol Domus",
+    "city": "Cagliari, Italy",
+    "lat": 39.1995,
+    "lng": 9.1370
+  },
+  "serie_a_parma": {
+    "league": "serie_a",
+    "team": "Parma",
+    "name": "Stadio Ennio Tardini",
+    "city": "Parma, Italy",
+    "lat": 44.7948,
+    "lng": 10.3387
+  },
+  "serie_a_lecce": {
+    "league": "serie_a",
+    "team": "Lecce",
+    "name": "Stadio Via del Mare",
+    "city": "Lecce, Italy",
+    "lat": 40.3656,
+    "lng": 18.2089
+  },
+  "serie_a_sassuolo": {
+    "league": "serie_a",
+    "team": "Sassuolo",
+    "name": "Mapei Stadium",
+    "city": "Reggio Emilia, Italy",
+    "lat": 44.7142,
+    "lng": 10.6098
+  },
+  "serie_a_pisa": {
+    "league": "serie_a",
+    "team": "Pisa",
+    "name": "Arena Garibaldi",
+    "city": "Pisa, Italy",
+    "lat": 43.7263,
+    "lng": 10.4019
+  },
+  "serie_a_cremonese": {
+    "league": "serie_a",
+    "team": "Cremonese",
+    "name": "Stadio Giovanni Zini",
+    "city": "Cremona, Italy",
+    "lat": 45.1408,
+    "lng": 10.0247
   }
 }

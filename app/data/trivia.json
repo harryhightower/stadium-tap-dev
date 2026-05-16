@@ -3304,5 +3304,446 @@
         "answer": "1963-64"
       }
     ]
+  },
+
+  "serie_a_juventus": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Juventus's home stadium, opened in 2011?",
+        "options": ["Allianz Stadium", "San Siro", "Stadio Olimpico", "Stadio delle Alpi"],
+        "answer": "Allianz Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Italian league titles (Scudetti) does Juventus officially claim, more than any other club?",
+        "options": ["28", "32", "36", "40"],
+        "answer": "36"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many UEFA Champions League / European Cup titles has Juventus won?",
+        "options": ["1", "2", "3", "5"],
+        "answer": "2"
+      }
+    ]
+  },
+  "serie_a_inter": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the popular nickname for the stadium Inter shares with AC Milan?",
+        "options": ["San Siro", "Marassi", "Olimpico", "Maradona"],
+        "answer": "San Siro"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has Inter Milan won?",
+        "options": ["16", "18", "20", "22"],
+        "answer": "20"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Inter Milan win the UEFA Champions League under coach José Mourinho, completing a historic treble?",
+        "options": ["2007", "2010", "2014", "2017"],
+        "answer": "2010"
+      }
+    ]
+  },
+  "serie_a_milan": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the formal name of the San Siro stadium AC Milan shares with Inter?",
+        "options": ["Stadio Giuseppe Meazza", "Stadio Olimpico", "Stadio Diego Maradona", "Stadio Artemio Franchi"],
+        "answer": "Stadio Giuseppe Meazza"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has AC Milan won?",
+        "options": ["15", "17", "19", "21"],
+        "answer": "19"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many UEFA Champions League / European Cup titles has AC Milan won, second-most in history?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      }
+    ]
+  },
+  "serie_a_napoli": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "After which Argentine legend was Napoli's home stadium renamed in 2020?",
+        "options": ["Diego Armando Maradona", "Lionel Messi", "Alfredo Di Stéfano", "Mario Kempes"],
+        "answer": "Diego Armando Maradona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has Napoli won?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Argentine icon led Napoli to their first two Scudetti in 1987 and 1990?",
+        "options": ["Diego Maradona", "Gabriel Batistuta", "Mario Kempes", "Daniel Passarella"],
+        "answer": "Diego Maradona"
+      }
+    ]
+  },
+  "serie_a_roma": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "AS Roma and Lazio share which famous Rome stadium?",
+        "options": ["Stadio Olimpico", "San Siro", "Stadio Artemio Franchi", "Stadio Diego Maradona"],
+        "answer": "Stadio Olimpico"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has AS Roma won?",
+        "options": ["1", "2", "3", "5"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did AS Roma win the inaugural UEFA Europa Conference League title?",
+        "options": ["2020", "2021", "2022", "2023"],
+        "answer": "2022"
+      }
+    ]
+  },
+  "serie_a_lazio": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Italian capital city does Lazio play their home games?",
+        "options": ["Rome", "Naples", "Milan", "Florence"],
+        "answer": "Rome"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has Lazio won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Swedish manager led Lazio to their second Scudetto in 2000?",
+        "options": ["Sven-Göran Eriksson", "Lars Lagerbäck", "Tommy Svensson", "Roy Hodgson"],
+        "answer": "Sven-Göran Eriksson"
+      }
+    ]
+  },
+  "serie_a_atalanta": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what northern Italian city does Atalanta play their home games?",
+        "options": ["Bergamo", "Brescia", "Verona", "Padua"],
+        "answer": "Bergamo"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Atalanta won their first major European trophy in 2024. Which competition?",
+        "options": ["UEFA Europa League", "UEFA Champions League", "UEFA Conference League", "UEFA Super Cup"],
+        "answer": "UEFA Europa League"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Atalanta defeated which heavily favored, unbeaten German club 3-0 in the 2024 UEFA Europa League final?",
+        "options": ["Bayer Leverkusen", "Bayern Munich", "Borussia Dortmund", "RB Leipzig"],
+        "answer": "Bayer Leverkusen"
+      }
+    ]
+  },
+  "serie_a_fiorentina": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what historic Tuscan city does Fiorentina play their home games?",
+        "options": ["Florence", "Pisa", "Siena", "Lucca"],
+        "answer": "Florence"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Argentine-born striker, nicknamed 'Batigol,' is Fiorentina's all-time leading scorer?",
+        "options": ["Gabriel Batistuta", "Diego Maradona", "Mario Kempes", "Sergio Agüero"],
+        "answer": "Gabriel Batistuta"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many Scudetti has Fiorentina won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      }
+    ]
+  },
+  "serie_a_bologna": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what north-central Italian city does Bologna FC play their home games?",
+        "options": ["Bologna", "Modena", "Parma", "Ferrara"],
+        "answer": "Bologna"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has Bologna won, all between 1925 and 1964?",
+        "options": ["3", "5", "7", "9"],
+        "answer": "7"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Bologna win their most recent Scudetto?",
+        "options": ["1958", "1964", "1972", "1981"],
+        "answer": "1964"
+      }
+    ]
+  },
+  "serie_a_torino": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Italian city does Torino play their home games, sharing it with rivals Juventus?",
+        "options": ["Turin", "Milan", "Genoa", "Bologna"],
+        "answer": "Turin"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The legendary 'Il Grande Torino' squad won five consecutive Scudetti before perishing in a plane crash on which Turin hill?",
+        "options": ["Superga", "Monte Vesuvio", "Monte Bianco", "Stresa"],
+        "answer": "Superga"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the Superga air disaster destroy the great Torino squad?",
+        "options": ["1944", "1949", "1956", "1962"],
+        "answer": "1949"
+      }
+    ]
+  },
+  "serie_a_udinese": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what northeastern Italian city does Udinese play their home games?",
+        "options": ["Udine", "Venice", "Trieste", "Verona"],
+        "answer": "Udine"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Italian striker, with 227 club goals, is Udinese's all-time leading scorer?",
+        "options": ["Antonio Di Natale", "Alessandro Del Piero", "Christian Vieri", "Roberto Baggio"],
+        "answer": "Antonio Di Natale"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Udinese is one of Italy's oldest clubs, founded in what year?",
+        "options": ["1888", "1896", "1903", "1912"],
+        "answer": "1896"
+      }
+    ]
+  },
+  "serie_a_genoa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what major Italian port city does Genoa CFC play their home games?",
+        "options": ["Genoa", "Naples", "Venice", "Bari"],
+        "answer": "Genoa"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Genoa is Italy's oldest football club, founded in what year?",
+        "options": ["1889", "1893", "1899", "1903"],
+        "answer": "1893"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Derby della Lanterna is contested between Genoa and which other club from the same city?",
+        "options": ["Sampdoria", "Spezia", "Pisa", "Livorno"],
+        "answer": "Sampdoria"
+      }
+    ]
+  },
+  "serie_a_como": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On the shores of which famous Italian lake does Como play their home games?",
+        "options": ["Lake Como", "Lake Garda", "Lake Maggiore", "Lake Iseo"],
+        "answer": "Lake Como"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Indonesian billionaire family bought Como in 2019 and funded the club's climb back to Serie A?",
+        "options": ["The Hartono family", "The Lippo family", "The Salim family", "The Bakrie family"],
+        "answer": "The Hartono family"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Como returned to Serie A for the 2024-25 season after how many years away from the top flight?",
+        "options": ["10", "15", "21", "30"],
+        "answer": "21"
+      }
+    ]
+  },
+  "serie_a_verona": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which Italian city, famously the setting for Shakespeare's 'Romeo and Juliet,' does Hellas Verona play?",
+        "options": ["Verona", "Venice", "Padua", "Vicenza"],
+        "answer": "Verona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Hellas Verona won their only Scudetto as a stunning underdog in what year?",
+        "options": ["1975", "1985", "1995", "2003"],
+        "answer": "1985"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Hellas Verona founded?",
+        "options": ["1890", "1903", "1919", "1934"],
+        "answer": "1903"
+      }
+    ]
+  },
+  "serie_a_cagliari": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On what large Italian island does Cagliari play their home games?",
+        "options": ["Sardinia", "Sicily", "Elba", "Capri"],
+        "answer": "Sardinia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Italian striker, nicknamed 'Rombo di Tuono' (Roar of Thunder), spent his entire career at Cagliari?",
+        "options": ["Gigi Riva", "Paolo Rossi", "Roberto Baggio", "Filippo Inzaghi"],
+        "answer": "Gigi Riva"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Cagliari win their only Scudetto?",
+        "options": ["1962", "1970", "1978", "1985"],
+        "answer": "1970"
+      }
+    ]
+  },
+  "serie_a_parma": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what northern Italian city, famous for its cheese and prosciutto, does Parma play their home games?",
+        "options": ["Parma", "Modena", "Bologna", "Reggio Emilia"],
+        "answer": "Parma"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many UEFA Cup titles did Parma win during their 1990s golden era?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Parma's 1990s glory was bankrolled by which Italian dairy giant, which went spectacularly bankrupt in 2003?",
+        "options": ["Parmalat", "Galbani", "Lavazza", "Ferrero"],
+        "answer": "Parmalat"
+      }
+    ]
+  },
+  "serie_a_lecce": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which southern Italian region's largest city does Lecce play their home games?",
+        "options": ["Apulia", "Calabria", "Sicily", "Campania"],
+        "answer": "Apulia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has US Lecce won in club history?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was US Lecce founded?",
+        "options": ["1899", "1908", "1919", "1928"],
+        "answer": "1908"
+      }
+    ]
+  },
+  "serie_a_sassuolo": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Despite its name, Sassuolo plays its home games in which Emilia-Romagna city?",
+        "options": ["Reggio Emilia", "Modena", "Bologna", "Parma"],
+        "answer": "Reggio Emilia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Sassuolo's home stadium is named after which Italian construction adhesives and chemicals giant?",
+        "options": ["Mapei", "Ferrero", "Pirelli", "Fiat"],
+        "answer": "Mapei"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Sassuolo promoted to Serie A for the first time in club history?",
+        "options": ["2008", "2013", "2017", "2020"],
+        "answer": "2013"
+      }
+    ]
+  },
+  "serie_a_pisa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Tuscan city famous for its leaning tower does Pisa play their home games?",
+        "options": ["Pisa", "Florence", "Siena", "Lucca"],
+        "answer": "Pisa"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Pisa returned to Serie A for the 2025-26 season after their previous top-flight appearance in which decade?",
+        "options": ["1970s", "1980s", "1990s", "2000s"],
+        "answer": "1990s"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Pisa Sporting Club founded?",
+        "options": ["1899", "1909", "1919", "1929"],
+        "answer": "1909"
+      }
+    ]
+  },
+  "serie_a_cremonese": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Lombardy city, famous for violin-making, does Cremonese play their home games?",
+        "options": ["Cremona", "Brescia", "Bergamo", "Mantua"],
+        "answer": "Cremona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Scudetti has US Cremonese won in club history?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was US Cremonese founded?",
+        "options": ["1888", "1903", "1919", "1934"],
+        "answer": "1903"
+      }
+    ]
   }
 }
