@@ -1526,5 +1526,14 @@
     "city": "Oviedo, Spain",
     "lat": 43.3506,
     "lng": -5.8649
+  },
+
+  "l1_psg": {
+    "league": "ligue_1_psg",
+    "team": "Paris Saint-Germain",
+    "name": "Parc des Princes",
+    "city": "Paris, France",
+    "lat": 48.8414,
+    "lng": 2.2530
   }
 }

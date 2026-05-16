@@ -4186,5 +4186,28 @@
         "answer": "Carlos Slim"
       }
     ]
+  },
+
+  "l1_psg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of PSG's quaint 48,000-seat home stadium, which has hosted Qatar's billion-euro Ligue 1 dominance project since 2011?",
+        "options": ["Parc des Princes", "Stade de France", "Stade Vélodrome", "Allianz Riviera"],
+        "answer": "Parc des Princes"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Ligue 1 titles has PSG vacuumed up since Qatar Sports Investments bought the club in 2011, turning a competitive league into a one-club procession?",
+        "options": ["5", "8", "11", "14"],
+        "answer": "11"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "PSG's 2017 world-record €222 million purchase of Neymar from Barcelona is the textbook example of which practice, in which sovereign-wealth-backed clubs blow past market-rate norms?",
+        "options": ["Financial doping", "Tax optimization", "Smart scouting", "Aggressive contract restructuring"],
+        "answer": "Financial doping"
+      }
+    ]
   }
 }
