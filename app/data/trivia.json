@@ -1718,6 +1718,667 @@
     ]
   },
 
+  "nba_celtics": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Boston Celtics' home arena?",
+        "options": ["TD Garden", "Fenway Arena", "Boston Garden", "Gillette Arena"],
+        "answer": "TD Garden"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Celtics won, the most in league history?",
+        "options": ["15", "16", "17", "18"],
+        "answer": "18"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Celtics center won 11 NBA championships, more than any player in league history?",
+        "options": ["Bill Russell", "Robert Parish", "Kevin McHale", "Larry Bird"],
+        "answer": "Bill Russell"
+      }
+    ]
+  },
+  "nba_nets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the primary color of the Brooklyn Nets' jerseys?",
+        "options": ["Black", "Royal Blue", "Red", "Green"],
+        "answer": "Black"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Nets relocate from New Jersey to Brooklyn?",
+        "options": ["2008", "2010", "2012", "2014"],
+        "answer": "2012"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame forward led the Nets to two ABA championships in the 1970s?",
+        "options": ["Julius Erving", "Rick Barry", "George Gervin", "David Thompson"],
+        "answer": "Julius Erving"
+      }
+    ]
+  },
+  "nba_knicks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Knicks' iconic Manhattan arena?",
+        "options": ["Madison Square Garden", "Barclays Center", "Yankee Arena", "Crypto.com Arena"],
+        "answer": "Madison Square Garden"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the New York Knicks won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Knicks center was the top pick in the 1985 NBA Draft Lottery?",
+        "options": ["Patrick Ewing", "Charles Oakley", "Bill Cartwright", "Willis Reed"],
+        "answer": "Patrick Ewing"
+      }
+    ]
+  },
+  "nba_76ers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the 76ers play their home games?",
+        "options": ["Philadelphia", "Pittsburgh", "Trenton", "Camden"],
+        "answer": "Philadelphia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the 76ers won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which 76ers center won both regular-season MVP and Finals MVP in 1983?",
+        "options": ["Moses Malone", "Wilt Chamberlain", "Allen Iverson", "Charles Barkley"],
+        "answer": "Moses Malone"
+      }
+    ]
+  },
+  "nba_raptors": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Raptors play their home games?",
+        "options": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+        "answer": "Toronto"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Raptors win their first NBA championship?",
+        "options": ["2015", "2017", "2019", "2021"],
+        "answer": "2019"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who was named Finals MVP of the Raptors' 2019 championship run?",
+        "options": ["Kawhi Leonard", "Kyle Lowry", "Pascal Siakam", "Fred VanVleet"],
+        "answer": "Kawhi Leonard"
+      }
+    ]
+  },
+  "nba_bulls": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Chicago Bulls' home arena?",
+        "options": ["United Center", "Soldier Field", "Wrigley Field", "Rate Field"],
+        "answer": "United Center"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships did the Bulls win during the 1990s?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "6"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which head coach led the Bulls to all six of their NBA championships?",
+        "options": ["Doug Collins", "Phil Jackson", "Tex Winter", "Pat Riley"],
+        "answer": "Phil Jackson"
+      }
+    ]
+  },
+  "nba_cavaliers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Cleveland Cavaliers play their home games?",
+        "options": ["Cleveland", "Columbus", "Cincinnati", "Akron"],
+        "answer": "Cleveland"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Cavaliers win their only NBA championship?",
+        "options": ["2007", "2015", "2016", "2018"],
+        "answer": "2016"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Down 3-1 in the 2016 NBA Finals, the Cavaliers came back to defeat which team?",
+        "options": ["Golden State Warriors", "San Antonio Spurs", "Oklahoma City Thunder", "Toronto Raptors"],
+        "answer": "Golden State Warriors"
+      }
+    ]
+  },
+  "nba_pistons": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Detroit Pistons' primary team color?",
+        "options": ["Blue", "Red", "Black", "Green"],
+        "answer": "Blue"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Pistons won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What nickname was given to the physical Pistons teams that won back-to-back titles in 1989 and 1990?",
+        "options": ["Bad Boys", "Motor City Madmen", "Detroit Destroyers", "Pistol Pete's Crew"],
+        "answer": "Bad Boys"
+      }
+    ]
+  },
+  "nba_pacers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Indiana Pacers play their home games?",
+        "options": ["Indianapolis", "Fort Wayne", "Gary", "Bloomington"],
+        "answer": "Indianapolis"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many ABA championships did the Pacers win before joining the NBA?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Pacers shooting guard, drafted in 1987, is the franchise's all-time leading scorer?",
+        "options": ["Reggie Miller", "Paul George", "Danny Granger", "Jermaine O'Neal"],
+        "answer": "Reggie Miller"
+      }
+    ]
+  },
+  "nba_bucks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Milwaukee Bucks' home arena?",
+        "options": ["Fiserv Forum", "Bradley Center", "American Family Field", "Lambeau Arena"],
+        "answer": "Fiserv Forum"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Bucks star won back-to-back NBA MVP awards in 2019 and 2020?",
+        "options": ["Giannis Antetokounmpo", "Kareem Abdul-Jabbar", "Khris Middleton", "Damian Lillard"],
+        "answer": "Giannis Antetokounmpo"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the Bucks win their second NBA championship, ending a 50-year title drought?",
+        "options": ["2019", "2020", "2021", "2022"],
+        "answer": "2021"
+      }
+    ]
+  },
+  "nba_hawks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Atlanta Hawks play their home games?",
+        "options": ["Atlanta", "Birmingham", "Charlotte", "Nashville"],
+        "answer": "Atlanta"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Hawks franchise win its only NBA championship, as the St. Louis Hawks?",
+        "options": ["1951", "1958", "1968", "1972"],
+        "answer": "1958"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hawks point guard, drafted with the No. 5 pick in 2018, became an All-Star and franchise scoring leader?",
+        "options": ["Trae Young", "Dejounte Murray", "Bogdan Bogdanović", "John Collins"],
+        "answer": "Trae Young"
+      }
+    ]
+  },
+  "nba_hornets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Charlotte Hornets play their home games?",
+        "options": ["Charlotte", "Raleigh", "Greensboro", "Asheville"],
+        "answer": "Charlotte"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame basketball legend was the majority owner of the Hornets from 2010 to 2023?",
+        "options": ["Michael Jordan", "Magic Johnson", "Larry Bird", "Charles Barkley"],
+        "answer": "Michael Jordan"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hornets guard was selected with the No. 3 overall pick in the 2020 NBA Draft?",
+        "options": ["LaMelo Ball", "Killian Hayes", "Anthony Edwards", "James Wiseman"],
+        "answer": "LaMelo Ball"
+      }
+    ]
+  },
+  "nba_heat": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Miami Heat's primary team color?",
+        "options": ["Red", "Aqua", "Orange", "Black"],
+        "answer": "Red"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Miami Heat won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Whose iconic corner three-pointer in Game 6 of the 2013 NBA Finals saved the Heat from elimination?",
+        "options": ["Ray Allen", "LeBron James", "Dwyane Wade", "Chris Bosh"],
+        "answer": "Ray Allen"
+      }
+    ]
+  },
+  "nba_magic": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Orlando Magic play their home games?",
+        "options": ["Orlando", "Tampa", "Miami", "Jacksonville"],
+        "answer": "Orlando"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame center, drafted No. 1 overall in 1992, led the Magic to the 1995 NBA Finals?",
+        "options": ["Shaquille O'Neal", "Dwight Howard", "Patrick Ewing", "David Robinson"],
+        "answer": "Shaquille O'Neal"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Magic center won NBA Defensive Player of the Year three years in a row from 2009 to 2011?",
+        "options": ["Dwight Howard", "Shaquille O'Neal", "Nikola Vučević", "Marcin Gortat"],
+        "answer": "Dwight Howard"
+      }
+    ]
+  },
+  "nba_wizards": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Washington Wizards play their home games?",
+        "options": ["Washington, DC", "Baltimore", "Arlington", "Richmond"],
+        "answer": "Washington, DC"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's name when it won its only NBA championship in 1978?",
+        "options": ["Washington Bullets", "Capital Bullets", "Washington Generals", "Baltimore Bullets"],
+        "answer": "Washington Bullets"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame center was Finals MVP of the Washington Bullets' 1978 championship?",
+        "options": ["Wes Unseld", "Elvin Hayes", "Bob Dandridge", "Phil Chenier"],
+        "answer": "Wes Unseld"
+      }
+    ]
+  },
+  "nba_nuggets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What color is most prominently associated with the Denver Nuggets?",
+        "options": ["Navy Blue", "Red", "Green", "Orange"],
+        "answer": "Navy Blue"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Nuggets win their first NBA championship?",
+        "options": ["2009", "2015", "2020", "2023"],
+        "answer": "2023"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Nuggets center won Finals MVP in 2023 and back-to-back regular-season MVPs in 2021 and 2022?",
+        "options": ["Nikola Jokić", "Joel Embiid", "Anthony Davis", "Karl-Anthony Towns"],
+        "answer": "Nikola Jokić"
+      }
+    ]
+  },
+  "nba_timberwolves": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Minnesota Timberwolves play their home games?",
+        "options": ["Minneapolis", "St. Paul", "Duluth", "Rochester"],
+        "answer": "Minneapolis"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Timberwolves forward won the 2004 NBA MVP award?",
+        "options": ["Kevin Garnett", "Kevin Love", "Karl-Anthony Towns", "Andrew Wiggins"],
+        "answer": "Kevin Garnett"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "With what overall pick did the Timberwolves select Karl-Anthony Towns in the 2015 NBA Draft?",
+        "options": ["1st", "2nd", "3rd", "5th"],
+        "answer": "1st"
+      }
+    ]
+  },
+  "nba_thunder": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city does the Oklahoma City Thunder play their home games?",
+        "options": ["Oklahoma City", "Tulsa", "Norman", "Edmond"],
+        "answer": "Oklahoma City"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's name before relocating to Oklahoma City in 2008?",
+        "options": ["Seattle SuperSonics", "Vancouver Grizzlies", "Kansas City Kings", "San Diego Rockets"],
+        "answer": "Seattle SuperSonics"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Thunder guard was named MVP of the 2025 NBA Finals?",
+        "options": ["Shai Gilgeous-Alexander", "Russell Westbrook", "Chet Holmgren", "Jalen Williams"],
+        "answer": "Shai Gilgeous-Alexander"
+      }
+    ]
+  },
+  "nba_trail_blazers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Portland Trail Blazers play their home games?",
+        "options": ["Portland", "Seattle", "Eugene", "Salem"],
+        "answer": "Portland"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Trail Blazers win their only NBA championship?",
+        "options": ["1973", "1977", "1985", "1992"],
+        "answer": "1977"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame center was named Finals MVP of the Trail Blazers' 1977 championship?",
+        "options": ["Bill Walton", "Clyde Drexler", "Maurice Lucas", "Arvydas Sabonis"],
+        "answer": "Bill Walton"
+      }
+    ]
+  },
+  "nba_jazz": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Utah Jazz's home arena?",
+        "options": ["Delta Center", "Vivint Arena", "Energy Solutions Arena", "Maverik Center"],
+        "answer": "Delta Center"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Jazz point guard set the NBA's all-time assists record?",
+        "options": ["John Stockton", "Magic Johnson", "Mark Eaton", "Deron Williams"],
+        "answer": "John Stockton"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Jazz power forward ranks second on the NBA's all-time scoring list?",
+        "options": ["Karl Malone", "Adrian Dantley", "Donovan Mitchell", "Andrei Kirilenko"],
+        "answer": "Karl Malone"
+      }
+    ]
+  },
+  "nba_warriors": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Warriors' arena in San Francisco?",
+        "options": ["Chase Center", "Oracle Arena", "Cow Palace", "Levi's Center"],
+        "answer": "Chase Center"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships did the Warriors win during their dynasty in 2015, 2017, 2018, and 2022?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Warriors guard set the NBA single-season record with 402 three-pointers made in 2015-16?",
+        "options": ["Stephen Curry", "Klay Thompson", "Ray Allen", "Damian Lillard"],
+        "answer": "Stephen Curry"
+      }
+    ]
+  },
+  "nba_clippers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Clippers' new arena that opened in 2024?",
+        "options": ["Intuit Dome", "Staples Center", "Crypto.com Arena", "SoFi Arena"],
+        "answer": "Intuit Dome"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which billionaire and former Microsoft CEO purchased the Clippers in 2014 for $2 billion?",
+        "options": ["Steve Ballmer", "Bill Gates", "Mark Cuban", "Larry Ellison"],
+        "answer": "Steve Ballmer"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which star forward, signed by the Clippers in 2019, led the team to its first conference finals in 2021?",
+        "options": ["Kawhi Leonard", "Paul George", "Blake Griffin", "DeAndre Jordan"],
+        "answer": "Kawhi Leonard"
+      }
+    ]
+  },
+  "nba_lakers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Lakers' primary team color?",
+        "options": ["Purple", "Blue", "Gold", "Black"],
+        "answer": "Purple"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Lakers won, tied with the Celtics for the most all-time?",
+        "options": ["15", "16", "17", "18"],
+        "answer": "17"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Lakers center is known for the unstoppable signature shot called the 'skyhook'?",
+        "options": ["Kareem Abdul-Jabbar", "Wilt Chamberlain", "Shaquille O'Neal", "George Mikan"],
+        "answer": "Kareem Abdul-Jabbar"
+      }
+    ]
+  },
+  "nba_suns": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Phoenix Suns play their home games?",
+        "options": ["Phoenix", "Tucson", "Scottsdale", "Mesa"],
+        "answer": "Phoenix"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Phoenix Suns won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Suns point guard won back-to-back NBA MVP awards in 2005 and 2006?",
+        "options": ["Steve Nash", "Jason Kidd", "Chris Paul", "Kevin Johnson"],
+        "answer": "Steve Nash"
+      }
+    ]
+  },
+  "nba_kings": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Sacramento Kings play their home games?",
+        "options": ["Sacramento", "Oakland", "San Francisco", "Fresno"],
+        "answer": "Sacramento"
+      },
+      {
+        "difficulty": "medium",
+        "question": "When was the last time the Kings franchise won an NBA championship, as the Rochester Royals?",
+        "options": ["1948", "1951", "1955", "1962"],
+        "answer": "1951"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame guard known as 'The Big O' is the franchise's all-time leading scorer?",
+        "options": ["Oscar Robertson", "Tiny Archibald", "Mitch Richmond", "DeMarcus Cousins"],
+        "answer": "Oscar Robertson"
+      }
+    ]
+  },
+  "nba_mavericks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Mavericks' home arena?",
+        "options": ["American Airlines Center", "Reunion Arena", "AT&T Stadium", "Toyota Center"],
+        "answer": "American Airlines Center"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Mavericks win their only NBA championship?",
+        "options": ["2006", "2011", "2014", "2017"],
+        "answer": "2011"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Mavericks forward was named Finals MVP of the 2011 championship run?",
+        "options": ["Dirk Nowitzki", "Jason Kidd", "Tyson Chandler", "Jason Terry"],
+        "answer": "Dirk Nowitzki"
+      }
+    ]
+  },
+  "nba_rockets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Houston Rockets play their home games?",
+        "options": ["Houston", "Dallas", "San Antonio", "Austin"],
+        "answer": "Houston"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the Rockets won, both in the mid-1990s?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Rockets center won back-to-back Finals MVP awards in 1994 and 1995?",
+        "options": ["Hakeem Olajuwon", "Yao Ming", "Moses Malone", "Ralph Sampson"],
+        "answer": "Hakeem Olajuwon"
+      }
+    ]
+  },
+  "nba_grizzlies": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Memphis Grizzlies play their home games?",
+        "options": ["Memphis", "Nashville", "Knoxville", "Chattanooga"],
+        "answer": "Memphis"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's original name before relocating to Memphis in 2001?",
+        "options": ["Vancouver Grizzlies", "Toronto Grizzlies", "Seattle Grizzlies", "Portland Grizzlies"],
+        "answer": "Vancouver Grizzlies"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Grizzlies guard, drafted No. 2 overall in 2019, won NBA Rookie of the Year?",
+        "options": ["Ja Morant", "Zion Williamson", "RJ Barrett", "Coby White"],
+        "answer": "Ja Morant"
+      }
+    ]
+  },
+  "nba_pelicans": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the New Orleans Pelicans' home arena?",
+        "options": ["Smoothie King Center", "Caesars Superdome", "Mercedes-Benz Arena", "Bayou Arena"],
+        "answer": "Smoothie King Center"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's name before becoming the Pelicans in 2013?",
+        "options": ["New Orleans Hornets", "New Orleans Jazz", "Charlotte Hornets", "New Orleans Zephyrs"],
+        "answer": "New Orleans Hornets"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Pelicans forward was selected with the No. 1 overall pick in the 2019 NBA Draft?",
+        "options": ["Zion Williamson", "Brandon Ingram", "Anthony Davis", "Trey Murphy"],
+        "answer": "Zion Williamson"
+      }
+    ]
+  },
+  "nba_spurs": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Spurs' primary team color?",
+        "options": ["Silver", "Red", "Navy Blue", "Orange"],
+        "answer": "Silver"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many NBA championships have the San Antonio Spurs won?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Spurs power forward, nicknamed 'The Big Fundamental,' won all five of the team's championships?",
+        "options": ["Tim Duncan", "David Robinson", "Manu Ginóbili", "Tony Parker"],
+        "answer": "Tim Duncan"
+      }
+    ]
+  },
+
   "epl_arsenal": {
     "questions": [
       {

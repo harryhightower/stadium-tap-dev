@@ -626,6 +626,247 @@
     "lng": -104.9942
   },
 
+  "nba_celtics": {
+    "league": "nba",
+    "team": "Boston Celtics",
+    "name": "TD Garden",
+    "city": "Boston, MA",
+    "lat": 42.3662,
+    "lng": -71.0621
+  },
+  "nba_nets": {
+    "league": "nba",
+    "team": "Brooklyn Nets",
+    "name": "Barclays Center",
+    "city": "Brooklyn, NY",
+    "lat": 40.6826,
+    "lng": -73.9754
+  },
+  "nba_knicks": {
+    "league": "nba",
+    "team": "New York Knicks",
+    "name": "Madison Square Garden",
+    "city": "New York, NY",
+    "lat": 40.7505,
+    "lng": -73.9934
+  },
+  "nba_76ers": {
+    "league": "nba",
+    "team": "Philadelphia 76ers",
+    "name": "Wells Fargo Center",
+    "city": "Philadelphia, PA",
+    "lat": 39.9012,
+    "lng": -75.1720
+  },
+  "nba_raptors": {
+    "league": "nba",
+    "team": "Toronto Raptors",
+    "name": "Scotiabank Arena",
+    "city": "Toronto, ON",
+    "lat": 43.6435,
+    "lng": -79.3791
+  },
+  "nba_bulls": {
+    "league": "nba",
+    "team": "Chicago Bulls",
+    "name": "United Center",
+    "city": "Chicago, IL",
+    "lat": 41.8807,
+    "lng": -87.6742
+  },
+  "nba_cavaliers": {
+    "league": "nba",
+    "team": "Cleveland Cavaliers",
+    "name": "Rocket Arena",
+    "city": "Cleveland, OH",
+    "lat": 41.4965,
+    "lng": -81.6882
+  },
+  "nba_pistons": {
+    "league": "nba",
+    "team": "Detroit Pistons",
+    "name": "Little Caesars Arena",
+    "city": "Detroit, MI",
+    "lat": 42.3411,
+    "lng": -83.0553
+  },
+  "nba_pacers": {
+    "league": "nba",
+    "team": "Indiana Pacers",
+    "name": "Gainbridge Fieldhouse",
+    "city": "Indianapolis, IN",
+    "lat": 39.7639,
+    "lng": -86.1555
+  },
+  "nba_bucks": {
+    "league": "nba",
+    "team": "Milwaukee Bucks",
+    "name": "Fiserv Forum",
+    "city": "Milwaukee, WI",
+    "lat": 43.0451,
+    "lng": -87.9173
+  },
+  "nba_hawks": {
+    "league": "nba",
+    "team": "Atlanta Hawks",
+    "name": "State Farm Arena",
+    "city": "Atlanta, GA",
+    "lat": 33.7573,
+    "lng": -84.3963
+  },
+  "nba_hornets": {
+    "league": "nba",
+    "team": "Charlotte Hornets",
+    "name": "Spectrum Center",
+    "city": "Charlotte, NC",
+    "lat": 35.2251,
+    "lng": -80.8392
+  },
+  "nba_heat": {
+    "league": "nba",
+    "team": "Miami Heat",
+    "name": "Kaseya Center",
+    "city": "Miami, FL",
+    "lat": 25.7814,
+    "lng": -80.1870
+  },
+  "nba_magic": {
+    "league": "nba",
+    "team": "Orlando Magic",
+    "name": "Kia Center",
+    "city": "Orlando, FL",
+    "lat": 28.5392,
+    "lng": -81.3839
+  },
+  "nba_wizards": {
+    "league": "nba",
+    "team": "Washington Wizards",
+    "name": "Capital One Arena",
+    "city": "Washington, DC",
+    "lat": 38.8981,
+    "lng": -77.0209
+  },
+  "nba_nuggets": {
+    "league": "nba",
+    "team": "Denver Nuggets",
+    "name": "Ball Arena",
+    "city": "Denver, CO",
+    "lat": 39.7487,
+    "lng": -105.0077
+  },
+  "nba_timberwolves": {
+    "league": "nba",
+    "team": "Minnesota Timberwolves",
+    "name": "Target Center",
+    "city": "Minneapolis, MN",
+    "lat": 44.9795,
+    "lng": -93.2761
+  },
+  "nba_thunder": {
+    "league": "nba",
+    "team": "Oklahoma City Thunder",
+    "name": "Paycom Center",
+    "city": "Oklahoma City, OK",
+    "lat": 35.4634,
+    "lng": -97.5151
+  },
+  "nba_trail_blazers": {
+    "league": "nba",
+    "team": "Portland Trail Blazers",
+    "name": "Moda Center",
+    "city": "Portland, OR",
+    "lat": 45.5316,
+    "lng": -122.6668
+  },
+  "nba_jazz": {
+    "league": "nba",
+    "team": "Utah Jazz",
+    "name": "Delta Center",
+    "city": "Salt Lake City, UT",
+    "lat": 40.7683,
+    "lng": -111.9011
+  },
+  "nba_warriors": {
+    "league": "nba",
+    "team": "Golden State Warriors",
+    "name": "Chase Center",
+    "city": "San Francisco, CA",
+    "lat": 37.7680,
+    "lng": -122.3877
+  },
+  "nba_clippers": {
+    "league": "nba",
+    "team": "Los Angeles Clippers",
+    "name": "Intuit Dome",
+    "city": "Inglewood, CA",
+    "lat": 33.9460,
+    "lng": -118.3414
+  },
+  "nba_lakers": {
+    "league": "nba",
+    "team": "Los Angeles Lakers",
+    "name": "Crypto.com Arena",
+    "city": "Los Angeles, CA",
+    "lat": 34.0430,
+    "lng": -118.2673
+  },
+  "nba_suns": {
+    "league": "nba",
+    "team": "Phoenix Suns",
+    "name": "Footprint Center",
+    "city": "Phoenix, AZ",
+    "lat": 33.4458,
+    "lng": -112.0712
+  },
+  "nba_kings": {
+    "league": "nba",
+    "team": "Sacramento Kings",
+    "name": "Golden 1 Center",
+    "city": "Sacramento, CA",
+    "lat": 38.5802,
+    "lng": -121.4997
+  },
+  "nba_mavericks": {
+    "league": "nba",
+    "team": "Dallas Mavericks",
+    "name": "American Airlines Center",
+    "city": "Dallas, TX",
+    "lat": 32.7905,
+    "lng": -96.8104
+  },
+  "nba_rockets": {
+    "league": "nba",
+    "team": "Houston Rockets",
+    "name": "Toyota Center",
+    "city": "Houston, TX",
+    "lat": 29.7508,
+    "lng": -95.3621
+  },
+  "nba_grizzlies": {
+    "league": "nba",
+    "team": "Memphis Grizzlies",
+    "name": "FedExForum",
+    "city": "Memphis, TN",
+    "lat": 35.1382,
+    "lng": -90.0505
+  },
+  "nba_pelicans": {
+    "league": "nba",
+    "team": "New Orleans Pelicans",
+    "name": "Smoothie King Center",
+    "city": "New Orleans, LA",
+    "lat": 29.9490,
+    "lng": -90.0820
+  },
+  "nba_spurs": {
+    "league": "nba",
+    "team": "San Antonio Spurs",
+    "name": "Frost Bank Center",
+    "city": "San Antonio, TX",
+    "lat": 29.4271,
+    "lng": -98.4375
+  },
+
   "epl_arsenal": {
     "league": "premier_league",
     "team": "Arsenal",
