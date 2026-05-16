@@ -1060,6 +1060,118 @@
     "lat": 53.4631,
     "lng": -2.2914
   },
+  "epl_aston_villa": {
+    "league": "premier_league",
+    "team": "Aston Villa",
+    "name": "Villa Park",
+    "city": "Birmingham, England",
+    "lat": 52.5092,
+    "lng": -1.8847
+  },
+  "epl_bournemouth": {
+    "league": "premier_league",
+    "team": "AFC Bournemouth",
+    "name": "Vitality Stadium",
+    "city": "Bournemouth, England",
+    "lat": 50.7352,
+    "lng": -1.8385
+  },
+  "epl_brentford": {
+    "league": "premier_league",
+    "team": "Brentford",
+    "name": "Gtech Community Stadium",
+    "city": "London, England",
+    "lat": 51.4906,
+    "lng": -0.2891
+  },
+  "epl_brighton": {
+    "league": "premier_league",
+    "team": "Brighton & Hove Albion",
+    "name": "American Express Stadium",
+    "city": "Falmer, England",
+    "lat": 50.8616,
+    "lng": -0.0837
+  },
+  "epl_burnley": {
+    "league": "premier_league",
+    "team": "Burnley",
+    "name": "Turf Moor",
+    "city": "Burnley, England",
+    "lat": 53.7891,
+    "lng": -2.2306
+  },
+  "epl_crystal_palace": {
+    "league": "premier_league",
+    "team": "Crystal Palace",
+    "name": "Selhurst Park",
+    "city": "London, England",
+    "lat": 51.3984,
+    "lng": -0.0858
+  },
+  "epl_fulham": {
+    "league": "premier_league",
+    "team": "Fulham",
+    "name": "Craven Cottage",
+    "city": "London, England",
+    "lat": 51.4750,
+    "lng": -0.2218
+  },
+  "epl_leeds": {
+    "league": "premier_league",
+    "team": "Leeds United",
+    "name": "Elland Road",
+    "city": "Leeds, England",
+    "lat": 53.7779,
+    "lng": -1.5722
+  },
+  "epl_newcastle": {
+    "league": "premier_league",
+    "team": "Newcastle United",
+    "name": "St James' Park",
+    "city": "Newcastle upon Tyne, England",
+    "lat": 54.9756,
+    "lng": -1.6217
+  },
+  "epl_nottm_forest": {
+    "league": "premier_league",
+    "team": "Nottingham Forest",
+    "name": "City Ground",
+    "city": "West Bridgford, England",
+    "lat": 52.9399,
+    "lng": -1.1326
+  },
+  "epl_sunderland": {
+    "league": "premier_league",
+    "team": "Sunderland",
+    "name": "Stadium of Light",
+    "city": "Sunderland, England",
+    "lat": 54.9145,
+    "lng": -1.3884
+  },
+  "epl_spurs": {
+    "league": "premier_league",
+    "team": "Tottenham Hotspur",
+    "name": "Tottenham Hotspur Stadium",
+    "city": "London, England",
+    "lat": 51.6043,
+    "lng": -0.0664
+  },
+  "epl_west_ham": {
+    "league": "premier_league",
+    "team": "West Ham United",
+    "name": "London Stadium",
+    "city": "London, England",
+    "lat": 51.5388,
+    "lng": -0.0166
+  },
+  "epl_wolves": {
+    "league": "premier_league",
+    "team": "Wolverhampton Wanderers",
+    "name": "Molineux Stadium",
+    "city": "Wolverhampton, England",
+    "lat": 52.5903,
+    "lng": -2.1306
+  },
 
   "bundesliga_bayern": {
     "league": "bundesliga",

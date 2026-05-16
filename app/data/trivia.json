@@ -2802,21 +2802,21 @@
     "questions": [
       {
         "difficulty": "easy",
-        "question": "What is Chelsea's home stadium?",
+        "question": "What is the name of Chelsea's London home, the ground Roman Abramovich's Russian billions bankrolled to five Premier League titles from 2003?",
         "options": ["Stamford Bridge", "Emirates Stadium", "Selhurst Park", "White Hart Lane"],
         "answer": "Stamford Bridge"
       },
       {
         "difficulty": "medium",
-        "question": "Which Russian oligarch owned Chelsea from 2003 to 2022?",
-        "options": ["Roman Abramovich", "Alisher Usmanov", "Mikhail Prokhorov", "Vladimir Potanin"],
-        "answer": "Roman Abramovich"
+        "question": "Chelsea were forced into a fire sale in 2022 after their owner Roman Abramovich was placed under UK sanctions over his ties to which Russian leader?",
+        "options": ["Vladimir Putin", "Dmitry Medvedev", "Sergei Lavrov", "Mikhail Mishustin"],
+        "answer": "Vladimir Putin"
       },
       {
         "difficulty": "medium_hard",
-        "question": "In which two years has Chelsea won the UEFA Champions League?",
-        "options": ["2008 and 2012", "2012 and 2021", "2010 and 2015", "2012 and 2017"],
-        "answer": "2012 and 2021"
+        "question": "Since Todd Boehly's Clearlake consortium took over in 2022, Chelsea has spent over £1 billion on transfers partly by handing players unusually long 7-9 year contracts to exploit which accounting loophole — one UEFA later capped at 5 years?",
+        "options": ["Amortization", "Depreciation", "Profit-and-loss deferral", "Capital allowance"],
+        "answer": "Amortization"
       }
     ]
   },
@@ -2824,21 +2824,21 @@
     "questions": [
       {
         "difficulty": "easy",
-        "question": "Where did Everton play their home matches from 1892 until 2025?",
-        "options": ["Goodison Park", "Anfield", "St James' Park", "Maine Road"],
-        "answer": "Goodison Park"
+        "question": "Founded in 1878, Everton was the first professional football club to call which English city home?",
+        "options": ["Liverpool", "Manchester", "Birmingham", "London"],
+        "answer": "Liverpool"
       },
       {
         "difficulty": "medium",
-        "question": "What is the name of Everton's new stadium at Bramley-Moore Dock?",
-        "options": ["Anfield North", "Hill Dickinson Stadium", "Mersey Stadium", "Bramley Park"],
-        "answer": "Hill Dickinson Stadium"
+        "question": "Everton has played more seasons in the English top flight than any other club. How many top-flight league titles have the Toffees won in their history?",
+        "options": ["5", "7", "9", "11"],
+        "answer": "9"
       },
       {
         "difficulty": "medium_hard",
-        "question": "What is the approximate seated capacity of Hill Dickinson Stadium?",
-        "options": ["42,000", "47,500", "52,888", "60,260"],
-        "answer": "52,888"
+        "question": "Anfield, now home to bitter rivals Liverpool FC, was actually Everton's original home from 1884 to 1892. When Everton left over a rent dispute, the landlord formed which new club to fill the empty stadium?",
+        "options": ["Liverpool FC", "Tranmere Rovers", "Bootle FC", "South Liverpool"],
+        "answer": "Liverpool FC"
       }
     ]
   },
@@ -2846,21 +2846,21 @@
     "questions": [
       {
         "difficulty": "easy",
-        "question": "What anthem is sung by Liverpool fans before home matches?",
-        "options": ["You'll Never Walk Alone", "Sweet Caroline", "Three Lions", "Glory Glory"],
-        "answer": "You'll Never Walk Alone"
+        "question": "Liverpool's Anfield home was originally the ground of which other Merseyside club, until landlord John Houlding's 1892 rent dispute drove them out?",
+        "options": ["Everton", "Tranmere Rovers", "Bootle FC", "New Brighton"],
+        "answer": "Everton"
       },
       {
         "difficulty": "medium",
-        "question": "What is Liverpool's home stadium?",
-        "options": ["Anfield", "Goodison Park", "Old Trafford", "Etihad Stadium"],
-        "answer": "Anfield"
+        "question": "Liverpool's first league title in 30 years (2019-20) is asterisked by many fans because most of the run-in was played behind closed doors during which global event?",
+        "options": ["COVID-19 pandemic", "2010 ash cloud", "2008 financial crisis", "2002 World Cup"],
+        "answer": "COVID-19 pandemic"
       },
       {
         "difficulty": "medium_hard",
-        "question": "How many European Cup / Champions League titles had Liverpool won as of 2025?",
-        "options": ["4", "5", "6", "7"],
-        "answer": "6"
+        "question": "The 1985 Heysel Stadium disaster — in which Liverpool fans charging the Juventus end caused 39 deaths — led to a 5-year UEFA ban on English clubs from Europe. Which Merseyside club, the reigning 1985 English champion, was robbed of European football at the peak of their powers as a direct result?",
+        "options": ["Everton", "Tranmere Rovers", "Manchester United", "Arsenal"],
+        "answer": "Everton"
       }
     ]
   },
@@ -2868,21 +2868,21 @@
     "questions": [
       {
         "difficulty": "easy",
-        "question": "What color are Manchester City's traditional home shirts?",
-        "options": ["Sky blue", "Red", "Navy blue", "White"],
-        "answer": "Sky blue"
+        "question": "What is the name of Manchester City's home stadium, sponsored — naturally — by their owners' Abu Dhabi state airline?",
+        "options": ["Etihad Stadium", "City of Manchester Stadium", "Maine Road", "Eastlands"],
+        "answer": "Etihad Stadium"
       },
       {
         "difficulty": "medium",
-        "question": "Who has been Manchester City's manager since 2016?",
-        "options": ["Pep Guardiola", "Jürgen Klopp", "Manuel Pellegrini", "Roberto Mancini"],
-        "answer": "Pep Guardiola"
+        "question": "Manchester City has dominated English football since 2008, when they were acquired by an Abu Dhabi sovereign-wealth vehicle led by which UAE royal — a takeover widely accused of 'sportswashing'?",
+        "options": ["Sheikh Mansour bin Zayed Al Nahyan", "Crown Prince Mohammed bin Salman", "Sheikh Hamad bin Jassim", "Sheikh Tamim bin Hamad"],
+        "answer": "Sheikh Mansour bin Zayed Al Nahyan"
       },
       {
         "difficulty": "medium_hard",
-        "question": "Which Abu Dhabi-backed group acquired Manchester City in 2008?",
-        "options": ["Abu Dhabi United Group", "Qatar Sports Investments", "Mubadala Investment Company", "Saudi Public Investment Fund"],
-        "answer": "Abu Dhabi United Group"
+        "question": "In February 2023, the Premier League charged Manchester City with how many alleged breaches of financial fair play and ownership-disclosure rules dating back to 2009?",
+        "options": ["47", "89", "115", "142"],
+        "answer": "115"
       }
     ]
   },
@@ -2905,6 +2905,314 @@
         "question": "Who scored Manchester United's stoppage-time winner in the 1999 Champions League Final?",
         "options": ["David Beckham", "Teddy Sheringham", "Ole Gunnar Solskjær", "Andy Cole"],
         "answer": "Ole Gunnar Solskjær"
+      }
+    ]
+  },
+  "epl_aston_villa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Aston Villa's historic Birmingham home stadium?",
+        "options": ["Villa Park", "St Andrew's", "Molineux", "The Hawthorns"],
+        "answer": "Villa Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Aston Villa stunned Europe by winning the European Cup in what year, defeating Bayern Munich 1-0 in the final?",
+        "options": ["1978", "1982", "1985", "1991"],
+        "answer": "1982"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many English First Division / Premier League titles has Aston Villa won, most before 1910?",
+        "options": ["3", "5", "7", "9"],
+        "answer": "7"
+      }
+    ]
+  },
+  "epl_bournemouth": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of AFC Bournemouth's home stadium, the smallest in the Premier League?",
+        "options": ["Vitality Stadium", "Dean Court", "Goldsands Stadium", "Boscombe Park"],
+        "answer": "Vitality Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which American businessman, also a part-owner of the NHL's Vegas Golden Knights, bought AFC Bournemouth in 2022?",
+        "options": ["Bill Foley", "Todd Boehly", "Shahid Khan", "Stan Kroenke"],
+        "answer": "Bill Foley"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Approximately how many seats does Vitality Stadium hold, making it the smallest ground in the Premier League?",
+        "options": ["8,000", "11,300", "15,500", "22,000"],
+        "answer": "11,300"
+      }
+    ]
+  },
+  "epl_brentford": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Brentford's home stadium, which opened in 2020?",
+        "options": ["Gtech Community Stadium", "Griffin Park", "Brentford Community Park", "Kew Stadium"],
+        "answer": "Gtech Community Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Brentford were promoted to the Premier League for the first time in which season, ending a 74-year top-flight absence?",
+        "options": ["2018-19", "2019-20", "2020-21", "2021-22"],
+        "answer": "2021-22"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Owner Matthew Benham built Brentford's recruitment around what data-driven approach, the same method he uses at sister club FC Midtjylland?",
+        "options": ["Sports analytics", "Youth academy prioritization", "Loan trading", "Set-piece specialization"],
+        "answer": "Sports analytics"
+      }
+    ]
+  },
+  "epl_brighton": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Brighton & Hove Albion's home stadium?",
+        "options": ["American Express Stadium", "Withdean Stadium", "Goldstone Ground", "Falmer Park"],
+        "answer": "American Express Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Brighton's data-driven, scouting-led approach has been bankrolled since 2009 by which professional gambler and sports-betting magnate owner?",
+        "options": ["Tony Bloom", "Matthew Benham", "Joe Lewis", "Mike Ashley"],
+        "answer": "Tony Bloom"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Brighton qualified for their first-ever European competition by finishing in which spot in the 2022-23 Premier League?",
+        "options": ["4th", "5th", "6th", "7th"],
+        "answer": "6th"
+      }
+    ]
+  },
+  "epl_burnley": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Burnley's historic Lancashire home stadium?",
+        "options": ["Turf Moor", "Ewood Park", "Bloomfield Road", "Deepdale"],
+        "answer": "Turf Moor"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Sean Dyche managed Burnley with a famously small budget from 2012 until what year?",
+        "options": ["2018", "2020", "2022", "2024"],
+        "answer": "2022"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Burnley earned promotion back to the Premier League for 2025-26 after finishing in which position in the 2024-25 Championship?",
+        "options": ["1st", "2nd", "3rd", "4th"],
+        "answer": "2nd"
+      }
+    ]
+  },
+  "epl_crystal_palace": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Crystal Palace's South London home stadium?",
+        "options": ["Selhurst Park", "Crystal Palace Park", "Croydon Stadium", "The Glaziers"],
+        "answer": "Selhurst Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Crystal Palace won their first-ever major trophy by beating Manchester City 1-0 in the 2025 FA Cup final. Which Palace winger scored the winning goal?",
+        "options": ["Eberechi Eze", "Wilfried Zaha", "Michael Olise", "Jean-Philippe Mateta"],
+        "answer": "Eberechi Eze"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Crystal Palace's famously loud atmosphere is generated by which ultras-style fan group, named after the stand they occupy?",
+        "options": ["The Holmesdale Fanatics", "The Whitehorse Boys", "The Selhurst Loyal", "The Eagle Army"],
+        "answer": "The Holmesdale Fanatics"
+      }
+    ]
+  },
+  "epl_fulham": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Fulham's historic riverside home stadium on the banks of the Thames?",
+        "options": ["Craven Cottage", "Stamford Bridge", "The Cottage Inn", "Putney Park"],
+        "answer": "Craven Cottage"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Fulham has been owned since 2013 by which Pakistani-American billionaire who also owns the NFL's Jacksonville Jaguars?",
+        "options": ["Shahid Khan", "Stan Kroenke", "Mohammed bin Salman", "Mukesh Ambani"],
+        "answer": "Shahid Khan"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Fulham reach their first and only major European final, losing the UEFA Europa League final to Atlético Madrid?",
+        "options": ["2003", "2007", "2010", "2014"],
+        "answer": "2010"
+      }
+    ]
+  },
+  "epl_leeds": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Leeds United's home stadium?",
+        "options": ["Elland Road", "Headingley", "Bramall Lane", "Kirkstall Park"],
+        "answer": "Elland Road"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which famously eccentric Argentine manager took over Leeds in 2018 and led them back to the Premier League?",
+        "options": ["Marcelo Bielsa", "Diego Simeone", "Mauricio Pochettino", "Jorge Sampaoli"],
+        "answer": "Marcelo Bielsa"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Leeds famously reached the UEFA Champions League semifinals in what year, just before a notorious financial collapse that dropped them out of the Premier League?",
+        "options": ["1999", "2001", "2003", "2005"],
+        "answer": "2001"
+      }
+    ]
+  },
+  "epl_newcastle": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Newcastle United's iconic home stadium, located in the city center?",
+        "options": ["St James' Park", "Stadium of Light", "Riverside Stadium", "Sports Direct Arena"],
+        "answer": "St James' Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Newcastle was taken over in October 2021 by Saudi Arabia's Public Investment Fund (PIF), which is chaired by which Saudi Crown Prince?",
+        "options": ["Mohammed bin Salman", "Mohammed bin Zayed", "Hamad bin Khalifa", "Khalifa bin Zayed"],
+        "answer": "Mohammed bin Salman"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Saudi PIF takeover of Newcastle was delayed by the Premier League over concerns that the Saudi state was behind which pirate broadcaster that illegally streamed Premier League matches?",
+        "options": ["beoutQ", "ArabSky", "MBC Pro", "GulfStream"],
+        "answer": "beoutQ"
+      }
+    ]
+  },
+  "epl_nottm_forest": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Nottingham Forest's home stadium, located on the banks of the River Trent?",
+        "options": ["City Ground", "Meadow Lane", "Trent Bridge", "Forest Park"],
+        "answer": "City Ground"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Under manager Brian Clough, Nottingham Forest won back-to-back European Cups in which two consecutive years?",
+        "options": ["1977 and 1978", "1979 and 1980", "1981 and 1982", "1983 and 1984"],
+        "answer": "1979 and 1980"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Nottingham Forest returned to the Premier League in 2022 after how many years of absence from the top flight?",
+        "options": ["13", "18", "23", "28"],
+        "answer": "23"
+      }
+    ]
+  },
+  "epl_sunderland": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Sunderland's home stadium, opened in 1997?",
+        "options": ["Stadium of Light", "Roker Park", "Tyne Park", "Wearside Arena"],
+        "answer": "Stadium of Light"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Sunderland earned promotion back to the Premier League for 2025-26 by winning which end-of-season match?",
+        "options": ["The Championship playoff final", "The Championship title", "The League Cup", "The Carabao Trophy"],
+        "answer": "The Championship playoff final"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Before returning in 2025, Sunderland's previous Premier League season was which year, after which they were relegated and even dropped into League One?",
+        "options": ["2013-14", "2014-15", "2015-16", "2016-17"],
+        "answer": "2016-17"
+      }
+    ]
+  },
+  "epl_spurs": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Tottenham Hotspur's home stadium, opened in 2019?",
+        "options": ["Tottenham Hotspur Stadium", "White Hart Lane", "Wembley Stadium", "North London Arena"],
+        "answer": "Tottenham Hotspur Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which South Korean forward won the Premier League Golden Boot for Tottenham in the 2021-22 season?",
+        "options": ["Son Heung-min", "Hwang Hee-chan", "Lee Kang-in", "Park Ji-sung"],
+        "answer": "Son Heung-min"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Tottenham reached their first-ever UEFA Champions League final in 2019, losing 2-0 to which English rival?",
+        "options": ["Liverpool", "Manchester City", "Chelsea", "Arsenal"],
+        "answer": "Liverpool"
+      }
+    ]
+  },
+  "epl_west_ham": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of West Ham United's home stadium, where they have played since 2016?",
+        "options": ["London Stadium", "Olympic Stadium", "Stratford Park", "East End Arena"],
+        "answer": "London Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "West Ham ended a 43-year wait for major silverware by winning which European trophy in 2023?",
+        "options": ["UEFA Europa Conference League", "UEFA Europa League", "UEFA Cup Winners' Cup", "UEFA Super Cup"],
+        "answer": "UEFA Europa Conference League"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Before moving to London Stadium in 2016, West Ham played at which East End ground from 1904 to 2016?",
+        "options": ["Boleyn Ground", "Highbury", "Stamford Bridge", "Loftus Road"],
+        "answer": "Boleyn Ground"
+      }
+    ]
+  },
+  "epl_wolves": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Wolverhampton Wanderers' historic home stadium?",
+        "options": ["Molineux", "St Andrew's", "The Hawthorns", "Bescot Stadium"],
+        "answer": "Molineux"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What is the distinctive shade of Wolves' traditional home shirt?",
+        "options": ["Old gold", "Black", "Royal blue", "Crimson"],
+        "answer": "Old gold"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Wolves won three First Division titles in the 1950s under which legendary head coach?",
+        "options": ["Stan Cullis", "Bill Shankly", "Matt Busby", "Bill Nicholson"],
+        "answer": "Stan Cullis"
       }
     ]
   },
