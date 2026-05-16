@@ -1057,6 +1057,667 @@
     ]
   },
 
+  "mlb_yankees": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what New York borough do the Yankees play their home games?",
+        "options": ["Bronx", "Manhattan", "Queens", "Brooklyn"],
+        "answer": "Bronx"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many World Series championships have the New York Yankees won, the most in MLB history?",
+        "options": ["23", "25", "27", "29"],
+        "answer": "27"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Whose single-season home run record of 60 did Roger Maris break with 61 in 1961?",
+        "options": ["Lou Gehrig", "Babe Ruth", "Jimmie Foxx", "Mickey Mantle"],
+        "answer": "Babe Ruth"
+      }
+    ]
+  },
+  "mlb_red_sox": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the 86-year championship drought said to have begun when the Red Sox sold Babe Ruth to the Yankees?",
+        "options": ["The Curse of the Bambino", "The Goat Curse", "The Chicago Hex", "The Bay State Jinx"],
+        "answer": "The Curse of the Bambino"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Red Sox first baseman is forever remembered for letting Mookie Wilson's grounder roll through his legs in Game 6 of the 1986 World Series?",
+        "options": ["Bill Buckner", "Don Baylor", "Dave Stapleton", "Spike Owen"],
+        "answer": "Bill Buckner"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In a 2017 scheme that drew an MLB sanction, what device did Red Sox staff use to relay opposing catchers' signs in real time?",
+        "options": ["Apple Watch", "Two-way radio", "Hidden earpiece", "Fitbit"],
+        "answer": "Apple Watch"
+      }
+    ]
+  },
+  "mlb_blue_jays": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Blue Jays play their home games?",
+        "options": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+        "answer": "Toronto"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what consecutive years did the Blue Jays win back-to-back World Series titles?",
+        "options": ["1985-86", "1989-90", "1992-93", "1995-96"],
+        "answer": "1992-93"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Whose walk-off three-run home run won the 1993 World Series for the Blue Jays?",
+        "options": ["Joe Carter", "Roberto Alomar", "Paul Molitor", "John Olerud"],
+        "answer": "Joe Carter"
+      }
+    ]
+  },
+  "mlb_orioles": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Orioles' downtown Baltimore ballpark?",
+        "options": ["Oriole Park at Camden Yards", "Memorial Stadium", "M&T Bank Park", "Inner Harbor Field"],
+        "answer": "Oriole Park at Camden Yards"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Orioles shortstop set MLB's consecutive games played record of 2,632?",
+        "options": ["Brooks Robinson", "Cal Ripken Jr.", "Mark Belanger", "Manny Machado"],
+        "answer": "Cal Ripken Jr."
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Oriole Park at Camden Yards open, kicking off the modern retro-ballpark era?",
+        "options": ["1989", "1992", "1995", "1998"],
+        "answer": "1992"
+      }
+    ]
+  },
+  "mlb_rays": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Florida city do the Tampa Bay Rays play their home games?",
+        "options": ["St. Petersburg", "Tampa", "Clearwater", "Sarasota"],
+        "answer": "St. Petersburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's full name before being shortened to just 'Rays' in 2008?",
+        "options": ["Tampa Bay Devil Rays", "Tampa Bay Stingrays", "Tampa Bay Mantas", "Florida Rays"],
+        "answer": "Tampa Bay Devil Rays"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Tropicana Field is famous for what unusual indoor obstacle that is in play above the field?",
+        "options": ["Catwalks", "Hanging speakers", "Glass roof panels", "Concourse railings"],
+        "answer": "Catwalks"
+      }
+    ]
+  },
+  "mlb_guardians": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what year did the Cleveland franchise change its name from Indians to Guardians?",
+        "options": ["2018", "2020", "2022", "2024"],
+        "answer": "2022"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many World Series championships has the Cleveland MLB franchise won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Cleveland player became the first Black player in the American League when he debuted in 1947?",
+        "options": ["Larry Doby", "Satchel Paige", "Luke Easter", "Minnie Miñoso"],
+        "answer": "Larry Doby"
+      }
+    ]
+  },
+  "mlb_tigers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Detroit Tigers' downtown ballpark?",
+        "options": ["Comerica Park", "Ford Field", "Tiger Stadium", "Briggs Park"],
+        "answer": "Comerica Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Tigers slugger won baseball's Triple Crown in 2012?",
+        "options": ["Miguel Cabrera", "Prince Fielder", "Justin Verlander", "Magglio Ordóñez"],
+        "answer": "Miguel Cabrera"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Tigers pitcher won both the AL Cy Young Award and AL MVP in 2011?",
+        "options": ["Max Scherzer", "Justin Verlander", "David Price", "Jack Morris"],
+        "answer": "Justin Verlander"
+      }
+    ]
+  },
+  "mlb_white_sox": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the White Sox play their home games?",
+        "options": ["Chicago", "St. Louis", "Milwaukee", "Detroit"],
+        "answer": "Chicago"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the White Sox win their first World Series since 1917?",
+        "options": ["1993", "2000", "2005", "2010"],
+        "answer": "2005"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the famous gambling scandal involving the 1919 White Sox commonly called?",
+        "options": ["The Black Sox Scandal", "The Pittsburgh Hex", "The Roaring Fix", "The Comiskey Crash"],
+        "answer": "The Black Sox Scandal"
+      }
+    ]
+  },
+  "mlb_royals": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Kansas City Royals' home stadium?",
+        "options": ["Kauffman Stadium", "Arrowhead Stadium", "Royals Park", "Truman Field"],
+        "answer": "Kauffman Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many World Series championships have the Royals won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Royals third baseman won the 1980 AL MVP and is the franchise's all-time hits leader?",
+        "options": ["George Brett", "Frank White", "Hal McRae", "Mike Sweeney"],
+        "answer": "George Brett"
+      }
+    ]
+  },
+  "mlb_twins": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Minnesota Twins play their home games?",
+        "options": ["Minneapolis", "St. Paul", "Duluth", "Rochester"],
+        "answer": "Minneapolis"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In which two years did the Twins win the World Series?",
+        "options": ["1965 and 1987", "1987 and 1991", "1991 and 2002", "1965 and 1991"],
+        "answer": "1987 and 1991"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Whose Game 6 walk-off home run extended the 1991 World Series to seven games for the Twins?",
+        "options": ["Kirby Puckett", "Kent Hrbek", "Chuck Knoblauch", "Dan Gladden"],
+        "answer": "Kirby Puckett"
+      }
+    ]
+  },
+  "mlb_astros": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Houston Astros play their home games?",
+        "options": ["Houston", "Dallas", "Austin", "San Antonio"],
+        "answer": "Houston"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Astros win their first World Series championship?",
+        "options": ["2005", "2015", "2017", "2019"],
+        "answer": "2017"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the name of the famous inclined hill in center field at the Astros' home ballpark before it was removed in 2017?",
+        "options": ["Tal's Hill", "Crawford Hill", "Astro Bluff", "The Mound"],
+        "answer": "Tal's Hill"
+      }
+    ]
+  },
+  "mlb_rangers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Dallas-area city do the Texas Rangers play their home games?",
+        "options": ["Arlington", "Plano", "Fort Worth", "Irving"],
+        "answer": "Arlington"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Rangers win their first World Series championship?",
+        "options": ["2010", "2011", "2020", "2023"],
+        "answer": "2023"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame pitcher threw seven career no-hitters, including two as a member of the Rangers?",
+        "options": ["Nolan Ryan", "Roger Clemens", "Kenny Rogers", "Yu Darvish"],
+        "answer": "Nolan Ryan"
+      }
+    ]
+  },
+  "mlb_mariners": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Seattle Mariners play their home games?",
+        "options": ["Seattle", "Tacoma", "Bellevue", "Spokane"],
+        "answer": "Seattle"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Mariners outfielder won AL MVP and Rookie of the Year in 2001?",
+        "options": ["Ken Griffey Jr.", "Ichiro Suzuki", "Edgar Martinez", "Alex Rodriguez"],
+        "answer": "Ichiro Suzuki"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many regular-season wins did the 2001 Mariners record, tying the AL single-season record?",
+        "options": ["108", "112", "116", "120"],
+        "answer": "116"
+      }
+    ]
+  },
+  "mlb_angels": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Southern California city do the Angels play their home games?",
+        "options": ["Anaheim", "Los Angeles", "Long Beach", "Pasadena"],
+        "answer": "Anaheim"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Angels win their only World Series championship?",
+        "options": ["1979", "1986", "2002", "2009"],
+        "answer": "2002"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many AL MVP awards has Angels outfielder Mike Trout won (2014, 2016, 2019)?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      }
+    ]
+  },
+  "mlb_athletics": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which California city are the Athletics currently playing their home games?",
+        "options": ["West Sacramento", "Oakland", "San Jose", "Fremont"],
+        "answer": "West Sacramento"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many total World Series championships has the Athletics franchise won?",
+        "options": ["5", "7", "9", "11"],
+        "answer": "9"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the analytics-driven roster-building philosophy popularized by Athletics GM Billy Beane in the early 2000s?",
+        "options": ["Moneyball", "Sabermetrics Plus", "WAR Strategy", "The A's Way"],
+        "answer": "Moneyball"
+      }
+    ]
+  },
+  "mlb_braves": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Despite winning 14 straight division titles from 1991-2005, how many World Series championships did the Braves win in that span?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "1"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Braves relief pitcher was widely condemned for racist and homophobic remarks in a 1999 Sports Illustrated interview?",
+        "options": ["John Rocker", "Mark Wohlers", "Kerry Ligtenberg", "Mike Remlinger"],
+        "answer": "John Rocker"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In the 1996 World Series, the Braves blew a 2-0 series lead and lost in six games to which team?",
+        "options": ["Cleveland Indians", "New York Yankees", "Toronto Blue Jays", "Florida Marlins"],
+        "answer": "New York Yankees"
+      }
+    ]
+  },
+  "mlb_mets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Mets' home ballpark in Queens?",
+        "options": ["Citi Field", "Shea Stadium", "Yankee Stadium", "Belmont Park"],
+        "answer": "Citi Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In which two years have the Mets won the World Series?",
+        "options": ["1962 and 1973", "1969 and 1986", "1973 and 2000", "1986 and 2015"],
+        "answer": "1969 and 1986"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Whose ground ball trickled through Bill Buckner's legs to win Game 6 of the 1986 World Series for the Mets?",
+        "options": ["Ray Knight", "Mookie Wilson", "Gary Carter", "Keith Hernandez"],
+        "answer": "Mookie Wilson"
+      }
+    ]
+  },
+  "mlb_phillies": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Philadelphia Phillies play their home games?",
+        "options": ["Philadelphia", "Pittsburgh", "Harrisburg", "Allentown"],
+        "answer": "Philadelphia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Phillies win their first World Series championship?",
+        "options": ["1950", "1980", "1993", "2008"],
+        "answer": "1980"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who is the Phillies' all-time leader in home runs, a Hall of Fame third baseman with 548 career homers?",
+        "options": ["Mike Schmidt", "Ryan Howard", "Chase Utley", "Jim Thome"],
+        "answer": "Mike Schmidt"
+      }
+    ]
+  },
+  "mlb_marlins": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Miami Marlins play their home games?",
+        "options": ["Miami", "Tampa", "Orlando", "Jacksonville"],
+        "answer": "Miami"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many World Series championships have the Marlins won (1997 and 2003)?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the franchise's name when it won its first World Series in 1997?",
+        "options": ["Florida Marlins", "Miami Marlins", "South Florida Marlins", "Tampa Marlins"],
+        "answer": "Florida Marlins"
+      }
+    ]
+  },
+  "mlb_nationals": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Washington Nationals play their home games?",
+        "options": ["Washington, DC", "Baltimore", "Arlington", "Richmond"],
+        "answer": "Washington, DC"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the Nationals' franchise name before relocating to Washington in 2005?",
+        "options": ["Montreal Expos", "Montreal Royals", "Quebec Nationals", "Senators"],
+        "answer": "Montreal Expos"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Nationals pitcher was named MVP of the 2019 World Series?",
+        "options": ["Max Scherzer", "Stephen Strasburg", "Patrick Corbin", "Aníbal Sánchez"],
+        "answer": "Stephen Strasburg"
+      }
+    ]
+  },
+  "mlb_cubs": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Cubs' historic ivy-walled ballpark on Chicago's North Side?",
+        "options": ["Wrigley Field", "Comiskey Park", "Rate Field", "Soldier Field"],
+        "answer": "Wrigley Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Cubs win the World Series to end a 108-year championship drought?",
+        "options": ["2008", "2012", "2016", "2020"],
+        "answer": "2016"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the name of the famous Cubs 'curse,' attributed to a tavern owner and his pet animal, broken in 2016?",
+        "options": ["Curse of the Bambino", "Curse of the Billy Goat", "Hex of Murphy", "Wrigley Hex"],
+        "answer": "Curse of the Billy Goat"
+      }
+    ]
+  },
+  "mlb_cardinals": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What city's MLB team was caught in a 2015 federal hacking scandal targeting the Houston Astros' player database?",
+        "options": ["St. Louis", "Chicago", "Kansas City", "Cincinnati"],
+        "answer": "St. Louis"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Cardinals slugger eventually admitted to using performance-enhancing drugs during his record-setting 1998 70-home-run season?",
+        "options": ["Mark McGwire", "Albert Pujols", "Jim Edmonds", "Matt Holliday"],
+        "answer": "Mark McGwire"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the name of the Astros' internal scouting database that Cardinals scouting director Chris Correa illegally accessed?",
+        "options": ["Ground Control", "Mission Control", "Star Map", "AstroBase"],
+        "answer": "Ground Control"
+      }
+    ]
+  },
+  "mlb_brewers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Milwaukee Brewers play their home games?",
+        "options": ["Milwaukee", "Madison", "Green Bay", "Kenosha"],
+        "answer": "Milwaukee"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Brewers shortstop and outfielder won AL MVP in 1982 and 1989?",
+        "options": ["Paul Molitor", "Robin Yount", "Cecil Cooper", "Ryan Braun"],
+        "answer": "Robin Yount"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the Brewers make their only World Series appearance to date?",
+        "options": ["1969", "1978", "1982", "2011"],
+        "answer": "1982"
+      }
+    ]
+  },
+  "mlb_reds": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Cincinnati Reds play their home games?",
+        "options": ["Cincinnati", "Columbus", "Cleveland", "Louisville"],
+        "answer": "Cincinnati"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What is the nickname of the dominant 1970s Reds teams that won back-to-back World Series in 1975 and 1976?",
+        "options": ["The Big Red Machine", "The Queen City Crushers", "The Riverfront Wrecking Crew", "The Cincy Sluggers"],
+        "answer": "The Big Red Machine"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Longtime Reds star Pete Rose holds what MLB career record?",
+        "options": ["Career hits (4,256)", "Career home runs", "Career stolen bases", "Career walks"],
+        "answer": "Career hits (4,256)"
+      }
+    ]
+  },
+  "mlb_pirates": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Pirates' downtown Pittsburgh ballpark, regarded as one of MLB's most scenic?",
+        "options": ["PNC Park", "Three Rivers Stadium", "Forbes Field", "Heinz Field"],
+        "answer": "PNC Park"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Pirates second baseman hit a walk-off home run to win Game 7 of the 1960 World Series?",
+        "options": ["Bill Mazeroski", "Roberto Clemente", "Dick Groat", "Bill Virdon"],
+        "answer": "Bill Mazeroski"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Pirates outfielder finished with exactly 3,000 career hits before dying in a 1972 plane crash?",
+        "options": ["Roberto Clemente", "Willie Stargell", "Barry Bonds", "Andrew McCutchen"],
+        "answer": "Roberto Clemente"
+      }
+    ]
+  },
+  "mlb_dodgers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Los Angeles Dodgers play their home games?",
+        "options": ["Los Angeles", "San Diego", "Anaheim", "Long Beach"],
+        "answer": "Los Angeles"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what New York borough did the Dodgers play before moving to Los Angeles in 1958?",
+        "options": ["Brooklyn", "Manhattan", "Queens", "Bronx"],
+        "answer": "Brooklyn"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who broke Major League Baseball's color barrier when he debuted for the Dodgers in 1947?",
+        "options": ["Jackie Robinson", "Roy Campanella", "Larry Doby", "Don Newcombe"],
+        "answer": "Jackie Robinson"
+      }
+    ]
+  },
+  "mlb_giants": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the San Francisco Giants play their home games?",
+        "options": ["San Francisco", "Oakland", "San Jose", "Sacramento"],
+        "answer": "San Francisco"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many World Series titles did the Giants win in the 2010s (2010, 2012, 2014)?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "3"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Giants outfielder set the single-season MLB home run record with 73 in 2001?",
+        "options": ["Barry Bonds", "Willie Mays", "Jeff Kent", "Bobby Bonds"],
+        "answer": "Barry Bonds"
+      }
+    ]
+  },
+  "mlb_padres": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the San Diego Padres play their home games?",
+        "options": ["San Diego", "Los Angeles", "Anaheim", "Tijuana"],
+        "answer": "San Diego"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many career NL batting titles did Hall of Fame Padres outfielder Tony Gwynn win?",
+        "options": ["4", "6", "8", "10"],
+        "answer": "8"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the Padres make their first World Series appearance, losing to the Tigers?",
+        "options": ["1979", "1984", "1989", "1998"],
+        "answer": "1984"
+      }
+    ]
+  },
+  "mlb_diamondbacks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Arizona Diamondbacks play their home games?",
+        "options": ["Phoenix", "Tucson", "Scottsdale", "Mesa"],
+        "answer": "Phoenix"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Diamondbacks win their only World Series championship?",
+        "options": ["1998", "2001", "2007", "2011"],
+        "answer": "2001"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which two Diamondbacks pitchers shared 2001 World Series co-MVP honors?",
+        "options": ["Schilling and Johnson", "Schilling and Webb", "Johnson and Webb", "Johnson and Greinke"],
+        "answer": "Schilling and Johnson"
+      }
+    ]
+  },
+  "mlb_rockies": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Colorado Rockies' downtown Denver ballpark?",
+        "options": ["Coors Field", "Mile High Stadium", "Empower Field", "Ball Arena"],
+        "answer": "Coors Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame first baseman, with #17 retired by the Rockies, spent his entire 17-year career in Colorado?",
+        "options": ["Todd Helton", "Larry Walker", "Andrés Galarraga", "Nolan Arenado"],
+        "answer": "Todd Helton"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Coors Field is famous as a hitter's paradise primarily due to what local environmental factor?",
+        "options": ["High altitude", "Dry desert air", "Short outfield fences", "Warm summer nights"],
+        "answer": "High altitude"
+      }
+    ]
+  },
+
   "epl_arsenal": {
     "questions": [
       {

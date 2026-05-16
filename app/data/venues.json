@@ -385,6 +385,247 @@
     "lng": -122.3316
   },
 
+  "mlb_yankees": {
+    "league": "mlb",
+    "team": "New York Yankees",
+    "name": "Yankee Stadium",
+    "city": "Bronx, NY",
+    "lat": 40.8296,
+    "lng": -73.9262
+  },
+  "mlb_red_sox": {
+    "league": "mlb",
+    "team": "Boston Red Sox",
+    "name": "Fenway Park",
+    "city": "Boston, MA",
+    "lat": 42.3467,
+    "lng": -71.0972
+  },
+  "mlb_blue_jays": {
+    "league": "mlb",
+    "team": "Toronto Blue Jays",
+    "name": "Rogers Centre",
+    "city": "Toronto, ON",
+    "lat": 43.6414,
+    "lng": -79.3894
+  },
+  "mlb_orioles": {
+    "league": "mlb",
+    "team": "Baltimore Orioles",
+    "name": "Oriole Park at Camden Yards",
+    "city": "Baltimore, MD",
+    "lat": 39.2839,
+    "lng": -76.6217
+  },
+  "mlb_rays": {
+    "league": "mlb",
+    "team": "Tampa Bay Rays",
+    "name": "Tropicana Field",
+    "city": "St. Petersburg, FL",
+    "lat": 27.7682,
+    "lng": -82.6534
+  },
+  "mlb_guardians": {
+    "league": "mlb",
+    "team": "Cleveland Guardians",
+    "name": "Progressive Field",
+    "city": "Cleveland, OH",
+    "lat": 41.4962,
+    "lng": -81.6852
+  },
+  "mlb_tigers": {
+    "league": "mlb",
+    "team": "Detroit Tigers",
+    "name": "Comerica Park",
+    "city": "Detroit, MI",
+    "lat": 42.3390,
+    "lng": -83.0485
+  },
+  "mlb_white_sox": {
+    "league": "mlb",
+    "team": "Chicago White Sox",
+    "name": "Rate Field",
+    "city": "Chicago, IL",
+    "lat": 41.8300,
+    "lng": -87.6338
+  },
+  "mlb_royals": {
+    "league": "mlb",
+    "team": "Kansas City Royals",
+    "name": "Kauffman Stadium",
+    "city": "Kansas City, MO",
+    "lat": 39.0517,
+    "lng": -94.4803
+  },
+  "mlb_twins": {
+    "league": "mlb",
+    "team": "Minnesota Twins",
+    "name": "Target Field",
+    "city": "Minneapolis, MN",
+    "lat": 44.9817,
+    "lng": -93.2776
+  },
+  "mlb_astros": {
+    "league": "mlb",
+    "team": "Houston Astros",
+    "name": "Daikin Park",
+    "city": "Houston, TX",
+    "lat": 29.7570,
+    "lng": -95.3556
+  },
+  "mlb_rangers": {
+    "league": "mlb",
+    "team": "Texas Rangers",
+    "name": "Globe Life Field",
+    "city": "Arlington, TX",
+    "lat": 32.7473,
+    "lng": -97.0833
+  },
+  "mlb_mariners": {
+    "league": "mlb",
+    "team": "Seattle Mariners",
+    "name": "T-Mobile Park",
+    "city": "Seattle, WA",
+    "lat": 47.5914,
+    "lng": -122.3325
+  },
+  "mlb_angels": {
+    "league": "mlb",
+    "team": "Los Angeles Angels",
+    "name": "Angel Stadium",
+    "city": "Anaheim, CA",
+    "lat": 33.8003,
+    "lng": -117.8827
+  },
+  "mlb_athletics": {
+    "league": "mlb",
+    "team": "Athletics",
+    "name": "Sutter Health Park",
+    "city": "West Sacramento, CA",
+    "lat": 38.5803,
+    "lng": -121.5133
+  },
+  "mlb_braves": {
+    "league": "mlb",
+    "team": "Atlanta Braves",
+    "name": "Truist Park",
+    "city": "Cumberland, GA",
+    "lat": 33.8908,
+    "lng": -84.4678
+  },
+  "mlb_mets": {
+    "league": "mlb",
+    "team": "New York Mets",
+    "name": "Citi Field",
+    "city": "Queens, NY",
+    "lat": 40.7571,
+    "lng": -73.8458
+  },
+  "mlb_phillies": {
+    "league": "mlb",
+    "team": "Philadelphia Phillies",
+    "name": "Citizens Bank Park",
+    "city": "Philadelphia, PA",
+    "lat": 39.9061,
+    "lng": -75.1665
+  },
+  "mlb_marlins": {
+    "league": "mlb",
+    "team": "Miami Marlins",
+    "name": "loanDepot park",
+    "city": "Miami, FL",
+    "lat": 25.7781,
+    "lng": -80.2197
+  },
+  "mlb_nationals": {
+    "league": "mlb",
+    "team": "Washington Nationals",
+    "name": "Nationals Park",
+    "city": "Washington, DC",
+    "lat": 38.8730,
+    "lng": -77.0074
+  },
+  "mlb_cubs": {
+    "league": "mlb",
+    "team": "Chicago Cubs",
+    "name": "Wrigley Field",
+    "city": "Chicago, IL",
+    "lat": 41.9484,
+    "lng": -87.6553
+  },
+  "mlb_cardinals": {
+    "league": "mlb",
+    "team": "St. Louis Cardinals",
+    "name": "Busch Stadium",
+    "city": "St. Louis, MO",
+    "lat": 38.6226,
+    "lng": -90.1928
+  },
+  "mlb_brewers": {
+    "league": "mlb",
+    "team": "Milwaukee Brewers",
+    "name": "American Family Field",
+    "city": "Milwaukee, WI",
+    "lat": 43.0280,
+    "lng": -87.9712
+  },
+  "mlb_reds": {
+    "league": "mlb",
+    "team": "Cincinnati Reds",
+    "name": "Great American Ball Park",
+    "city": "Cincinnati, OH",
+    "lat": 39.0975,
+    "lng": -84.5066
+  },
+  "mlb_pirates": {
+    "league": "mlb",
+    "team": "Pittsburgh Pirates",
+    "name": "PNC Park",
+    "city": "Pittsburgh, PA",
+    "lat": 40.4469,
+    "lng": -80.0057
+  },
+  "mlb_dodgers": {
+    "league": "mlb",
+    "team": "Los Angeles Dodgers",
+    "name": "Dodger Stadium",
+    "city": "Los Angeles, CA",
+    "lat": 34.0739,
+    "lng": -118.2400
+  },
+  "mlb_giants": {
+    "league": "mlb",
+    "team": "San Francisco Giants",
+    "name": "Oracle Park",
+    "city": "San Francisco, CA",
+    "lat": 37.7786,
+    "lng": -122.3893
+  },
+  "mlb_padres": {
+    "league": "mlb",
+    "team": "San Diego Padres",
+    "name": "Petco Park",
+    "city": "San Diego, CA",
+    "lat": 32.7073,
+    "lng": -117.1566
+  },
+  "mlb_diamondbacks": {
+    "league": "mlb",
+    "team": "Arizona Diamondbacks",
+    "name": "Chase Field",
+    "city": "Phoenix, AZ",
+    "lat": 33.4453,
+    "lng": -112.0667
+  },
+  "mlb_rockies": {
+    "league": "mlb",
+    "team": "Colorado Rockies",
+    "name": "Coors Field",
+    "city": "Denver, CO",
+    "lat": 39.7559,
+    "lng": -104.9942
+  },
+
   "epl_arsenal": {
     "league": "premier_league",
     "team": "Arsenal",
