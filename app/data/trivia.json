@@ -352,6 +352,403 @@
     ]
   },
 
+  "b10_michigan": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What's the staggeringly on-the-nose nickname for Michigan Stadium, the largest in the Western Hemisphere?",
+        "options": ["The Big House", "The Average Apartment", "The Studio Loft", "The Crawl Space"],
+        "answer": "The Big House"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What's the breathtakingly unimaginative name fans use for the Michigan-Ohio State rivalry?",
+        "options": ["The Game", "The Get-Together", "The Sunday Brunch", "The Friendly Disagreement"],
+        "answer": "The Game"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Michigan coach won the 2023 national championship and then more or less immediately bolted for the NFL?",
+        "options": ["Jim Harbaugh", "Brady Hoke", "Lloyd Carr", "Rich Rodriguez"],
+        "answer": "Jim Harbaugh"
+      }
+    ]
+  },
+  "b10_ohio_state": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What deeply elegant shape does Ohio Stadium famously resemble?",
+        "options": ["A horseshoe", "A doughnut", "A pretzel", "A traffic cone"],
+        "answer": "A horseshoe"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Ohio State fans dramatically spell out which four-letter word during games?",
+        "options": ["OHIO", "FOLD", "YIKES", "MICH"],
+        "answer": "OHIO"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Ohio State third-string QB went from total unknown to legend by leading the Buckeyes to the 2014 national title?",
+        "options": ["Cardale Jones", "Braxton Miller", "J.T. Barrett", "Troy Smith"],
+        "answer": "Cardale Jones"
+      }
+    ]
+  },
+  "b10_penn_state": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What surprisingly low-key color is Penn State's Nittany Lion mascot?",
+        "options": ["Brown", "Hot Pink", "Camouflage", "Tie-Dye"],
+        "answer": "Brown"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Penn State fans famously dress in one color for the season's biggest game. Which color (no points for guessing)?",
+        "options": ["White", "Beige", "Eggshell", "Plaid"],
+        "answer": "White"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Joe Paterno coached Penn State football for a frankly absurd how many seasons?",
+        "options": ["30", "39", "46", "52"],
+        "answer": "46"
+      }
+    ]
+  },
+  "b10_michigan_state": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Michigan State's confidently-named mascot?",
+        "options": ["Sparty", "Brutus", "Herbie", "Goldy"],
+        "answer": "Sparty"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which trophy do Michigan and Michigan State punch each other over every November?",
+        "options": ["Paul Bunyan Trophy", "Floyd of Rosedale", "The Old Oaken Bucket", "The Little Brown Jug"],
+        "answer": "Paul Bunyan Trophy"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which MSU head coach led the Spartans to the 2014 Rose Bowl and 2015 Cotton Bowl victories?",
+        "options": ["Mark Dantonio", "Mel Tucker", "George Perles", "Nick Saban"],
+        "answer": "Mark Dantonio"
+      }
+    ]
+  },
+  "b10_iowa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What infamous color is the visitors' locker room at Kinnick Stadium painted to gently mess with opposing players?",
+        "options": ["Pink", "Lime Green", "Highlighter Orange", "Bright Yellow"],
+        "answer": "Pink"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many seasons did the legendary Hayden Fry pace the Iowa sideline?",
+        "options": ["10", "15", "20", "25"],
+        "answer": "20"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Iowa player became a 2023 Heisman finalist by being elite at a position that should not produce Heisman finalists — punter?",
+        "options": ["Tory Taylor", "Reggie Roby", "Sam LaPorta", "Cooper DeJean"],
+        "answer": "Tory Taylor"
+      }
+    ]
+  },
+  "b10_wisconsin": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What earth-shaking song do Camp Randall fans bounce to between the 3rd and 4th quarters?",
+        "options": ["Jump Around", "Mr. Brightside", "Sweet Caroline", "Free Bird"],
+        "answer": "Jump Around"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Wisconsin's beloved mascot Bucky is what kind of animal?",
+        "options": ["Badger", "Beaver", "Wolverine", "Squirrel"],
+        "answer": "Badger"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Wisconsin running back ran his way to the 1999 Heisman Trophy?",
+        "options": ["Ron Dayne", "Montee Ball", "Jonathan Taylor", "Melvin Gordon"],
+        "answer": "Ron Dayne"
+      }
+    ]
+  },
+  "b10_minnesota": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What relentlessly cheerful rodent is Minnesota's mascot, Goldy?",
+        "options": ["Gopher", "Marmot", "Beaver", "Squirrel"],
+        "answer": "Gopher"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What bronze pig trophy is awarded to the winner of the Minnesota vs. Iowa game?",
+        "options": ["Floyd of Rosedale", "Paul Bunyan's Axe", "Old Brass Spittoon", "Bessie the Cow"],
+        "answer": "Floyd of Rosedale"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Little Brown Jug — college football's oldest rivalry trophy — is contested between Minnesota and which other Big Ten school?",
+        "options": ["Michigan", "Wisconsin", "Iowa", "Nebraska"],
+        "answer": "Michigan"
+      }
+    ]
+  },
+  "b10_indiana": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Indiana's stripe-loving primary color, usually paired with cream?",
+        "options": ["Crimson", "Royal Blue", "Forest Green", "Lavender"],
+        "answer": "Crimson"
+      },
+      {
+        "difficulty": "medium",
+        "question": "For decades the Big Ten's punching bag, Indiana football has appeared in exactly how many Rose Bowls?",
+        "options": ["0", "1", "3", "5"],
+        "answer": "1"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In 2024, which surprise head coaching hire led Indiana to its first College Football Playoff appearance and the state's collective shock?",
+        "options": ["Curt Cignetti", "Tom Allen", "Bill Lynch", "Kevin Wilson"],
+        "answer": "Curt Cignetti"
+      }
+    ]
+  },
+  "b10_purdue": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Purdue's helmeted, hammer-swinging mascot?",
+        "options": ["Purdue Pete", "Sparty", "Brutus Buckeye", "Herbie Husker"],
+        "answer": "Purdue Pete"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What trophy do Purdue and Indiana wrestle over every year?",
+        "options": ["Old Oaken Bucket", "Floyd of Rosedale", "The Little Brown Jug", "The Land-Grant Trophy"],
+        "answer": "Old Oaken Bucket"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Purdue QB later quarterbacked the New Orleans Saints to a Super Bowl XLIV win?",
+        "options": ["Drew Brees", "Mike Phipps", "Bob Griese", "Kyle Orton"],
+        "answer": "Drew Brees"
+      }
+    ]
+  },
+  "b10_illinois": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the alliterative nickname of the Illinois football team?",
+        "options": ["Fighting Illini", "Prairie Pioneers", "Champaign Champions", "Lincoln Lions"],
+        "answer": "Fighting Illini"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Who is the Hall of Fame Illinois running back nicknamed 'The Galloping Ghost'?",
+        "options": ["Red Grange", "Jim Thorpe", "Bronko Nagurski", "Ernie Nevers"],
+        "answer": "Red Grange"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Illinois linebacker, drafted in 1965, became a Hall of Fame Chicago Bear and a synonym for 'absolutely terrifying'?",
+        "options": ["Dick Butkus", "Mike Singletary", "Brian Urlacher", "Lance Briggs"],
+        "answer": "Dick Butkus"
+      }
+    ]
+  },
+  "b10_northwestern": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Northwestern's signature primary color?",
+        "options": ["Purple", "Maize", "Crimson", "Silver"],
+        "answer": "Purple"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Northwestern and Illinois play annually for which presidentially-themed trophy?",
+        "options": ["Land of Lincoln Trophy", "Bronze Stalk Trophy", "Cy-Hawk Trophy", "Heroes Trophy"],
+        "answer": "Land of Lincoln Trophy"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Northwestern shocked the world by reaching which 1996 bowl game under head coach Gary Barnett?",
+        "options": ["Rose Bowl", "Fiesta Bowl", "Sugar Bowl", "Orange Bowl"],
+        "answer": "Rose Bowl"
+      }
+    ]
+  },
+  "b10_nebraska": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the nickname for the wall-to-wall crimson-clad crowd at Memorial Stadium in Lincoln?",
+        "options": ["Sea of Red", "Husker Storm", "Cornhusker Crush", "Red Tsunami"],
+        "answer": "Sea of Red"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Nebraska head coach won three national championships in the 1990s?",
+        "options": ["Tom Osborne", "Bob Devaney", "Frank Solich", "Bill Callahan"],
+        "answer": "Tom Osborne"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Nebraska QB won the 2001 Heisman Trophy, still the Huskers' most recent winner by an uncomfortably long margin?",
+        "options": ["Eric Crouch", "Tommie Frazier", "Brook Berringer", "Scott Frost"],
+        "answer": "Eric Crouch"
+      }
+    ]
+  },
+  "b10_maryland": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Maryland's proudly-named diamondback terrapin mascot?",
+        "options": ["Testudo", "Sparky", "Boomer", "Snappy"],
+        "answer": "Testudo"
+      },
+      {
+        "difficulty": "medium",
+        "question": "From which conference did Maryland defect to join the Big Ten in 2014?",
+        "options": ["ACC", "Big East", "SEC", "Sun Belt"],
+        "answer": "ACC"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Maryland's football uniforms are famous for borrowing what extremely loud design?",
+        "options": ["The Maryland state flag", "A NASCAR paint scheme", "A jester's costume", "A regional pancake recipe"],
+        "answer": "The Maryland state flag"
+      }
+    ]
+  },
+  "b10_rutgers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Rutgers loves to remind everyone it played the first what in 1869?",
+        "options": ["College football game", "Beach volleyball match", "Pickleball tournament", "Quidditch scrimmage"],
+        "answer": "College football game"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What is Rutgers's official athletic nickname?",
+        "options": ["Scarlet Knights", "Crimson Tide", "Red Raiders", "Garnet Gators"],
+        "answer": "Scarlet Knights"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did Rutgers and Princeton play that first college football game?",
+        "options": ["1869", "1879", "1888", "1903"],
+        "answer": "1869"
+      }
+    ]
+  },
+  "b10_usc": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of USC's regal white horse mascot that charges around the field after touchdowns?",
+        "options": ["Traveler", "Bevo", "Ralphie", "Uga"],
+        "answer": "Traveler"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Heisman Trophy winners has USC produced, more than any other school?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which USC running back won the 2005 Heisman, lost it to NCAA sanctions, then had it restored in 2024?",
+        "options": ["Reggie Bush", "Matt Leinart", "O.J. Simpson", "Marcus Allen"],
+        "answer": "Reggie Bush"
+      }
+    ]
+  },
+  "b10_ucla": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what famous Pasadena stadium does UCLA play its home games?",
+        "options": ["Rose Bowl", "LA Coliseum", "SoFi Stadium", "Wrigley Field"],
+        "answer": "Rose Bowl"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What is UCLA's primary 'true' color, paired with gold?",
+        "options": ["Blue", "Red", "Green", "Purple"],
+        "answer": "Blue"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which UCLA QB won the 1967 Heisman Trophy?",
+        "options": ["Gary Beban", "Troy Aikman", "Cade McNown", "Brett Hundley"],
+        "answer": "Gary Beban"
+      }
+    ]
+  },
+  "b10_oregon": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Oregon's mascot, originally modeled with the help of a particular cartoon waterfowl?",
+        "options": ["Duck", "Beaver", "Eagle", "Cougar"],
+        "answer": "Duck"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Oregon alum and Nike co-founder has bankrolled the program's seemingly infinite uniform-combo experiments?",
+        "options": ["Phil Knight", "Howard Schultz", "Larry Ellison", "Steve Ballmer"],
+        "answer": "Phil Knight"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Oregon QB won the 2014 Heisman Trophy?",
+        "options": ["Marcus Mariota", "Justin Herbert", "Bo Nix", "Joey Harrington"],
+        "answer": "Marcus Mariota"
+      }
+    ]
+  },
+  "b10_washington": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Washington's husky-themed mascot?",
+        "options": ["Harry the Husky", "Rufus the Lion", "Goldy the Gopher", "Sparty the Spartan"],
+        "answer": "Harry the Husky"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Husky Stadium is famous for fans 'Sailgating' — arriving by boat across which adjacent body of water?",
+        "options": ["Lake Washington", "Puget Sound", "Pacific Ocean", "Columbia River"],
+        "answer": "Lake Washington"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Washington QB led the Huskies to the 2023 College Football Playoff National Championship Game?",
+        "options": ["Michael Penix Jr.", "Jake Browning", "Marques Tuiasosopo", "Warren Moon"],
+        "answer": "Michael Penix Jr."
+      }
+    ]
+  },
+
   "nfl_bills": {
     "questions": [
       {

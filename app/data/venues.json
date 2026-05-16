@@ -128,6 +128,151 @@
     "lng": -86.8089
   },
 
+  "b10_michigan": {
+    "league": "big_ten_football",
+    "team": "Michigan Wolverines",
+    "name": "Michigan Stadium",
+    "city": "Ann Arbor, MI",
+    "lat": 42.2658,
+    "lng": -83.7487
+  },
+  "b10_ohio_state": {
+    "league": "big_ten_football",
+    "team": "Ohio State Buckeyes",
+    "name": "Ohio Stadium",
+    "city": "Columbus, OH",
+    "lat": 40.0017,
+    "lng": -83.0197
+  },
+  "b10_penn_state": {
+    "league": "big_ten_football",
+    "team": "Penn State Nittany Lions",
+    "name": "Beaver Stadium",
+    "city": "University Park, PA",
+    "lat": 40.8121,
+    "lng": -77.8562
+  },
+  "b10_michigan_state": {
+    "league": "big_ten_football",
+    "team": "Michigan State Spartans",
+    "name": "Spartan Stadium",
+    "city": "East Lansing, MI",
+    "lat": 42.7282,
+    "lng": -84.4843
+  },
+  "b10_iowa": {
+    "league": "big_ten_football",
+    "team": "Iowa Hawkeyes",
+    "name": "Kinnick Stadium",
+    "city": "Iowa City, IA",
+    "lat": 41.6589,
+    "lng": -91.5510
+  },
+  "b10_wisconsin": {
+    "league": "big_ten_football",
+    "team": "Wisconsin Badgers",
+    "name": "Camp Randall Stadium",
+    "city": "Madison, WI",
+    "lat": 43.0700,
+    "lng": -89.4127
+  },
+  "b10_minnesota": {
+    "league": "big_ten_football",
+    "team": "Minnesota Golden Gophers",
+    "name": "Huntington Bank Stadium",
+    "city": "Minneapolis, MN",
+    "lat": 44.9764,
+    "lng": -93.2249
+  },
+  "b10_indiana": {
+    "league": "big_ten_football",
+    "team": "Indiana Hoosiers",
+    "name": "Memorial Stadium",
+    "city": "Bloomington, IN",
+    "lat": 39.1809,
+    "lng": -86.5260
+  },
+  "b10_purdue": {
+    "league": "big_ten_football",
+    "team": "Purdue Boilermakers",
+    "name": "Ross-Ade Stadium",
+    "city": "West Lafayette, IN",
+    "lat": 40.4348,
+    "lng": -86.9183
+  },
+  "b10_illinois": {
+    "league": "big_ten_football",
+    "team": "Illinois Fighting Illini",
+    "name": "Memorial Stadium",
+    "city": "Champaign, IL",
+    "lat": 40.0993,
+    "lng": -88.2358
+  },
+  "b10_northwestern": {
+    "league": "big_ten_football",
+    "team": "Northwestern Wildcats",
+    "name": "Ryan Field",
+    "city": "Evanston, IL",
+    "lat": 42.0653,
+    "lng": -87.6925
+  },
+  "b10_nebraska": {
+    "league": "big_ten_football",
+    "team": "Nebraska Cornhuskers",
+    "name": "Memorial Stadium",
+    "city": "Lincoln, NE",
+    "lat": 40.8206,
+    "lng": -96.7058
+  },
+  "b10_maryland": {
+    "league": "big_ten_football",
+    "team": "Maryland Terrapins",
+    "name": "SECU Stadium",
+    "city": "College Park, MD",
+    "lat": 38.9897,
+    "lng": -76.9474
+  },
+  "b10_rutgers": {
+    "league": "big_ten_football",
+    "team": "Rutgers Scarlet Knights",
+    "name": "SHI Stadium",
+    "city": "Piscataway, NJ",
+    "lat": 40.5132,
+    "lng": -74.4651
+  },
+  "b10_usc": {
+    "league": "big_ten_football",
+    "team": "USC Trojans",
+    "name": "Los Angeles Memorial Coliseum",
+    "city": "Los Angeles, CA",
+    "lat": 34.0141,
+    "lng": -118.2879
+  },
+  "b10_ucla": {
+    "league": "big_ten_football",
+    "team": "UCLA Bruins",
+    "name": "Rose Bowl",
+    "city": "Pasadena, CA",
+    "lat": 34.1614,
+    "lng": -118.1675
+  },
+  "b10_oregon": {
+    "league": "big_ten_football",
+    "team": "Oregon Ducks",
+    "name": "Autzen Stadium",
+    "city": "Eugene, OR",
+    "lat": 44.0583,
+    "lng": -123.0683
+  },
+  "b10_washington": {
+    "league": "big_ten_football",
+    "team": "Washington Huskies",
+    "name": "Husky Stadium",
+    "city": "Seattle, WA",
+    "lat": 47.6504,
+    "lng": -122.3017
+  },
+
   "nfl_bills": {
     "league": "nfl",
     "team": "Buffalo Bills",
