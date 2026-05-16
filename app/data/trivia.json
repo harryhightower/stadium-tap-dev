@@ -3745,5 +3745,446 @@
         "answer": "1903"
       }
     ]
+  },
+
+  "la_liga_real_madrid": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Real Madrid's iconic home stadium?",
+        "options": ["Santiago Bernabéu", "Camp Nou", "Metropolitano", "Mestalla"],
+        "answer": "Santiago Bernabéu"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Real Madrid won, the most in Spanish football?",
+        "options": ["32", "34", "36", "38"],
+        "answer": "36"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many UEFA Champions League / European Cup titles has Real Madrid won, the most in history?",
+        "options": ["12", "13", "14", "15"],
+        "answer": "15"
+      }
+    ]
+  },
+  "la_liga_barcelona": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of Barcelona's iconic home stadium?",
+        "options": ["Camp Nou", "Santiago Bernabéu", "Mestalla", "San Mamés"],
+        "answer": "Camp Nou"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Argentine forward, considered one of the greatest players ever, spent over 20 years at Barcelona before joining PSG in 2021?",
+        "options": ["Lionel Messi", "Sergio Agüero", "Diego Maradona", "Gabriel Batistuta"],
+        "answer": "Lionel Messi"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many La Liga titles has Barcelona won?",
+        "options": ["24", "26", "28", "30"],
+        "answer": "28"
+      }
+    ]
+  },
+  "la_liga_atletico": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Spanish capital city does Atlético Madrid play their home games?",
+        "options": ["Madrid", "Barcelona", "Seville", "Valencia"],
+        "answer": "Madrid"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Atlético Madrid won?",
+        "options": ["7", "9", "11", "13"],
+        "answer": "11"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Atlético Madrid lost two UEFA Champions League finals in the 2010s to which crosstown rival?",
+        "options": ["Real Madrid", "Barcelona", "Sevilla", "Valencia"],
+        "answer": "Real Madrid"
+      }
+    ]
+  },
+  "la_liga_athletic": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Basque Country city does Athletic Bilbao play their home games?",
+        "options": ["Bilbao", "San Sebastián", "Vitoria-Gasteiz", "Pamplona"],
+        "answer": "Bilbao"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Athletic Bilbao famously fields only players of which heritage?",
+        "options": ["Basque", "Catalan", "Galician", "Andalusian"],
+        "answer": "Basque"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Athletic Bilbao is one of only three clubs to have never been relegated from La Liga. Along with Real Madrid and which other club?",
+        "options": ["Barcelona", "Atlético Madrid", "Valencia", "Sevilla"],
+        "answer": "Barcelona"
+      }
+    ]
+  },
+  "la_liga_villarreal": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is Villarreal's affectionate nickname, derived from their yellow kit?",
+        "options": ["Yellow Submarine", "Canary Brigade", "Sun Kings", "Banana Boys"],
+        "answer": "Yellow Submarine"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Villarreal won their first major European trophy in 2021. Which competition?",
+        "options": ["UEFA Europa League", "UEFA Champions League", "UEFA Conference League", "UEFA Super Cup"],
+        "answer": "UEFA Europa League"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Villarreal defeated which English club on penalties in the 2021 UEFA Europa League final?",
+        "options": ["Manchester United", "Arsenal", "Chelsea", "Tottenham"],
+        "answer": "Manchester United"
+      }
+    ]
+  },
+  "la_liga_betis": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what historic Andalusian city does Real Betis play their home games?",
+        "options": ["Seville", "Málaga", "Granada", "Córdoba"],
+        "answer": "Seville"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Real Betis won their only La Liga title in what surprise year?",
+        "options": ["1929", "1935", "1948", "1956"],
+        "answer": "1935"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the Seville derby between Real Betis and Sevilla commonly called?",
+        "options": ["El Gran Derbi", "El Clásico Andaluz", "La Batalla", "Derbi del Sur"],
+        "answer": "El Gran Derbi"
+      }
+    ]
+  },
+  "la_liga_celta": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Galician port city does Celta Vigo play their home games?",
+        "options": ["Vigo", "A Coruña", "Santiago de Compostela", "Lugo"],
+        "answer": "Vigo"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Celta Vigo won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Celta Vigo's name pays tribute to which ancient European cultural group with deep roots in Galicia?",
+        "options": ["The Celts", "The Vikings", "The Romans", "The Moors"],
+        "answer": "The Celts"
+      }
+    ]
+  },
+  "la_liga_rayo": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Spanish capital does Rayo Vallecano play their home games?",
+        "options": ["Madrid", "Barcelona", "Valencia", "Seville"],
+        "answer": "Madrid"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Rayo Vallecano is famous for what bold design feature on their otherwise white kits?",
+        "options": ["A red diagonal stripe", "A blue lightning bolt", "A yellow sun", "A green vertical stripe"],
+        "answer": "A red diagonal stripe"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Rayo Vallecano represents which proudly working-class district of southeastern Madrid?",
+        "options": ["Vallecas", "Lavapiés", "Carabanchel", "Tetuán"],
+        "answer": "Vallecas"
+      }
+    ]
+  },
+  "la_liga_osasuna": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Navarrese city, famous for the Running of the Bulls, does Osasuna play their home games?",
+        "options": ["Pamplona", "San Sebastián", "Logroño", "Tudela"],
+        "answer": "Pamplona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Osasuna won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The name 'Osasuna' translates from the Basque language as what?",
+        "options": ["Health", "Strength", "Courage", "Victory"],
+        "answer": "Health"
+      }
+    ]
+  },
+  "la_liga_mallorca": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On which Spanish Balearic Island does RCD Mallorca play their home games?",
+        "options": ["Mallorca", "Ibiza", "Menorca", "Formentera"],
+        "answer": "Mallorca"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has RCD Mallorca won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which two-time NBA MVP is part of RCD Mallorca's American ownership group?",
+        "options": ["Steve Nash", "LeBron James", "Stephen Curry", "Magic Johnson"],
+        "answer": "Steve Nash"
+      }
+    ]
+  },
+  "la_liga_real_sociedad": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Basque coastal city does Real Sociedad play their home games?",
+        "options": ["San Sebastián", "Bilbao", "Vitoria-Gasteiz", "Pamplona"],
+        "answer": "San Sebastián"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Real Sociedad won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Real Sociedad won back-to-back La Liga titles in which two consecutive years?",
+        "options": ["1981 and 1982", "1976 and 1977", "1988 and 1989", "1995 and 1996"],
+        "answer": "1981 and 1982"
+      }
+    ]
+  },
+  "la_liga_valencia": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Mediterranean coastal city does Valencia CF play their home games?",
+        "options": ["Valencia", "Alicante", "Castellón", "Murcia"],
+        "answer": "Valencia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Valencia won?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "6"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Valencia reached back-to-back UEFA Champions League finals in which two years, losing both?",
+        "options": ["1998 and 1999", "2000 and 2001", "2004 and 2005", "2007 and 2008"],
+        "answer": "2000 and 2001"
+      }
+    ]
+  },
+  "la_liga_getafe": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what southern suburb of Madrid does Getafe play their home games?",
+        "options": ["Getafe", "Alcorcón", "Leganés", "Móstoles"],
+        "answer": "Getafe"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Getafe won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Getafe's home stadium, the Coliseum Alfonso Pérez, is named after a former Spanish national team striker who played mainly for which club?",
+        "options": ["Real Madrid", "Barcelona", "Sevilla", "Espanyol"],
+        "answer": "Real Madrid"
+      }
+    ]
+  },
+  "la_liga_espanyol": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "RCD Espanyol's home is in Cornellà de Llobregat, a suburb of which major Catalan city?",
+        "options": ["Barcelona", "Girona", "Tarragona", "Lleida"],
+        "answer": "Barcelona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has RCD Espanyol won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was RCD Espanyol founded?",
+        "options": ["1888", "1900", "1912", "1925"],
+        "answer": "1900"
+      }
+    ]
+  },
+  "la_liga_alaves": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Basque city, the capital of the Basque Country, does Deportivo Alavés play their home games?",
+        "options": ["Vitoria-Gasteiz", "Bilbao", "San Sebastián", "Pamplona"],
+        "answer": "Vitoria-Gasteiz"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Alavés famously reached the 2001 UEFA Cup final, losing 5-4 in extra time to which English club?",
+        "options": ["Liverpool", "Manchester United", "Arsenal", "Leeds United"],
+        "answer": "Liverpool"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Deportivo Alavés founded?",
+        "options": ["1900", "1921", "1934", "1948"],
+        "answer": "1921"
+      }
+    ]
+  },
+  "la_liga_girona": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Catalan city does Girona FC play their home games?",
+        "options": ["Girona", "Barcelona", "Lleida", "Tarragona"],
+        "answer": "Girona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Girona is part-owned by Manchester City via which multi-club ownership group?",
+        "options": ["City Football Group", "Red Bull GmbH", "Eagle Football Holdings", "Pacific Media Group"],
+        "answer": "City Football Group"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Girona made their first-ever UEFA Champions League appearance in which season?",
+        "options": ["2022-23", "2023-24", "2024-25", "2025-26"],
+        "answer": "2024-25"
+      }
+    ]
+  },
+  "la_liga_sevilla": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what historic Andalusian city does Sevilla FC play their home games?",
+        "options": ["Seville", "Málaga", "Granada", "Cádiz"],
+        "answer": "Seville"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many UEFA Europa League / UEFA Cup titles has Sevilla won, the most in the competition's history?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Sevilla won their first-ever UEFA Cup title in which year, kicking off their European trophy era?",
+        "options": ["2003", "2006", "2010", "2014"],
+        "answer": "2006"
+      }
+    ]
+  },
+  "la_liga_elche": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Valencian Community city, famous for its palm groves, does Elche CF play their home games?",
+        "options": ["Elche", "Alicante", "Murcia", "Cartagena"],
+        "answer": "Elche"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Elche CF won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Elche CF founded?",
+        "options": ["1909", "1923", "1936", "1948"],
+        "answer": "1923"
+      }
+    ]
+  },
+  "la_liga_levante": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Spanish city does Levante UD play, sharing it with bigger rivals Valencia CF?",
+        "options": ["Valencia", "Alicante", "Murcia", "Castellón"],
+        "answer": "Valencia"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many La Liga titles has Levante UD won?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "0"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year was Levante UD founded?",
+        "options": ["1899", "1909", "1919", "1929"],
+        "answer": "1909"
+      }
+    ]
+  },
+  "la_liga_oviedo": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Asturian capital city does Real Oviedo play their home games?",
+        "options": ["Oviedo", "Gijón", "Avilés", "Mieres"],
+        "answer": "Oviedo"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Real Oviedo returned to La Liga for the 2025-26 season after roughly how many years away from the top flight?",
+        "options": ["10", "16", "20", "24"],
+        "answer": "24"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Real Oviedo was rescued from bankruptcy in 2012 thanks in part to which Mexican telecom billionaire's investment?",
+        "options": ["Carlos Slim", "Ricardo Salinas", "Emilio Azcárraga", "Germán Larrea"],
+        "answer": "Carlos Slim"
+      }
+    ]
   }
 }

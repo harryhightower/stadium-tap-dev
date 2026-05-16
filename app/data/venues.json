@@ -1365,5 +1365,166 @@
     "city": "Cremona, Italy",
     "lat": 45.1408,
     "lng": 10.0247
+  },
+
+  "la_liga_real_madrid": {
+    "league": "la_liga",
+    "team": "Real Madrid",
+    "name": "Santiago Bernabéu",
+    "city": "Madrid, Spain",
+    "lat": 40.4530,
+    "lng": -3.6883
+  },
+  "la_liga_barcelona": {
+    "league": "la_liga",
+    "team": "Barcelona",
+    "name": "Spotify Camp Nou",
+    "city": "Barcelona, Spain",
+    "lat": 41.3809,
+    "lng": 2.1228
+  },
+  "la_liga_atletico": {
+    "league": "la_liga",
+    "team": "Atlético Madrid",
+    "name": "Riyadh Air Metropolitano",
+    "city": "Madrid, Spain",
+    "lat": 40.4362,
+    "lng": -3.5995
+  },
+  "la_liga_athletic": {
+    "league": "la_liga",
+    "team": "Athletic Bilbao",
+    "name": "San Mamés",
+    "city": "Bilbao, Spain",
+    "lat": 43.2642,
+    "lng": -2.9494
+  },
+  "la_liga_villarreal": {
+    "league": "la_liga",
+    "team": "Villarreal",
+    "name": "Estadio de la Cerámica",
+    "city": "Villarreal, Spain",
+    "lat": 39.9442,
+    "lng": -0.1037
+  },
+  "la_liga_betis": {
+    "league": "la_liga",
+    "team": "Real Betis",
+    "name": "Estadio Benito Villamarín",
+    "city": "Seville, Spain",
+    "lat": 37.3567,
+    "lng": -5.9817
+  },
+  "la_liga_celta": {
+    "league": "la_liga",
+    "team": "Celta Vigo",
+    "name": "Estadio de Balaídos",
+    "city": "Vigo, Spain",
+    "lat": 42.2122,
+    "lng": -8.7400
+  },
+  "la_liga_rayo": {
+    "league": "la_liga",
+    "team": "Rayo Vallecano",
+    "name": "Estadio de Vallecas",
+    "city": "Madrid, Spain",
+    "lat": 40.3920,
+    "lng": -3.6586
+  },
+  "la_liga_osasuna": {
+    "league": "la_liga",
+    "team": "Osasuna",
+    "name": "El Sadar",
+    "city": "Pamplona, Spain",
+    "lat": 42.7967,
+    "lng": -1.6367
+  },
+  "la_liga_mallorca": {
+    "league": "la_liga",
+    "team": "RCD Mallorca",
+    "name": "Mallorca Son Moix",
+    "city": "Palma, Spain",
+    "lat": 39.5897,
+    "lng": 2.6304
+  },
+  "la_liga_real_sociedad": {
+    "league": "la_liga",
+    "team": "Real Sociedad",
+    "name": "Reale Arena",
+    "city": "San Sebastián, Spain",
+    "lat": 43.3014,
+    "lng": -1.9733
+  },
+  "la_liga_valencia": {
+    "league": "la_liga",
+    "team": "Valencia",
+    "name": "Mestalla",
+    "city": "Valencia, Spain",
+    "lat": 39.4747,
+    "lng": -0.3585
+  },
+  "la_liga_getafe": {
+    "league": "la_liga",
+    "team": "Getafe",
+    "name": "Coliseum Alfonso Pérez",
+    "city": "Getafe, Spain",
+    "lat": 40.3253,
+    "lng": -3.7144
+  },
+  "la_liga_espanyol": {
+    "league": "la_liga",
+    "team": "RCD Espanyol",
+    "name": "RCDE Stadium",
+    "city": "Cornellà de Llobregat, Spain",
+    "lat": 41.3478,
+    "lng": 2.0758
+  },
+  "la_liga_alaves": {
+    "league": "la_liga",
+    "team": "Deportivo Alavés",
+    "name": "Mendizorrotza",
+    "city": "Vitoria-Gasteiz, Spain",
+    "lat": 42.8358,
+    "lng": -2.6892
+  },
+  "la_liga_girona": {
+    "league": "la_liga",
+    "team": "Girona",
+    "name": "Montilivi",
+    "city": "Girona, Spain",
+    "lat": 41.9614,
+    "lng": 2.8281
+  },
+  "la_liga_sevilla": {
+    "league": "la_liga",
+    "team": "Sevilla",
+    "name": "Ramón Sánchez-Pizjuán",
+    "city": "Seville, Spain",
+    "lat": 37.3839,
+    "lng": -5.9706
+  },
+  "la_liga_elche": {
+    "league": "la_liga",
+    "team": "Elche",
+    "name": "Estadio Martínez Valero",
+    "city": "Elche, Spain",
+    "lat": 38.2667,
+    "lng": -0.6633
+  },
+  "la_liga_levante": {
+    "league": "la_liga",
+    "team": "Levante",
+    "name": "Estadi Ciutat de València",
+    "city": "Valencia, Spain",
+    "lat": 39.4944,
+    "lng": -0.3650
+  },
+  "la_liga_oviedo": {
+    "league": "la_liga",
+    "team": "Real Oviedo",
+    "name": "Carlos Tartiere",
+    "city": "Oviedo, Spain",
+    "lat": 43.3506,
+    "lng": -5.8649
   }
 }
