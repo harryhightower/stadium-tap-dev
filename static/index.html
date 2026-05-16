@@ -38,10 +38,16 @@
     box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
   header h1 { font-size: 15px; margin: 0; font-weight: 800; letter-spacing: 0.3px;
     color: var(--text); display: flex; align-items: center; gap: 6px; }
+  .header-right { display: flex; gap: 8px; align-items: center; }
   .tabs { display: flex; gap: 4px; }
   .tab { background: transparent; color: var(--muted); border: 1px solid var(--border);
     padding: 6px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 600; }
   .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
+  .mode-select { background: var(--panel); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 6px 8px; font-size: 12px; font-weight: 600; cursor: pointer;
+    font-family: inherit; }
+  .mode-select:focus { outline: none; border-color: var(--accent2);
+    box-shadow: 0 0 0 3px rgba(107,169,208,0.2); }
 
   /* League selector strip */
   .league-strip { background: var(--panel); border-bottom: 1px solid var(--border);
@@ -83,6 +89,17 @@
     font-size: 11px; letter-spacing: 0.8px; }
   .progress-bar .stat { font-weight: 800; color: var(--accent); font-size: 15px; }
   .progress-bar .stat.blue { color: var(--accent2-dark); }
+  .quiz-banner { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 18px; margin-bottom: 14px; text-align: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+  .quiz-banner-date { font-size: 18px; font-weight: 800; color: var(--accent);
+    letter-spacing: -0.2px; margin-bottom: 4px; }
+  .quiz-banner-progress { font-size: 13px; color: var(--text); }
+  .quiz-banner-progress .stat { font-weight: 800; color: var(--accent); }
+  .quiz-banner-progress .stat.blue { color: var(--accent2-dark); }
+  .quiz-complete { background: var(--panel2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 32px 24px; text-align: center; color: var(--muted); font-size: 15px; font-weight: 600;
+    grid-column: 1 / -1; }
   .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
   @media (min-width: 540px) { .grid { grid-template-columns: repeat(3, 1fr); } }
   @media (min-width: 760px) { .grid { grid-template-columns: repeat(4, 1fr); } }
@@ -195,10 +212,16 @@
   <div class="dev-banner">⚙ DEV environment</div>
   <header>
     <h1>Stadium Tap</h1>
-    <div class="tabs" id="tabs" style="display:none;">
-      <button class="tab active" data-view="picker">Venues</button>
-      <button class="tab" data-view="leaderboard">Board</button>
-      <button class="tab" data-view="history">History</button>
+    <div class="header-right" id="header-right" style="display:none;">
+      <select class="mode-select" id="mode-select" aria-label="Game mode">
+        <option value="browse">Browse by league</option>
+        <option value="quiz">Daily quiz</option>
+      </select>
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-view="picker">Venues</button>
+        <button class="tab" data-view="leaderboard">Board</button>
+        <button class="tab" data-view="history">History</button>
+      </div>
     </div>
   </header>
   <div class="league-strip" id="league-strip" style="display:none;"></div>
@@ -222,7 +245,15 @@
 
     <!-- PICKER -->
     <section class="view" id="picker">
-      <div class="progress-bar">
+      <div class="quiz-banner" id="quiz-banner" style="display:none;">
+        <div class="quiz-banner-date" id="quiz-banner-date">Today's quiz</div>
+        <div class="quiz-banner-progress">
+          <span class="stat" id="q-done">0</span> / <span id="q-total">0</span> played
+          &nbsp;&middot;&nbsp;
+          <span class="stat blue" id="q-score">0</span> pts
+        </div>
+      </div>
+      <div class="progress-bar" id="browse-progress-bar">
         <div><span class="lbl" id="p-league-label">Progress</span></div>
         <div>
           <span class="stat" id="p-done">0</span> / <span id="p-total">0</span> played
@@ -300,6 +331,7 @@ const COLOR_ACCENT2 = "#6ba9d0";
 
 let token = localStorage.getItem("sst_dev_token");
 let playerName = localStorage.getItem("sst_dev_name") || "";
+let gameMode = localStorage.getItem("sst_dev_mode") || "browse";
 let map, guessMarker, stadiumMarker, line;
 let currentGuess = null;
 let triviaSelections = [null, null, null];
@@ -307,6 +339,27 @@ let activeVenue = null;
 let venuesCache = [];
 let leaguesCache = [];
 let currentLeague = null;
+
+function fmtQuizDate(isoDate) {
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d));
+  return date.toLocaleDateString(undefined, { month: "long", day: "numeric", timeZone: "UTC" });
+}
+
+function applyLeagueStripVisibility() {
+  const view = document.querySelector(".view.active")?.id;
+  const show = gameMode === "browse" && (view === "picker" || view === "leaderboard");
+  $("league-strip").style.display = show ? "block" : "none";
+}
+
+function applyMode(newMode) {
+  gameMode = newMode;
+  localStorage.setItem("sst_dev_mode", newMode);
+  applyLeagueStripVisibility();
+  const view = document.querySelector(".view.active")?.id;
+  if (view === "picker") loadPicker();
+  else if (view === "leaderboard") loadLeaderboard();
+}
 
 function $(id) { return document.getElementById(id); }
 
@@ -338,8 +391,10 @@ $("join-btn").addEventListener("click", async () => {
 });
 
 async function showApp() {
-  $("tabs").style.display = "flex";
-  $("league-strip").style.display = "block";
+  $("header-right").style.display = "flex";
+  $("mode-select").value = gameMode;
+  $("mode-select").addEventListener("change", (e) => applyMode(e.target.value));
+  applyLeagueStripVisibility();
   await loadLeagues();
   switchView("picker");
 }
@@ -385,9 +440,7 @@ function switchView(name) {
   document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
   $(name).classList.add("active");
   document.querySelector(`.tab[data-view="${name}"]`)?.classList.add("active");
-  // hide league strip for history view (history is cross-league)
-  $("league-strip").style.display = (name === "history" || name === "game" || name === "join")
-    ? "none" : "block";
+  applyLeagueStripVisibility();
   if (name === "picker") loadPicker();
   if (name === "leaderboard") loadLeaderboard();
   if (name === "history") loadHistory();
@@ -428,7 +481,36 @@ function clearMapLayers() {
 }
 
 // ============ PICKER ============
+function renderScard(s, grid) {
+  const card = document.createElement("div");
+  card.className = "scard" + (s.played ? " done" : "") +
+    (s.result && s.result.unlocked ? " unlocked" : "");
+  let bottom;
+  if (s.played) {
+    bottom = `<div class="row">
+      <span class="dist">${s.result.distance_km.toFixed(1)} km</span>
+      <span class="pts">${s.result.final_score} pts</span>
+    </div>`;
+  } else {
+    bottom = `<div class="play">Tap to play →</div>`;
+  }
+  card.innerHTML = `
+    <div class="num">#${s.number}</div>
+    <div class="team">${s.team}</div>
+    <div class="stad">${s.stadium_name}</div>
+    ${bottom}
+  `;
+  if (!s.played) card.addEventListener("click", () => openVenue(s));
+  grid.appendChild(card);
+}
+
 async function loadPicker() {
+  if (gameMode === "quiz") {
+    await loadQuizPicker();
+    return;
+  }
+  $("quiz-banner").style.display = "none";
+  $("browse-progress-bar").style.display = "flex";
   if (!currentLeague) return;
   try {
     venuesCache = await api("/api/venues?league=" + encodeURIComponent(currentLeague));
@@ -449,28 +531,31 @@ async function loadPicker() {
       color: var(--muted); font-size: 13px;">No venues yet in this league.  Add some in venues.json.</div>`;
     return;
   }
-  venuesCache.forEach(s => {
-    const card = document.createElement("div");
-    card.className = "scard" + (s.played ? " done" : "") +
-      (s.result && s.result.unlocked ? " unlocked" : "");
-    let bottom;
-    if (s.played) {
-      bottom = `<div class="row">
-        <span class="dist">${s.result.distance_km.toFixed(1)} km</span>
-        <span class="pts">${s.result.final_score} pts</span>
-      </div>`;
-    } else {
-      bottom = `<div class="play">Tap to play →</div>`;
-    }
-    card.innerHTML = `
-      <div class="num">#${s.number}</div>
-      <div class="team">${s.team}</div>
-      <div class="stad">${s.stadium_name}</div>
-      ${bottom}
-    `;
-    if (!s.played) card.addEventListener("click", () => openVenue(s));
-    grid.appendChild(card);
-  });
+  venuesCache.forEach(s => renderScard(s, grid));
+}
+
+async function loadQuizPicker() {
+  $("quiz-banner").style.display = "block";
+  $("browse-progress-bar").style.display = "none";
+  let r;
+  try {
+    r = await api("/api/daily-quiz");
+  } catch (e) { console.error(e); return; }
+  venuesCache = r.venues;
+  const done = r.venues.filter(s => s.played).length;
+  const totalPts = r.venues.reduce((sum, s) => sum + (s.result ? s.result.final_score : 0), 0);
+  $("quiz-banner-date").textContent = "Today's quiz — " + fmtQuizDate(r.date);
+  $("q-done").textContent = done;
+  $("q-total").textContent = r.venues.length;
+  $("q-score").textContent = totalPts;
+
+  const grid = $("picker-grid");
+  grid.innerHTML = "";
+  if (r.venues.length > 0 && done === r.venues.length) {
+    grid.innerHTML = `<div class="quiz-complete">Come back tomorrow for a new quiz</div>`;
+    return;
+  }
+  r.venues.forEach(s => renderScard(s, grid));
 }
 
 // ============ GAME ============
@@ -501,7 +586,8 @@ $("submit-btn").addEventListener("click", async () => {
     const r = await api("/api/guess", { method: "POST",
       body: JSON.stringify({
         venue_key: activeVenue.key,
-        lat: currentGuess.lat, lng: currentGuess.lng
+        lat: currentGuess.lat, lng: currentGuess.lng,
+        mode: gameMode
       }) });
     showResult(r);
   } catch (e) {
@@ -584,7 +670,7 @@ async function submitTrivia(baseScore, venueKey) {
   $("submit-trivia-btn").textContent = "Scoring...";
   try {
     const r = await api("/api/trivia", { method: "POST",
-      body: JSON.stringify({ venue_key: venueKey, answers: triviaSelections }) });
+      body: JSON.stringify({ venue_key: venueKey, answers: triviaSelections, mode: gameMode }) });
     document.querySelectorAll(".opts").forEach((opts, i) => {
       const fb = r.feedback[i];
       opts.querySelectorAll(".opt").forEach(o => {
@@ -619,12 +705,22 @@ $("done-btn").addEventListener("click", async () => {
 // ============ LEADERBOARD ============
 async function loadLeaderboard() {
   try {
-    const r = await api("/api/leaderboard?league=" + encodeURIComponent(currentLeague || ""));
-    const league = leaguesCache.find(l => l.key === currentLeague);
-    $("lb-title").textContent = league ? `${league.name} Leaderboard` : "Leaderboard";
+    let url, title, emptyMsg;
+    if (gameMode === "quiz") {
+      url = "/api/leaderboard?mode=quiz&scope=daily";
+      title = "Today's Quiz Leaderboard";
+      emptyMsg = "No scores yet for today's quiz.";
+    } else {
+      url = "/api/leaderboard?league=" + encodeURIComponent(currentLeague || "");
+      const league = leaguesCache.find(l => l.key === currentLeague);
+      title = league ? `${league.name} Leaderboard` : "Leaderboard";
+      emptyMsg = "No scores yet for this league.";
+    }
+    const r = await api(url);
+    $("lb-title").textContent = title;
     const body = $("lb-body");
     if (!r.rows.length) {
-      body.innerHTML = `<p style="color:var(--muted);font-size:13px;">No scores yet for this league.</p>`;
+      body.innerHTML = `<p style="color:var(--muted);font-size:13px;">${emptyMsg}</p>`;
       return;
     }
     body.innerHTML = r.rows.map((row, i) => `
