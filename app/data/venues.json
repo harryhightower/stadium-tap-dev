@@ -128,6 +128,263 @@
     "lng": -86.8089
   },
 
+  "nfl_bills": {
+    "league": "nfl",
+    "team": "Buffalo Bills",
+    "name": "Highmark Stadium",
+    "city": "Orchard Park, NY",
+    "lat": 42.7738,
+    "lng": -78.7870
+  },
+  "nfl_dolphins": {
+    "league": "nfl",
+    "team": "Miami Dolphins",
+    "name": "Hard Rock Stadium",
+    "city": "Miami Gardens, FL",
+    "lat": 25.9580,
+    "lng": -80.2389
+  },
+  "nfl_patriots": {
+    "league": "nfl",
+    "team": "New England Patriots",
+    "name": "Gillette Stadium",
+    "city": "Foxborough, MA",
+    "lat": 42.0909,
+    "lng": -71.2643
+  },
+  "nfl_jets": {
+    "league": "nfl",
+    "team": "New York Jets",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford, NJ",
+    "lat": 40.8135,
+    "lng": -74.0745
+  },
+  "nfl_ravens": {
+    "league": "nfl",
+    "team": "Baltimore Ravens",
+    "name": "M&T Bank Stadium",
+    "city": "Baltimore, MD",
+    "lat": 39.2780,
+    "lng": -76.6227
+  },
+  "nfl_bengals": {
+    "league": "nfl",
+    "team": "Cincinnati Bengals",
+    "name": "Paycor Stadium",
+    "city": "Cincinnati, OH",
+    "lat": 39.0955,
+    "lng": -84.5161
+  },
+  "nfl_browns": {
+    "league": "nfl",
+    "team": "Cleveland Browns",
+    "name": "Huntington Bank Field",
+    "city": "Cleveland, OH",
+    "lat": 41.5061,
+    "lng": -81.6995
+  },
+  "nfl_steelers": {
+    "league": "nfl",
+    "team": "Pittsburgh Steelers",
+    "name": "Acrisure Stadium",
+    "city": "Pittsburgh, PA",
+    "lat": 40.4467,
+    "lng": -80.0158
+  },
+  "nfl_texans": {
+    "league": "nfl",
+    "team": "Houston Texans",
+    "name": "NRG Stadium",
+    "city": "Houston, TX",
+    "lat": 29.6847,
+    "lng": -95.4107
+  },
+  "nfl_colts": {
+    "league": "nfl",
+    "team": "Indianapolis Colts",
+    "name": "Lucas Oil Stadium",
+    "city": "Indianapolis, IN",
+    "lat": 39.7601,
+    "lng": -86.1639
+  },
+  "nfl_jaguars": {
+    "league": "nfl",
+    "team": "Jacksonville Jaguars",
+    "name": "EverBank Stadium",
+    "city": "Jacksonville, FL",
+    "lat": 30.3239,
+    "lng": -81.6373
+  },
+  "nfl_titans": {
+    "league": "nfl",
+    "team": "Tennessee Titans",
+    "name": "Nissan Stadium",
+    "city": "Nashville, TN",
+    "lat": 36.1665,
+    "lng": -86.7713
+  },
+  "nfl_broncos": {
+    "league": "nfl",
+    "team": "Denver Broncos",
+    "name": "Empower Field at Mile High",
+    "city": "Denver, CO",
+    "lat": 39.7439,
+    "lng": -105.0201
+  },
+  "nfl_chiefs": {
+    "league": "nfl",
+    "team": "Kansas City Chiefs",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City, MO",
+    "lat": 39.0489,
+    "lng": -94.4839
+  },
+  "nfl_raiders": {
+    "league": "nfl",
+    "team": "Las Vegas Raiders",
+    "name": "Allegiant Stadium",
+    "city": "Paradise, NV",
+    "lat": 36.0909,
+    "lng": -115.1830
+  },
+  "nfl_chargers": {
+    "league": "nfl",
+    "team": "Los Angeles Chargers",
+    "name": "SoFi Stadium",
+    "city": "Inglewood, CA",
+    "lat": 33.9535,
+    "lng": -118.3392
+  },
+  "nfl_cowboys": {
+    "league": "nfl",
+    "team": "Dallas Cowboys",
+    "name": "AT&T Stadium",
+    "city": "Arlington, TX",
+    "lat": 32.7473,
+    "lng": -97.0945
+  },
+  "nfl_giants": {
+    "league": "nfl",
+    "team": "New York Giants",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford, NJ",
+    "lat": 40.8135,
+    "lng": -74.0745
+  },
+  "nfl_eagles": {
+    "league": "nfl",
+    "team": "Philadelphia Eagles",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia, PA",
+    "lat": 39.9008,
+    "lng": -75.1675
+  },
+  "nfl_commanders": {
+    "league": "nfl",
+    "team": "Washington Commanders",
+    "name": "Northwest Stadium",
+    "city": "Landover, MD",
+    "lat": 38.9077,
+    "lng": -76.8645
+  },
+  "nfl_bears": {
+    "league": "nfl",
+    "team": "Chicago Bears",
+    "name": "Soldier Field",
+    "city": "Chicago, IL",
+    "lat": 41.8623,
+    "lng": -87.6167
+  },
+  "nfl_lions": {
+    "league": "nfl",
+    "team": "Detroit Lions",
+    "name": "Ford Field",
+    "city": "Detroit, MI",
+    "lat": 42.3400,
+    "lng": -83.0456
+  },
+  "nfl_packers": {
+    "league": "nfl",
+    "team": "Green Bay Packers",
+    "name": "Lambeau Field",
+    "city": "Green Bay, WI",
+    "lat": 44.5013,
+    "lng": -88.0622
+  },
+  "nfl_vikings": {
+    "league": "nfl",
+    "team": "Minnesota Vikings",
+    "name": "U.S. Bank Stadium",
+    "city": "Minneapolis, MN",
+    "lat": 44.9738,
+    "lng": -93.2581
+  },
+  "nfl_falcons": {
+    "league": "nfl",
+    "team": "Atlanta Falcons",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta, GA",
+    "lat": 33.7553,
+    "lng": -84.4006
+  },
+  "nfl_panthers": {
+    "league": "nfl",
+    "team": "Carolina Panthers",
+    "name": "Bank of America Stadium",
+    "city": "Charlotte, NC",
+    "lat": 35.2258,
+    "lng": -80.8528
+  },
+  "nfl_saints": {
+    "league": "nfl",
+    "team": "New Orleans Saints",
+    "name": "Caesars Superdome",
+    "city": "New Orleans, LA",
+    "lat": 29.9511,
+    "lng": -90.0812
+  },
+  "nfl_buccaneers": {
+    "league": "nfl",
+    "team": "Tampa Bay Buccaneers",
+    "name": "Raymond James Stadium",
+    "city": "Tampa, FL",
+    "lat": 27.9759,
+    "lng": -82.5033
+  },
+  "nfl_cardinals": {
+    "league": "nfl",
+    "team": "Arizona Cardinals",
+    "name": "State Farm Stadium",
+    "city": "Glendale, AZ",
+    "lat": 33.5276,
+    "lng": -112.2626
+  },
+  "nfl_rams": {
+    "league": "nfl",
+    "team": "Los Angeles Rams",
+    "name": "SoFi Stadium",
+    "city": "Inglewood, CA",
+    "lat": 33.9535,
+    "lng": -118.3392
+  },
+  "nfl_49ers": {
+    "league": "nfl",
+    "team": "San Francisco 49ers",
+    "name": "Levi's Stadium",
+    "city": "Santa Clara, CA",
+    "lat": 37.4030,
+    "lng": -121.9700
+  },
+  "nfl_seahawks": {
+    "league": "nfl",
+    "team": "Seattle Seahawks",
+    "name": "Lumen Field",
+    "city": "Seattle, WA",
+    "lat": 47.5952,
+    "lng": -122.3316
+  },
+
   "epl_arsenal": {
     "league": "premier_league",
     "team": "Arsenal",

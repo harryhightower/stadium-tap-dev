@@ -352,6 +352,711 @@
     ]
   },
 
+  "nfl_bills": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the home stadium of the Buffalo Bills?",
+        "options": ["Highmark Stadium", "Gillette Stadium", "MetLife Stadium", "Hard Rock Stadium"],
+        "answer": "Highmark Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many consecutive Super Bowls did the Bills lose in the early 1990s?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who was the Bills' Hall of Fame quarterback during their four straight Super Bowl appearances?",
+        "options": ["Jim Kelly", "Doug Flutie", "Drew Bledsoe", "Joe Ferguson"],
+        "answer": "Jim Kelly"
+      }
+    ]
+  },
+  "nfl_dolphins": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the primary aquatic color associated with the Miami Dolphins?",
+        "options": ["Navy Blue", "Aqua", "Royal Blue", "Teal Green"],
+        "answer": "Aqua"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what season did the Dolphins complete the only perfect undefeated Super Bowl season?",
+        "options": ["1968", "1972", "1976", "1984"],
+        "answer": "1972"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who is the Dolphins' all-time leader in passing yards?",
+        "options": ["Bob Griese", "Dan Marino", "Ryan Tannehill", "Tua Tagovailoa"],
+        "answer": "Dan Marino"
+      }
+    ]
+  },
+  "nfl_patriots": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Who was the Patriots' head coach from 2000 to 2023?",
+        "options": ["Bill Parcells", "Bill Belichick", "Pete Carroll", "Jerod Mayo"],
+        "answer": "Bill Belichick"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Super Bowls did the Patriots win with Tom Brady at quarterback?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "6"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the score Atlanta led 28-3 over the Patriots before New England's historic comeback in Super Bowl LI?",
+        "options": ["21-3", "24-3", "28-3", "31-3"],
+        "answer": "28-3"
+      }
+    ]
+  },
+  "nfl_jets": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the New York Jets' primary team color?",
+        "options": ["Green", "Blue", "Black", "Red"],
+        "answer": "Green"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Jets quarterback famously guaranteed a Super Bowl III victory?",
+        "options": ["Joe Namath", "Ken O'Brien", "Vinny Testaverde", "Chad Pennington"],
+        "answer": "Joe Namath"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What jersey number did the Jets retire for Joe Namath?",
+        "options": ["7", "12", "16", "19"],
+        "answer": "12"
+      }
+    ]
+  },
+  "nfl_ravens": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "The Ravens' name comes from a famous poem by which author?",
+        "options": ["Walt Whitman", "Edgar Allan Poe", "Robert Frost", "Mark Twain"],
+        "answer": "Edgar Allan Poe"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Super Bowls have the Baltimore Ravens won?",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who was the Hall of Fame middle linebacker the Ravens drafted in 1996 who became the face of the franchise?",
+        "options": ["Ed Reed", "Ray Lewis", "Terrell Suggs", "Peter Boulware"],
+        "answer": "Ray Lewis"
+      }
+    ]
+  },
+  "nfl_bengals": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What animal is the Cincinnati Bengals' mascot based on?",
+        "options": ["Lion", "Tiger", "Panther", "Jaguar"],
+        "answer": "Tiger"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Who founded the Cincinnati Bengals in 1968?",
+        "options": ["Art Modell", "Paul Brown", "Mike Brown", "Lamar Hunt"],
+        "answer": "Paul Brown"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which quarterback did the Bengals select with the No. 1 overall pick in the 2020 NFL Draft?",
+        "options": ["Joe Burrow", "Tua Tagovailoa", "Justin Herbert", "Jordan Love"],
+        "answer": "Joe Burrow"
+      }
+    ]
+  },
+  "nfl_browns": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Cleveland Browns play their home games?",
+        "options": ["Columbus", "Cincinnati", "Cleveland", "Akron"],
+        "answer": "Cleveland"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Who was the Browns' Hall of Fame running back regarded as one of the greatest of all time?",
+        "options": ["Jim Brown", "Leroy Kelly", "Earnest Byner", "Eric Metcalf"],
+        "answer": "Jim Brown"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the original Browns franchise relocate to Baltimore to become the Ravens?",
+        "options": ["1993", "1996", "1999", "2002"],
+        "answer": "1996"
+      }
+    ]
+  },
+  "nfl_steelers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "How many Super Bowl titles have the Pittsburgh Steelers won?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "6"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Who coached the Steelers to four Super Bowl wins in the 1970s?",
+        "options": ["Bill Cowher", "Chuck Noll", "Mike Tomlin", "Bud Carson"],
+        "answer": "Chuck Noll"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the famous 1972 playoff play by Franco Harris vs. the Raiders called?",
+        "options": ["The Hail Mary", "The Music City Miracle", "The Immaculate Reception", "The Catch"],
+        "answer": "The Immaculate Reception"
+      }
+    ]
+  },
+  "nfl_texans": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Houston Texans play?",
+        "options": ["Dallas", "Austin", "Houston", "San Antonio"],
+        "answer": "Houston"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Texans begin play as an NFL expansion team?",
+        "options": ["1999", "2002", "2005", "2008"],
+        "answer": "2002"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Texans defensive end won NFL Defensive Player of the Year three times?",
+        "options": ["Mario Williams", "J.J. Watt", "Jadeveon Clowney", "Whitney Mercilus"],
+        "answer": "J.J. Watt"
+      }
+    ]
+  },
+  "nfl_colts": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Indianapolis Colts' home stadium?",
+        "options": ["Lucas Oil Stadium", "RCA Dome", "Ford Field", "Soldier Field"],
+        "answer": "Lucas Oil Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Colts quarterback won Super Bowl XLI MVP?",
+        "options": ["Jim Sorgi", "Andrew Luck", "Peyton Manning", "Jeff George"],
+        "answer": "Peyton Manning"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Before relocating to Indianapolis in 1984, where were the Colts based?",
+        "options": ["Baltimore", "Cleveland", "St. Louis", "Memphis"],
+        "answer": "Baltimore"
+      }
+    ]
+  },
+  "nfl_jaguars": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Florida city do the Jacksonville Jaguars play?",
+        "options": ["Miami", "Tampa", "Jacksonville", "Orlando"],
+        "answer": "Jacksonville"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Jaguars begin play as an NFL expansion team?",
+        "options": ["1993", "1995", "1998", "2002"],
+        "answer": "1995"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which quarterback did the Jaguars select with the No. 1 overall pick in the 2021 NFL Draft?",
+        "options": ["Trevor Lawrence", "Zach Wilson", "Justin Fields", "Mac Jones"],
+        "answer": "Trevor Lawrence"
+      }
+    ]
+  },
+  "nfl_titans": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Tennessee Titans play their home games?",
+        "options": ["Memphis", "Nashville", "Knoxville", "Chattanooga"],
+        "answer": "Nashville"
+      },
+      {
+        "difficulty": "medium",
+        "question": "What was the franchise's name before becoming the Tennessee Titans?",
+        "options": ["Houston Oilers", "Memphis Maniax", "Nashville Stars", "Tennessee Oilers"],
+        "answer": "Houston Oilers"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In Super Bowl XXXIV, how many yards short was Kevin Dyson stopped on the final play vs. the Rams?",
+        "options": ["1 yard", "3 yards", "5 yards", "7 yards"],
+        "answer": "1 yard"
+      }
+    ]
+  },
+  "nfl_broncos": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Denver Broncos' primary team color?",
+        "options": ["Orange", "Blue", "Red", "Yellow"],
+        "answer": "Orange"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Broncos quarterback won back-to-back Super Bowls XXXII and XXXIII?",
+        "options": ["John Elway", "Peyton Manning", "Craig Morton", "Jake Plummer"],
+        "answer": "John Elway"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Broncos quarterback led the team to victory in Super Bowl 50?",
+        "options": ["Tim Tebow", "Brock Osweiler", "Peyton Manning", "Trevor Siemian"],
+        "answer": "Peyton Manning"
+      }
+    ]
+  },
+  "nfl_chiefs": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Kansas City Chiefs' home stadium?",
+        "options": ["Arrowhead Stadium", "GEHA Field", "Kauffman Stadium", "Mile High Stadium"],
+        "answer": "Arrowhead Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Chiefs quarterback was drafted 10th overall in 2017 and has won multiple Super Bowls?",
+        "options": ["Alex Smith", "Patrick Mahomes", "Trent Green", "Matt Cassel"],
+        "answer": "Patrick Mahomes"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who coached the Chiefs to their first Super Bowl title in Super Bowl IV?",
+        "options": ["Hank Stram", "Marty Schottenheimer", "Dick Vermeil", "Andy Reid"],
+        "answer": "Hank Stram"
+      }
+    ]
+  },
+  "nfl_raiders": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "To what city did the Raiders relocate in 2020?",
+        "options": ["Las Vegas", "San Antonio", "Portland", "Salt Lake City"],
+        "answer": "Las Vegas"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which longtime Raiders owner was famous for the slogan 'Just Win, Baby'?",
+        "options": ["Mark Davis", "Al Davis", "Lamar Hunt", "Jerry Jones"],
+        "answer": "Al Davis"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Raiders running back was named Super Bowl XVIII MVP and 1985 NFL MVP?",
+        "options": ["Bo Jackson", "Marcus Allen", "Charlie Garner", "Napoleon Kaufman"],
+        "answer": "Marcus Allen"
+      }
+    ]
+  },
+  "nfl_chargers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Which stadium do the Los Angeles Chargers currently call home?",
+        "options": ["SoFi Stadium", "Rose Bowl", "Allegiant Stadium", "Levi's Stadium"],
+        "answer": "SoFi Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Chargers move from San Diego to Los Angeles?",
+        "options": ["2014", "2016", "2017", "2020"],
+        "answer": "2017"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Chargers quarterback led the high-flying 'Air Coryell' offense?",
+        "options": ["John Hadl", "Dan Fouts", "Stan Humphries", "Philip Rivers"],
+        "answer": "Dan Fouts"
+      }
+    ]
+  },
+  "nfl_cowboys": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "How many Super Bowl titles have the Dallas Cowboys won?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Cowboys head coach won back-to-back Super Bowls in the 1990s?",
+        "options": ["Tom Landry", "Barry Switzer", "Jimmy Johnson", "Bill Parcells"],
+        "answer": "Jimmy Johnson"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who is the Cowboys' all-time leading rusher and the NFL's all-time rushing leader?",
+        "options": ["Tony Dorsett", "Emmitt Smith", "Ezekiel Elliott", "DeMarco Murray"],
+        "answer": "Emmitt Smith"
+      }
+    ]
+  },
+  "nfl_giants": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Which stadium do the New York Giants share with the Jets?",
+        "options": ["Giants Stadium", "MetLife Stadium", "Yankee Stadium", "Citi Field"],
+        "answer": "MetLife Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Giants quarterback won MVP in both Super Bowl XLII and XLVI?",
+        "options": ["Phil Simms", "Eli Manning", "Kerry Collins", "Daniel Jones"],
+        "answer": "Eli Manning"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Giants linebacker, known as 'LT,' won 1986 NFL MVP?",
+        "options": ["Lawrence Taylor", "Harry Carson", "Carl Banks", "Michael Strahan"],
+        "answer": "Lawrence Taylor"
+      }
+    ]
+  },
+  "nfl_eagles": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Philadelphia Eagles' primary team color?",
+        "options": ["Green", "Blue", "Red", "Black"],
+        "answer": "Green"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Eagles backup quarterback won Super Bowl LII MVP?",
+        "options": ["Carson Wentz", "Nick Foles", "Donovan McNabb", "Jalen Hurts"],
+        "answer": "Nick Foles"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the famous trick play the Eagles ran for a touchdown in Super Bowl LII?",
+        "options": ["The Philly Special", "The Fumblerooski", "The Statue of Liberty", "The Music City Miracle"],
+        "answer": "The Philly Special"
+      }
+    ]
+  },
+  "nfl_commanders": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What was the Washington franchise's nickname from 1937 to 2019?",
+        "options": ["Senators", "Federals", "Redskins", "Generals"],
+        "answer": "Redskins"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Washington head coach won three Super Bowls?",
+        "options": ["George Allen", "Joe Gibbs", "Norv Turner", "Mike Shanahan"],
+        "answer": "Joe Gibbs"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which quarterback became the first Black QB to win a Super Bowl, earning MVP in Super Bowl XXII?",
+        "options": ["Joe Theismann", "Doug Williams", "Mark Rypien", "Warren Moon"],
+        "answer": "Doug Williams"
+      }
+    ]
+  },
+  "nfl_bears": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Chicago Bears' historic home stadium?",
+        "options": ["Soldier Field", "Wrigley Field", "Comiskey Park", "U.S. Cellular Field"],
+        "answer": "Soldier Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In which Super Bowl did the famous 1985 Bears defeat the Patriots 46-10?",
+        "options": ["Super Bowl XX", "Super Bowl XXI", "Super Bowl XIX", "Super Bowl XVIII"],
+        "answer": "Super Bowl XX"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Bears middle linebacker was nicknamed 'Samurai Mike'?",
+        "options": ["Dick Butkus", "Brian Urlacher", "Mike Singletary", "Lance Briggs"],
+        "answer": "Mike Singletary"
+      }
+    ]
+  },
+  "nfl_lions": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Detroit Lions' home stadium?",
+        "options": ["Ford Field", "Comerica Park", "Pontiac Silverdome", "Tiger Stadium"],
+        "answer": "Ford Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Lions running back famously retired in 1999 still in his prime?",
+        "options": ["Billy Sims", "Barry Sanders", "Reggie Bush", "Jahmyr Gibbs"],
+        "answer": "Barry Sanders"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Before Ford Field opened in 2002, the Lions played their home games in which suburban stadium?",
+        "options": ["Pontiac Silverdome", "Tiger Stadium", "Ann Arbor Big House", "Briggs Stadium"],
+        "answer": "Pontiac Silverdome"
+      }
+    ]
+  },
+  "nfl_packers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the Green Bay Packers' iconic home stadium?",
+        "options": ["Lambeau Field", "Soldier Field", "Miller Park", "Mile High Stadium"],
+        "answer": "Lambeau Field"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which legendary Packers head coach is the Super Bowl trophy named after?",
+        "options": ["Curly Lambeau", "Vince Lombardi", "Mike Holmgren", "Mike McCarthy"],
+        "answer": "Vince Lombardi"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Packers quarterback won Super Bowl XLV MVP?",
+        "options": ["Brett Favre", "Aaron Rodgers", "Bart Starr", "Lynn Dickey"],
+        "answer": "Aaron Rodgers"
+      }
+    ]
+  },
+  "nfl_vikings": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Minnesota Vikings' primary team color?",
+        "options": ["Purple", "Blue", "Green", "Gold"],
+        "answer": "Purple"
+      },
+      {
+        "difficulty": "medium",
+        "question": "How many Super Bowls have the Vikings appeared in without winning?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "4"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "By what nickname was the Vikings' dominant 1970s defensive line known?",
+        "options": ["Steel Curtain", "Purple People Eaters", "Doomsday Defense", "Fearsome Foursome"],
+        "answer": "Purple People Eaters"
+      }
+    ]
+  },
+  "nfl_falcons": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Atlanta Falcons play their home games?",
+        "options": ["Atlanta", "Birmingham", "Charlotte", "Nashville"],
+        "answer": "Atlanta"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Falcons quarterback was selected No. 1 overall in 2001 and known for his rushing ability?",
+        "options": ["Michael Vick", "Matt Ryan", "Chris Chandler", "Steve Bartkowski"],
+        "answer": "Michael Vick"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the largest lead the Falcons held over the Patriots in Super Bowl LI before losing?",
+        "options": ["18 points", "21 points", "25 points", "31 points"],
+        "answer": "25 points"
+      }
+    ]
+  },
+  "nfl_panthers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Carolina Panthers play their home games?",
+        "options": ["Raleigh", "Charlotte", "Columbia", "Greensboro"],
+        "answer": "Charlotte"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Panthers quarterback won the 2015 NFL MVP award?",
+        "options": ["Jake Delhomme", "Cam Newton", "Steve Beuerlein", "Kerry Collins"],
+        "answer": "Cam Newton"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In what year did the Panthers begin play as an NFL expansion team?",
+        "options": ["1993", "1995", "1998", "2002"],
+        "answer": "1995"
+      }
+    ]
+  },
+  "nfl_saints": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the name of the New Orleans Saints' iconic domed home stadium?",
+        "options": ["Caesars Superdome", "Smoothie King Center", "Tiger Stadium", "Mercedes-Benz Stadium"],
+        "answer": "Caesars Superdome"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Saints quarterback led the team to victory in Super Bowl XLIV?",
+        "options": ["Aaron Brooks", "Drew Brees", "Archie Manning", "Jameis Winston"],
+        "answer": "Drew Brees"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What is the title of the Saints' famous fight song traditionally played at home games?",
+        "options": ["When the Saints Go Marching In", "Halftime", "Stand Up and Get Crunk", "Who Dat"],
+        "answer": "When the Saints Go Marching In"
+      }
+    ]
+  },
+  "nfl_buccaneers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city do the Tampa Bay Buccaneers play their home games?",
+        "options": ["Miami", "Tampa", "Orlando", "Jacksonville"],
+        "answer": "Tampa"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which quarterback led the Buccaneers to a Super Bowl LV victory in 2021?",
+        "options": ["Jameis Winston", "Tom Brady", "Baker Mayfield", "Brad Johnson"],
+        "answer": "Tom Brady"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Hall of Fame Buccaneers defensive tackle was drafted 12th overall in 1995?",
+        "options": ["Warren Sapp", "Derrick Brooks", "Simeon Rice", "Gerald McCoy"],
+        "answer": "Warren Sapp"
+      }
+    ]
+  },
+  "nfl_cardinals": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what suburb of Phoenix do the Arizona Cardinals play their home games?",
+        "options": ["Tempe", "Scottsdale", "Glendale", "Mesa"],
+        "answer": "Glendale"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame Cardinals wide receiver was the star of their 2008 Super Bowl run?",
+        "options": ["Larry Fitzgerald", "Anquan Boldin", "Roy Green", "DeAndre Hopkins"],
+        "answer": "Larry Fitzgerald"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Cardinals are the oldest continuously operating pro football franchise. In what year were they founded?",
+        "options": ["1898", "1910", "1920", "1925"],
+        "answer": "1898"
+      }
+    ]
+  },
+  "nfl_rams": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "What is the Los Angeles Rams' current home stadium?",
+        "options": ["SoFi Stadium", "Rose Bowl", "Memorial Coliseum", "Dignity Health Sports Park"],
+        "answer": "SoFi Stadium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "In what year did the Rams move back to Los Angeles from St. Louis?",
+        "options": ["2014", "2016", "2018", "2020"],
+        "answer": "2016"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Rams player was named Super Bowl LVI MVP?",
+        "options": ["Matthew Stafford", "Aaron Donald", "Cooper Kupp", "Odell Beckham Jr."],
+        "answer": "Cooper Kupp"
+      }
+    ]
+  },
+  "nfl_49ers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "How many Super Bowl titles have the San Francisco 49ers won?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Hall of Fame 49ers quarterback won four Super Bowl titles in the 1980s?",
+        "options": ["Steve Young", "Joe Montana", "John Brodie", "Y.A. Tittle"],
+        "answer": "Joe Montana"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who is the 49ers' all-time leading receiver and the NFL's all-time leader in receiving yards?",
+        "options": ["Terrell Owens", "Dwight Clark", "Jerry Rice", "John Taylor"],
+        "answer": "Jerry Rice"
+      }
+    ]
+  },
+  "nfl_seahawks": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "By what nickname is the Seattle Seahawks' famously loud home crowd known?",
+        "options": ["The 12s", "The Black Hole", "The Dawg Pound", "The Cheeseheads"],
+        "answer": "The 12s"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which Seahawks quarterback led the team to victory in Super Bowl XLVIII?",
+        "options": ["Matt Hasselbeck", "Russell Wilson", "Geno Smith", "Trent Dilfer"],
+        "answer": "Russell Wilson"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "What was the nickname of the dominant Seahawks defensive backfield of the early 2010s?",
+        "options": ["Legion of Boom", "No Fly Zone", "Steel Curtain", "Orange Crush"],
+        "answer": "Legion of Boom"
+      }
+    ]
+  },
+
   "epl_arsenal": {
     "questions": [
       {
