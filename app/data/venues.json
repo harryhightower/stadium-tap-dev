@@ -1,0 +1,179 @@
+{
+  "alabama": {
+    "league": "sec_football",
+    "team": "Alabama Crimson Tide",
+    "name": "Bryant-Denny Stadium",
+    "city": "Tuscaloosa, AL",
+    "lat": 33.2083,
+    "lng": -87.5504
+  },
+  "arkansas": {
+    "league": "sec_football",
+    "team": "Arkansas Razorbacks",
+    "name": "Donald W. Reynolds Razorback Stadium",
+    "city": "Fayetteville, AR",
+    "lat": 36.0681,
+    "lng": -94.1786
+  },
+  "auburn": {
+    "league": "sec_football",
+    "team": "Auburn Tigers",
+    "name": "Jordan-Hare Stadium",
+    "city": "Auburn, AL",
+    "lat": 32.6024,
+    "lng": -85.4894
+  },
+  "florida": {
+    "league": "sec_football",
+    "team": "Florida Gators",
+    "name": "Ben Hill Griffin Stadium",
+    "city": "Gainesville, FL",
+    "lat": 29.6499,
+    "lng": -82.3486
+  },
+  "georgia": {
+    "league": "sec_football",
+    "team": "Georgia Bulldogs",
+    "name": "Sanford Stadium",
+    "city": "Athens, GA",
+    "lat": 33.9498,
+    "lng": -83.3737
+  },
+  "kentucky": {
+    "league": "sec_football",
+    "team": "Kentucky Wildcats",
+    "name": "Kroger Field",
+    "city": "Lexington, KY",
+    "lat": 38.0220,
+    "lng": -84.5050
+  },
+  "lsu": {
+    "league": "sec_football",
+    "team": "LSU Tigers",
+    "name": "Tiger Stadium",
+    "city": "Baton Rouge, LA",
+    "lat": 30.4118,
+    "lng": -91.1838
+  },
+  "mississippi_state": {
+    "league": "sec_football",
+    "team": "Mississippi State Bulldogs",
+    "name": "Davis Wade Stadium",
+    "city": "Starkville, MS",
+    "lat": 33.4565,
+    "lng": -88.7937
+  },
+  "missouri": {
+    "league": "sec_football",
+    "team": "Missouri Tigers",
+    "name": "Faurot Field at Memorial Stadium",
+    "city": "Columbia, MO",
+    "lat": 38.9355,
+    "lng": -92.3334
+  },
+  "ole_miss": {
+    "league": "sec_football",
+    "team": "Ole Miss Rebels",
+    "name": "Vaught-Hemingway Stadium",
+    "city": "Oxford, MS",
+    "lat": 34.3617,
+    "lng": -89.5337
+  },
+  "oklahoma": {
+    "league": "sec_football",
+    "team": "Oklahoma Sooners",
+    "name": "Gaylord Family Oklahoma Memorial Stadium",
+    "city": "Norman, OK",
+    "lat": 35.2058,
+    "lng": -97.4422
+  },
+  "south_carolina": {
+    "league": "sec_football",
+    "team": "South Carolina Gamecocks",
+    "name": "Williams-Brice Stadium",
+    "city": "Columbia, SC",
+    "lat": 33.9731,
+    "lng": -81.0188
+  },
+  "tennessee": {
+    "league": "sec_football",
+    "team": "Tennessee Volunteers",
+    "name": "Neyland Stadium",
+    "city": "Knoxville, TN",
+    "lat": 35.9551,
+    "lng": -83.9251
+  },
+  "texas": {
+    "league": "sec_football",
+    "team": "Texas Longhorns",
+    "name": "Darrell K Royal-Texas Memorial Stadium",
+    "city": "Austin, TX",
+    "lat": 30.2837,
+    "lng": -97.7325
+  },
+  "texas_am": {
+    "league": "sec_football",
+    "team": "Texas A&M Aggies",
+    "name": "Kyle Field",
+    "city": "College Station, TX",
+    "lat": 30.6101,
+    "lng": -96.3403
+  },
+  "vanderbilt": {
+    "league": "sec_football",
+    "team": "Vanderbilt Commodores",
+    "name": "FirstBank Stadium",
+    "city": "Nashville, TN",
+    "lat": 36.1438,
+    "lng": -86.8089
+  },
+
+  "epl_arsenal": {
+    "league": "premier_league",
+    "team": "Arsenal",
+    "name": "Emirates Stadium",
+    "city": "London, England",
+    "lat": 51.5549,
+    "lng": -0.1084
+  },
+  "epl_chelsea": {
+    "league": "premier_league",
+    "team": "Chelsea",
+    "name": "Stamford Bridge",
+    "city": "London, England",
+    "lat": 51.4817,
+    "lng": -0.1909
+  },
+  "epl_everton": {
+    "league": "premier_league",
+    "team": "Everton",
+    "name": "Hill Dickinson Stadium",
+    "city": "Liverpool, England",
+    "lat": 53.4144,
+    "lng": -2.9981
+  },
+  "epl_liverpool": {
+    "league": "premier_league",
+    "team": "Liverpool",
+    "name": "Anfield",
+    "city": "Liverpool, England",
+    "lat": 53.4308,
+    "lng": -2.9608
+  },
+  "epl_man_city": {
+    "league": "premier_league",
+    "team": "Manchester City",
+    "name": "Etihad Stadium",
+    "city": "Manchester, England",
+    "lat": 53.4831,
+    "lng": -2.2004
+  },
+  "epl_man_united": {
+    "league": "premier_league",
+    "team": "Manchester United",
+    "name": "Old Trafford",
+    "city": "Manchester, England",
+    "lat": 53.4631,
+    "lng": -2.2914
+  }
+}

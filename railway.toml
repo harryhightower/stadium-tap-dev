@@ -1,0 +1,12 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "sh -c 'uvicorn app.main:app --host 0.0.0.0 --port $PORT'"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[[mounts]]
+source = "stadium_tap_dev_data"
+mountPath = "/app/data"
