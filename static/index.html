@@ -185,6 +185,12 @@
 
   /* Leaderboard / History */
   .view#leaderboard, .view#history { padding: 16px; }
+  .lb-scope { display: flex; gap: 6px; margin: 0 0 12px; flex-wrap: wrap; }
+  .lb-scope-btn { background: transparent; color: var(--muted); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 600;
+    font-family: inherit; }
+  .lb-scope-btn:hover { border-color: var(--accent2); color: var(--accent2-dark); }
+  .lb-scope-btn.active { background: var(--accent2); color: #fff; border-color: var(--accent2); }
   .lb-row { display: grid; grid-template-columns: 30px 1fr 90px 60px; gap: 8px;
     padding: 10px 8px; border-bottom: 1px solid var(--border); align-items: center; font-size: 14px; }
   .lb-row.head { color: var(--muted); font-size: 11px; text-transform: uppercase;
@@ -194,11 +200,17 @@
   .lb-days { text-align: right; color: var(--muted); font-weight: 600; }
   .hist-row { background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
     padding: 12px; margin-bottom: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.03); }
-  .hist-top { display: flex; justify-content: space-between; align-items: baseline; }
+  .hist-top { display: flex; justify-content: space-between; align-items: baseline;
+    gap: 8px; flex-wrap: wrap; }
   .hist-stadium { font-weight: 700; font-size: 14px; }
   .hist-date { font-size: 11px; color: var(--muted); font-weight: 500; }
   .hist-detail { font-size: 12px; color: var(--muted); margin-top: 6px; }
   .hist-score { color: var(--accent); font-weight: 800; }
+  .mode-badge { display: inline-block; background: var(--panel2); border: 1px solid var(--border);
+    color: var(--muted); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700;
+    letter-spacing: 0.6px; text-transform: uppercase; margin-left: 6px; vertical-align: middle; }
+  .mode-badge.quiz { background: rgba(107,169,208,0.15); color: var(--accent2-dark);
+    border-color: var(--accent2); }
 
   /* Leaflet overrides */
   .leaflet-container { font-family: inherit; }
@@ -285,6 +297,7 @@
     <section class="view" id="leaderboard">
       <div class="card">
         <h2 id="lb-title">Leaderboard</h2>
+        <div class="lb-scope" id="lb-scope"></div>
         <div class="lb-row head">
           <div>#</div><div>Name</div><div class="lb-score">Total</div><div class="lb-days">Done</div>
         </div>
@@ -703,19 +716,63 @@ $("done-btn").addEventListener("click", async () => {
 });
 
 // ============ LEADERBOARD ============
+function getLeaderboardScope() {
+  if (gameMode === "quiz") {
+    return localStorage.getItem("sst_dev_lb_scope_quiz") || "daily";
+  }
+  return localStorage.getItem("sst_dev_lb_scope_browse") || "byleague";
+}
+
+function setLeaderboardScope(scope) {
+  if (gameMode === "quiz") {
+    localStorage.setItem("sst_dev_lb_scope_quiz", scope);
+  } else {
+    localStorage.setItem("sst_dev_lb_scope_browse", scope);
+  }
+  loadLeaderboard();
+}
+
+function renderLeaderboardScope() {
+  const buttons = gameMode === "quiz"
+    ? [{ key: "daily", label: "Today" }, { key: "alltime", label: "All-time" }]
+    : [{ key: "byleague", label: "By league" }, { key: "alltime", label: "All-time" }];
+  const current = getLeaderboardScope();
+  const container = $("lb-scope");
+  container.innerHTML = buttons.map(b => `
+    <button class="lb-scope-btn ${b.key === current ? "active" : ""}" data-scope="${b.key}">${b.label}</button>
+  `).join("");
+  container.querySelectorAll(".lb-scope-btn").forEach(btn => {
+    btn.addEventListener("click", () => setLeaderboardScope(btn.dataset.scope));
+  });
+}
+
 async function loadLeaderboard() {
-  try {
-    let url, title, emptyMsg;
-    if (gameMode === "quiz") {
+  renderLeaderboardScope();
+  const scope = getLeaderboardScope();
+  let url, title, emptyMsg;
+  if (gameMode === "quiz") {
+    if (scope === "alltime") {
+      url = "/api/leaderboard?mode=quiz&scope=alltime";
+      title = "Quiz All-Time Leaderboard";
+      emptyMsg = "No quiz scores yet.";
+    } else {
       url = "/api/leaderboard?mode=quiz&scope=daily";
       title = "Today's Quiz Leaderboard";
       emptyMsg = "No scores yet for today's quiz.";
+    }
+  } else {
+    if (scope === "alltime") {
+      url = "/api/leaderboard?mode=browse&scope=alltime";
+      title = "Browse All-Time Leaderboard";
+      emptyMsg = "No scores yet.";
     } else {
       url = "/api/leaderboard?league=" + encodeURIComponent(currentLeague || "");
       const league = leaguesCache.find(l => l.key === currentLeague);
       title = league ? `${league.name} Leaderboard` : "Leaderboard";
       emptyMsg = "No scores yet for this league.";
     }
+  }
+  try {
     const r = await api(url);
     $("lb-title").textContent = title;
     const body = $("lb-body");
@@ -742,10 +799,14 @@ async function loadHistory() {
       body.innerHTML = `<p style="color:var(--muted);font-size:13px;">No attempts yet.</p>`;
       return;
     }
-    body.innerHTML = rows.map(r => `
+    body.innerHTML = rows.map(r => {
+      const badge = r.mode === "quiz"
+        ? `<span class="mode-badge quiz">Quiz daily · ${r.play_date || ""}</span>`
+        : `<span class="mode-badge">Browse</span>`;
+      return `
       <div class="hist-row">
         <div class="hist-top">
-          <span class="hist-stadium">${r.league_icon} ${r.team} · ${r.stadium_name}</span>
+          <span class="hist-stadium">${r.league_icon} ${r.team} · ${r.stadium_name}${badge}</span>
           <span class="hist-date">${r.created_at.slice(0,10)}</span>
         </div>
         <div class="hist-detail">
@@ -753,7 +814,8 @@ async function loadHistory() {
           ${r.trivia_submitted ? `${r.trivia_correct}/3 correct · x${r.multiplier.toFixed(2)}` : "no trivia"} ·
           <span class="hist-score">${r.final_score} pts</span>
         </div>
-      </div>`).join("");
+      </div>`;
+    }).join("");
   } catch (e) { console.error(e); }
 }
 
