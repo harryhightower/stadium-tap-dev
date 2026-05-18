@@ -246,6 +246,7 @@ class GuessRequest(BaseModel):
     lat: float
     lng: float
     mode: Optional[str] = "browse"
+    region: Optional[str] = None
 
 
 @app.post("/api/guess")
@@ -258,8 +259,9 @@ def guess(req: GuessRequest, player=Depends(get_player)):
     venue = VENUES[req.venue_key]
     league_key = venue["league"]
     play_date = today_et_date() if mode == "quiz" else None
+    region_filter = req.region if mode == "quiz" and req.region in ("us", "intl") else None
 
-    if mode == "quiz" and req.venue_key not in todays_quiz_venues(play_date):
+    if mode == "quiz" and req.venue_key not in todays_quiz_venues(play_date, region=region_filter):
         raise HTTPException(400, "Venue is not in today's quiz")
 
     conn = get_db()

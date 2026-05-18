@@ -64,6 +64,15 @@
   .lpill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .lpill.active .count { color: rgba(255,255,255,0.85); }
 
+  /* Region toggle (quiz mode only) */
+  .region-strip { background: var(--panel); border-bottom: 1px solid var(--border);
+    padding: 8px 10px; flex-shrink: 0; display: flex; gap: 6px; justify-content: center; }
+  .region-btn { background: transparent; color: var(--muted); border: 1px solid var(--border);
+    padding: 6px 16px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 600;
+    font-family: inherit; min-width: 110px; }
+  .region-btn:hover { border-color: var(--accent2); color: var(--accent2-dark); }
+  .region-btn.active { background: var(--accent2); color: #fff; border-color: var(--accent2); }
+
   main { flex: 1; overflow-y: auto; position: relative; }
   .view { display: none; }
   .view.active { display: block; }
@@ -237,6 +246,10 @@
     </div>
   </header>
   <div class="league-strip" id="league-strip" style="display:none;"></div>
+  <div class="region-strip" id="region-strip" style="display:none;">
+    <button class="region-btn" id="region-us" data-region="us">🇺🇸 US</button>
+    <button class="region-btn" id="region-intl" data-region="intl">🌍 International</button>
+  </div>
   <main>
     <!-- JOIN -->
     <section class="view active" id="join">
@@ -345,6 +358,7 @@ const COLOR_ACCENT2 = "#6ba9d0";
 let token = localStorage.getItem("sst_dev_token");
 let playerName = localStorage.getItem("sst_dev_name") || "";
 let gameMode = localStorage.getItem("sst_dev_mode") || "browse";
+let gameRegion = localStorage.getItem("sst_dev_region") || "us";
 let map, guessMarker, stadiumMarker, line;
 let currentGuess = null;
 let triviaSelections = [null, null, null];
@@ -365,10 +379,33 @@ function applyLeagueStripVisibility() {
   $("league-strip").style.display = show ? "block" : "none";
 }
 
+function applyRegionStripVisibility() {
+  const view = document.querySelector(".view.active")?.id;
+  const show = gameMode === "quiz" && (view === "picker" || view === "leaderboard");
+  $("region-strip").style.display = show ? "flex" : "none";
+  if (show) renderRegionStrip();
+}
+
+function renderRegionStrip() {
+  $("region-us").classList.toggle("active", gameRegion === "us");
+  $("region-intl").classList.toggle("active", gameRegion === "intl");
+}
+
+function setRegion(region) {
+  if (region !== "us" && region !== "intl") return;
+  gameRegion = region;
+  localStorage.setItem("sst_dev_region", region);
+  renderRegionStrip();
+  const view = document.querySelector(".view.active")?.id;
+  if (view === "picker") loadPicker();
+  else if (view === "leaderboard") loadLeaderboard();
+}
+
 function applyMode(newMode) {
   gameMode = newMode;
   localStorage.setItem("sst_dev_mode", newMode);
   applyLeagueStripVisibility();
+  applyRegionStripVisibility();
   const view = document.querySelector(".view.active")?.id;
   if (view === "picker") loadPicker();
   else if (view === "leaderboard") loadLeaderboard();
@@ -407,7 +444,10 @@ async function showApp() {
   $("header-right").style.display = "flex";
   $("mode-select").value = gameMode;
   $("mode-select").addEventListener("change", (e) => applyMode(e.target.value));
+  $("region-us").addEventListener("click", () => setRegion("us"));
+  $("region-intl").addEventListener("click", () => setRegion("intl"));
   applyLeagueStripVisibility();
+  applyRegionStripVisibility();
   await loadLeagues();
   switchView("picker");
 }
@@ -454,6 +494,7 @@ function switchView(name) {
   $(name).classList.add("active");
   document.querySelector(`.tab[data-view="${name}"]`)?.classList.add("active");
   applyLeagueStripVisibility();
+  applyRegionStripVisibility();
   if (name === "picker") loadPicker();
   if (name === "leaderboard") loadLeaderboard();
   if (name === "history") loadHistory();
@@ -567,12 +608,14 @@ async function loadQuizPicker() {
   $("browse-progress-bar").style.display = "none";
   let r;
   try {
-    r = await api("/api/daily-quiz");
+    r = await api("/api/daily-quiz?region=" + encodeURIComponent(gameRegion));
   } catch (e) { console.error(e); return; }
   venuesCache = r.venues;
   const done = r.venues.filter(s => s.played).length;
   const totalPts = r.venues.reduce((sum, s) => sum + (s.result ? s.result.final_score : 0), 0);
-  $("quiz-banner-date").textContent = "Today's quiz — " + fmtQuizDate(r.date);
+  const regionLabel = gameRegion === "intl" ? "International" : "US";
+  $("quiz-banner-date").textContent =
+    `Today's ${regionLabel} Quiz — ${fmtQuizDate(r.date)}`;
   $("q-done").textContent = done;
   $("q-total").textContent = r.venues.length;
   $("q-score").textContent = totalPts;
@@ -615,7 +658,8 @@ $("submit-btn").addEventListener("click", async () => {
       body: JSON.stringify({
         venue_key: activeVenue.key,
         lat: currentGuess.lat, lng: currentGuess.lng,
-        mode: gameMode
+        mode: gameMode,
+        region: gameMode === "quiz" ? gameRegion : undefined
       }) });
     showResult(r);
   } catch (e) {
@@ -766,14 +810,16 @@ async function loadLeaderboard() {
   const scope = getLeaderboardScope();
   let url, title, emptyMsg;
   if (gameMode === "quiz") {
+    const regionLabel = gameRegion === "intl" ? "International" : "US";
+    const regionParam = "&region=" + encodeURIComponent(gameRegion);
     if (scope === "alltime") {
-      url = "/api/leaderboard?mode=quiz&scope=alltime";
-      title = "Quiz All-Time Leaderboard";
-      emptyMsg = "No quiz scores yet.";
+      url = "/api/leaderboard?mode=quiz&scope=alltime" + regionParam;
+      title = `Quiz ${regionLabel} All-Time Leaderboard`;
+      emptyMsg = `No ${regionLabel} quiz scores yet.`;
     } else {
-      url = "/api/leaderboard?mode=quiz&scope=daily";
-      title = "Today's Quiz Leaderboard";
-      emptyMsg = "No scores yet for today's quiz.";
+      url = "/api/leaderboard?mode=quiz&scope=daily" + regionParam;
+      title = `Today's ${regionLabel} Quiz Leaderboard`;
+      emptyMsg = `No scores yet for today's ${regionLabel} quiz.`;
     }
   } else {
     if (scope === "alltime") {
