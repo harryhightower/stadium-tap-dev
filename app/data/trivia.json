@@ -4958,5 +4958,534 @@
         "answer": "Muammar Gaddafi"
       }
     ]
+  },
+
+  "f1_albert_park": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Australian city is the Albert Park Circuit located?",
+        "options": ["Melbourne", "Sydney", "Adelaide", "Brisbane"],
+        "answer": "Melbourne"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Australian GP at Albert Park traditionally serves as which milestone race of the F1 season?",
+        "options": ["Season opener", "Season finale", "Mid-season test", "European opener"],
+        "answer": "Season opener"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Albert Park is a temporary street circuit that loops around a lake in Melbourne. Approximately how long is one lap?",
+        "options": ["4.318 km", "5.278 km", "6.003 km", "7.004 km"],
+        "answer": "5.278 km"
+      }
+    ]
+  },
+  "f1_shanghai": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Chinese city is the Shanghai International Circuit located?",
+        "options": ["Shanghai", "Beijing", "Guangzhou", "Shenzhen"],
+        "answer": "Shanghai"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Shanghai International Circuit's layout is famously shaped to resemble which Chinese character?",
+        "options": ["上 (shàng)", "中 (zhōng)", "国 (guó)", "门 (mén)"],
+        "answer": "上 (shàng)"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the inaugural Chinese GP at the Shanghai International Circuit in 2004?",
+        "options": ["Rubens Barrichello", "Michael Schumacher", "Fernando Alonso", "Kimi Räikkönen"],
+        "answer": "Rubens Barrichello"
+      }
+    ]
+  },
+  "f1_suzuka": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Suzuka Circuit located?",
+        "options": ["Japan", "China", "South Korea", "Singapore"],
+        "answer": "Japan"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Suzuka is one of F1's only circuits with a true figure-8 layout, and is famous for which fast first-sector corner sequence?",
+        "options": ["The Esses", "Mulsanne", "Maggotts-Becketts", "The Karussell"],
+        "answer": "The Esses"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At the 1990 Japanese GP at Suzuka, Ayrton Senna controversially collided with Alain Prost at which turn to clinch the world championship?",
+        "options": ["Turn 1", "Spoon", "130R", "Casio Triangle"],
+        "answer": "Turn 1"
+      }
+    ]
+  },
+  "f1_bahrain": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Middle Eastern country is the Bahrain International Circuit located?",
+        "options": ["Bahrain", "Qatar", "UAE", "Saudi Arabia"],
+        "answer": "Bahrain"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Since which year has the Bahrain GP been run as a floodlit night race?",
+        "options": ["2008", "2011", "2014", "2018"],
+        "answer": "2014"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the inaugural Bahrain Grand Prix in 2004 for Ferrari?",
+        "options": ["Michael Schumacher", "Rubens Barrichello", "Fernando Alonso", "Juan Pablo Montoya"],
+        "answer": "Michael Schumacher"
+      }
+    ]
+  },
+  "f1_jeddah": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Saudi Arabian city is the Jeddah Corniche Circuit located?",
+        "options": ["Jeddah", "Riyadh", "Mecca", "Dammam"],
+        "answer": "Jeddah"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Jeddah Corniche is one of F1's longest street circuits. Approximately how long is one lap?",
+        "options": ["5.412 km", "5.842 km", "6.174 km", "6.825 km"],
+        "answer": "6.174 km"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the chaotic inaugural Saudi Arabian GP at Jeddah in December 2021?",
+        "options": ["Lewis Hamilton", "Max Verstappen", "Valtteri Bottas", "Sergio Pérez"],
+        "answer": "Lewis Hamilton"
+      }
+    ]
+  },
+  "f1_miami": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what US state is the Miami International Autodrome located?",
+        "options": ["Florida", "Texas", "California", "Nevada"],
+        "answer": "Florida"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Miami International Autodrome was constructed around which NFL stadium?",
+        "options": ["Hard Rock Stadium", "Raymond James Stadium", "EverBank Stadium", "Camping World Stadium"],
+        "answer": "Hard Rock Stadium"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the inaugural Miami GP in 2022?",
+        "options": ["Max Verstappen", "Charles Leclerc", "Lewis Hamilton", "Sergio Pérez"],
+        "answer": "Max Verstappen"
+      }
+    ]
+  },
+  "f1_imola": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Autodromo Enzo e Dino Ferrari (Imola) located?",
+        "options": ["Italy", "France", "Spain", "Switzerland"],
+        "answer": "Italy"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Imola's full name honors the father and son founders of which legendary Italian sports car brand?",
+        "options": ["Ferrari", "Lamborghini", "Maserati", "Alfa Romeo"],
+        "answer": "Ferrari"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At the 1994 San Marino GP at Imola, which legendary Brazilian driver tragically lost his life in a crash at the Tamburello corner?",
+        "options": ["Ayrton Senna", "Nelson Piquet", "Rubens Barrichello", "Emerson Fittipaldi"],
+        "answer": "Ayrton Senna"
+      }
+    ]
+  },
+  "f1_monaco": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what tiny European principality is the Monaco GP held?",
+        "options": ["Monaco", "Andorra", "Liechtenstein", "Luxembourg"],
+        "answer": "Monaco"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Monaco GP forms part of the unofficial 'Triple Crown of Motorsport' alongside the Indianapolis 500 and which other race?",
+        "options": ["24 Hours of Le Mans", "Daytona 500", "Bathurst 1000", "12 Hours of Sebring"],
+        "answer": "24 Hours of Le Mans"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "How many times did Ayrton Senna win the Monaco Grand Prix, an outright record?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "6"
+      }
+    ]
+  },
+  "f1_barcelona": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Spanish city is the Circuit de Barcelona-Catalunya located?",
+        "options": ["Barcelona", "Madrid", "Valencia", "Seville"],
+        "answer": "Barcelona"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Circuit de Barcelona-Catalunya is best known as F1's primary venue for what?",
+        "options": ["Pre-season testing", "Tire development", "Driver academies", "Street demonstrations"],
+        "answer": "Pre-season testing"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Which Spanish double World Champion won his home Spanish GP for the first time in 2013, driving for Ferrari?",
+        "options": ["Fernando Alonso", "Carlos Sainz", "Pedro de la Rosa", "Pedro Diniz"],
+        "answer": "Fernando Alonso"
+      }
+    ]
+  },
+  "f1_montreal": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Canadian city is the Circuit Gilles Villeneuve located?",
+        "options": ["Montreal", "Toronto", "Vancouver", "Quebec City"],
+        "answer": "Montreal"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The circuit is named after which legendary Canadian F1 driver, killed in qualifying for the 1982 Belgian GP?",
+        "options": ["Gilles Villeneuve", "Jacques Villeneuve", "Lance Stroll", "Greg Moore"],
+        "answer": "Gilles Villeneuve"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Circuit Gilles Villeneuve is built on which Montreal island in the Saint Lawrence River?",
+        "options": ["Île Notre-Dame", "Île Sainte-Hélène", "Île aux Tourtes", "Île Bizard"],
+        "answer": "Île Notre-Dame"
+      }
+    ]
+  },
+  "f1_red_bull_ring": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Red Bull Ring located?",
+        "options": ["Austria", "Germany", "Switzerland", "Hungary"],
+        "answer": "Austria"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Before being renamed the Red Bull Ring, the circuit hosted F1 in the late 1990s under which name?",
+        "options": ["A1-Ring", "Österreichring", "Spielberg Ring", "Styria Speedway"],
+        "answer": "A1-Ring"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The first corner at the Red Bull Ring is named in honor of which late Austrian three-time F1 World Champion?",
+        "options": ["Niki Lauda", "Jochen Rindt", "Gerhard Berger", "Helmut Marko"],
+        "answer": "Niki Lauda"
+      }
+    ]
+  },
+  "f1_silverstone": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Silverstone Circuit located?",
+        "options": ["England", "Scotland", "Ireland", "Wales"],
+        "answer": "England"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Silverstone hosted the very first Formula 1 World Championship race in what year?",
+        "options": ["1948", "1950", "1955", "1962"],
+        "answer": "1950"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Silverstone's famous Maggotts-Becketts-Chapel complex subjects drivers to approximately what peak lateral G-force?",
+        "options": ["3G", "4G", "5G", "6G"],
+        "answer": "5G"
+      }
+    ]
+  },
+  "f1_spa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Circuit de Spa-Francorchamps located?",
+        "options": ["Belgium", "France", "Germany", "Netherlands"],
+        "answer": "Belgium"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Spa is famous for which iconic, near-flat-out uphill corner sequence?",
+        "options": ["Eau Rouge", "Pouhon", "Blanchimont", "La Source"],
+        "answer": "Eau Rouge"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Eau Rouge at Spa actually leads directly into which longer uphill section that completes the famous compression-and-crest combination?",
+        "options": ["Raidillon", "Les Combes", "Stavelot", "Kemmel Straight"],
+        "answer": "Raidillon"
+      }
+    ]
+  },
+  "f1_hungaroring": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "Near which Hungarian city is the Hungaroring located?",
+        "options": ["Budapest", "Debrecen", "Szeged", "Pécs"],
+        "answer": "Budapest"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Hungaroring is famously twisty and difficult to overtake on. It's often compared to which style of circuit despite being a permanent track?",
+        "options": ["Street circuit", "Oval", "Hill climb", "Karting track"],
+        "answer": "Street circuit"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Lewis Hamilton holds the record for the most Hungarian GP wins at the Hungaroring. How many times has he won there?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "8"
+      }
+    ]
+  },
+  "f1_zandvoort": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is Circuit Zandvoort located?",
+        "options": ["Netherlands", "Belgium", "Germany", "France"],
+        "answer": "Netherlands"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Dutch GP returned to the F1 calendar at Zandvoort in 2021 after roughly how many years away?",
+        "options": ["18", "26", "36", "46"],
+        "answer": "36"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Zandvoort's modern Hugenholtz Turn 3 features steep banking. Approximately what is its banking angle?",
+        "options": ["12°", "15°", "19°", "26°"],
+        "answer": "19°"
+      }
+    ]
+  },
+  "f1_monza": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Italian region is Monza located?",
+        "options": ["Lombardy", "Tuscany", "Piedmont", "Veneto"],
+        "answer": "Lombardy"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Monza's enduring nickname, reflecting its very long straights and high average speeds, is which evocative phrase?",
+        "options": ["Temple of Speed", "Cathedral of Power", "The Velodrome", "House of Horsepower"],
+        "answer": "Temple of Speed"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Monza's iconic banked oval section, no longer used in F1 but still partly standing, was built in which year?",
+        "options": ["1933", "1948", "1955", "1968"],
+        "answer": "1955"
+      }
+    ]
+  },
+  "f1_baku": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city is the Baku City Circuit located?",
+        "options": ["Baku", "Tbilisi", "Yerevan", "Ankara"],
+        "answer": "Baku"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Baku's main straight is one of the longest in F1, with cars regularly hitting top speeds over which mark?",
+        "options": ["340 km/h", "360 km/h", "380 km/h", "400 km/h"],
+        "answer": "360 km/h"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the chaotic 2017 Azerbaijan GP at Baku, the race featuring the infamous Vettel-Hamilton road-rage incident?",
+        "options": ["Daniel Ricciardo", "Valtteri Bottas", "Lance Stroll", "Lewis Hamilton"],
+        "answer": "Daniel Ricciardo"
+      }
+    ]
+  },
+  "f1_marina_bay": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Marina Bay Street Circuit located?",
+        "options": ["Singapore", "Malaysia", "Indonesia", "Thailand"],
+        "answer": "Singapore"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Singapore GP at Marina Bay is famous for being F1's first what?",
+        "options": ["Night race", "Reverse-grid race", "Sprint weekend", "Asian race"],
+        "answer": "Night race"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The inaugural 2008 Singapore GP was tainted by the 'Crashgate' scandal, in which which team ordered Nelson Piquet Jr. to deliberately crash?",
+        "options": ["Renault", "McLaren", "Ferrari", "BMW Sauber"],
+        "answer": "Renault"
+      }
+    ]
+  },
+  "f1_cota": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what US city is the Circuit of the Americas located?",
+        "options": ["Austin", "Dallas", "Houston", "San Antonio"],
+        "answer": "Austin"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Circuit of the Americas' Turn 1 is famous for what dramatic feature?",
+        "options": ["A steep uphill climb to a hairpin", "A blind right-hander over a crest", "An off-camber double apex", "A banked carousel"],
+        "answer": "A steep uphill climb to a hairpin"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the inaugural United States GP at Circuit of the Americas in 2012?",
+        "options": ["Lewis Hamilton", "Sebastian Vettel", "Fernando Alonso", "Kimi Räikkönen"],
+        "answer": "Lewis Hamilton"
+      }
+    ]
+  },
+  "f1_mexico": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what city is the Autódromo Hermanos Rodríguez located?",
+        "options": ["Mexico City", "Guadalajara", "Monterrey", "Cancún"],
+        "answer": "Mexico City"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The track's famous stadium section runs through what former baseball venue, giving drivers a soccer-stadium-like atmosphere?",
+        "options": ["Foro Sol", "Estadio Azteca", "Estadio Olímpico", "Plaza México"],
+        "answer": "Foro Sol"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Autódromo Hermanos Rodríguez is named after which pair of Mexican racing brothers, both F1 drivers in the 1960s?",
+        "options": ["Pedro and Ricardo Rodríguez", "Ricardo and Esteban Pérez", "Juan and Carlos Rodríguez", "Sergio and Antonio Pérez"],
+        "answer": "Pedro and Ricardo Rodríguez"
+      }
+    ]
+  },
+  "f1_interlagos": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Brazilian city is the Interlagos circuit located?",
+        "options": ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"],
+        "answer": "São Paulo"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The nickname 'Interlagos' translates from Portuguese roughly as which phrase, reflecting its setting?",
+        "options": ["Between the lakes", "On the hill", "By the river", "Near the coast"],
+        "answer": "Between the lakes"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The circuit is officially named the Autódromo José Carlos Pace, after which Brazilian F1 driver who died in a 1977 plane crash?",
+        "options": ["José Carlos Pace", "Nelson Piquet", "Emerson Fittipaldi", "Felipe Massa"],
+        "answer": "José Carlos Pace"
+      }
+    ]
+  },
+  "f1_vegas": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what US state is the Las Vegas Strip Circuit located?",
+        "options": ["Nevada", "California", "Arizona", "Utah"],
+        "answer": "Nevada"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Las Vegas Strip Circuit's main straight is famously laid out along which iconic boulevard?",
+        "options": ["The Las Vegas Strip", "Fremont Street", "Sahara Avenue", "Tropicana Avenue"],
+        "answer": "The Las Vegas Strip"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Las Vegas previously hosted F1 in the early 1980s at which makeshift venue?",
+        "options": ["Caesars Palace parking lot", "Hoover Dam access road", "Las Vegas Motor Speedway", "Boulder City highway"],
+        "answer": "Caesars Palace parking lot"
+      }
+    ]
+  },
+  "f1_lusail": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what country is the Lusail International Circuit located?",
+        "options": ["Qatar", "UAE", "Bahrain", "Saudi Arabia"],
+        "answer": "Qatar"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Lusail International Circuit was originally built in 2004 for which other racing discipline before hosting F1?",
+        "options": ["MotoGP", "Formula E", "WRC", "WEC"],
+        "answer": "MotoGP"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Who won the inaugural Qatar GP at Lusail in 2021?",
+        "options": ["Lewis Hamilton", "Max Verstappen", "Fernando Alonso", "Valtteri Bottas"],
+        "answer": "Lewis Hamilton"
+      }
+    ]
+  },
+  "f1_yas_marina": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what United Arab Emirates city is the Yas Marina Circuit located?",
+        "options": ["Abu Dhabi", "Dubai", "Sharjah", "Al Ain"],
+        "answer": "Abu Dhabi"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Yas Marina traditionally hosts which spot on the F1 calendar?",
+        "options": ["Season finale", "Season opener", "Mid-season test", "Summer break opener"],
+        "answer": "Season finale"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The hugely controversial 2021 Abu Dhabi GP decided the World Championship in favor of which driver, after a contentious safety-car restart?",
+        "options": ["Max Verstappen", "Lewis Hamilton", "Sergio Pérez", "Valtteri Bottas"],
+        "answer": "Max Verstappen"
+      }
+    ]
   }
 }

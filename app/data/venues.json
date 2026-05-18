@@ -1808,5 +1808,198 @@
     "city": "Lahore, Pakistan",
     "lat": 31.5142,
     "lng": 74.3286
+  },
+
+  "f1_albert_park": {
+    "league": "f1",
+    "team": "Australian GP",
+    "name": "Albert Park Circuit",
+    "city": "Melbourne, Australia",
+    "lat": -37.8497,
+    "lng": 144.9680
+  },
+  "f1_shanghai": {
+    "league": "f1",
+    "team": "Chinese GP",
+    "name": "Shanghai International Circuit",
+    "city": "Shanghai, China",
+    "lat": 31.3389,
+    "lng": 121.2197
+  },
+  "f1_suzuka": {
+    "league": "f1",
+    "team": "Japanese GP",
+    "name": "Suzuka Circuit",
+    "city": "Suzuka, Japan",
+    "lat": 34.8431,
+    "lng": 136.5408
+  },
+  "f1_bahrain": {
+    "league": "f1",
+    "team": "Bahrain GP",
+    "name": "Bahrain International Circuit",
+    "city": "Sakhir, Bahrain",
+    "lat": 26.0325,
+    "lng": 50.5106
+  },
+  "f1_jeddah": {
+    "league": "f1",
+    "team": "Saudi Arabian GP",
+    "name": "Jeddah Corniche Circuit",
+    "city": "Jeddah, Saudi Arabia",
+    "lat": 21.6319,
+    "lng": 39.1044
+  },
+  "f1_miami": {
+    "league": "f1",
+    "team": "Miami GP",
+    "name": "Miami International Autodrome",
+    "city": "Miami Gardens, FL",
+    "lat": 25.9580,
+    "lng": -80.2389
+  },
+  "f1_imola": {
+    "league": "f1",
+    "team": "Emilia Romagna GP",
+    "name": "Autodromo Enzo e Dino Ferrari",
+    "city": "Imola, Italy",
+    "lat": 44.3439,
+    "lng": 11.7167
+  },
+  "f1_monaco": {
+    "league": "f1",
+    "team": "Monaco GP",
+    "name": "Circuit de Monaco",
+    "city": "Monte Carlo, Monaco",
+    "lat": 43.7347,
+    "lng": 7.4206
+  },
+  "f1_barcelona": {
+    "league": "f1",
+    "team": "Spanish GP",
+    "name": "Circuit de Barcelona-Catalunya",
+    "city": "Montmeló, Spain",
+    "lat": 41.5697,
+    "lng": 2.2611
+  },
+  "f1_montreal": {
+    "league": "f1",
+    "team": "Canadian GP",
+    "name": "Circuit Gilles Villeneuve",
+    "city": "Montreal, Canada",
+    "lat": 45.5050,
+    "lng": -73.5228
+  },
+  "f1_red_bull_ring": {
+    "league": "f1",
+    "team": "Austrian GP",
+    "name": "Red Bull Ring",
+    "city": "Spielberg, Austria",
+    "lat": 47.2197,
+    "lng": 14.7647
+  },
+  "f1_silverstone": {
+    "league": "f1",
+    "team": "British GP",
+    "name": "Silverstone Circuit",
+    "city": "Silverstone, England",
+    "lat": 52.0786,
+    "lng": -1.0169
+  },
+  "f1_spa": {
+    "league": "f1",
+    "team": "Belgian GP",
+    "name": "Circuit de Spa-Francorchamps",
+    "city": "Stavelot, Belgium",
+    "lat": 50.4372,
+    "lng": 5.9714
+  },
+  "f1_hungaroring": {
+    "league": "f1",
+    "team": "Hungarian GP",
+    "name": "Hungaroring",
+    "city": "Mogyoród, Hungary",
+    "lat": 47.5789,
+    "lng": 19.2486
+  },
+  "f1_zandvoort": {
+    "league": "f1",
+    "team": "Dutch GP",
+    "name": "Circuit Zandvoort",
+    "city": "Zandvoort, Netherlands",
+    "lat": 52.3888,
+    "lng": 4.5409
+  },
+  "f1_monza": {
+    "league": "f1",
+    "team": "Italian GP",
+    "name": "Autodromo Nazionale Monza",
+    "city": "Monza, Italy",
+    "lat": 45.6156,
+    "lng": 9.2811
+  },
+  "f1_baku": {
+    "league": "f1",
+    "team": "Azerbaijan GP",
+    "name": "Baku City Circuit",
+    "city": "Baku, Azerbaijan",
+    "lat": 40.3725,
+    "lng": 49.8533
+  },
+  "f1_marina_bay": {
+    "league": "f1",
+    "team": "Singapore GP",
+    "name": "Marina Bay Street Circuit",
+    "city": "Singapore",
+    "lat": 1.2914,
+    "lng": 103.8642
+  },
+  "f1_cota": {
+    "league": "f1",
+    "team": "United States GP",
+    "name": "Circuit of the Americas",
+    "city": "Austin, TX",
+    "lat": 30.1328,
+    "lng": -97.6411
+  },
+  "f1_mexico": {
+    "league": "f1",
+    "team": "Mexico City GP",
+    "name": "Autódromo Hermanos Rodríguez",
+    "city": "Mexico City, Mexico",
+    "lat": 19.4042,
+    "lng": -99.0907
+  },
+  "f1_interlagos": {
+    "league": "f1",
+    "team": "São Paulo GP",
+    "name": "Autódromo José Carlos Pace (Interlagos)",
+    "city": "São Paulo, Brazil",
+    "lat": -23.7036,
+    "lng": -46.6997
+  },
+  "f1_vegas": {
+    "league": "f1",
+    "team": "Las Vegas GP",
+    "name": "Las Vegas Strip Circuit",
+    "city": "Las Vegas, NV",
+    "lat": 36.1183,
+    "lng": -115.1747
+  },
+  "f1_lusail": {
+    "league": "f1",
+    "team": "Qatar GP",
+    "name": "Lusail International Circuit",
+    "city": "Lusail, Qatar",
+    "lat": 25.4900,
+    "lng": 51.4542
+  },
+  "f1_yas_marina": {
+    "league": "f1",
+    "team": "Abu Dhabi GP",
+    "name": "Yas Marina Circuit",
+    "city": "Abu Dhabi, UAE",
+    "lat": 24.4672,
+    "lng": 54.6031
   }
 }
