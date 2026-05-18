@@ -4517,5 +4517,446 @@
         "answer": "Financial doping"
       }
     ]
+  },
+
+  "cricket_lords": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what English city is Lord's Cricket Ground located?",
+        "options": ["London", "Manchester", "Leeds", "Birmingham"],
+        "answer": "London"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Lord's is widely known by what nickname celebrating its status as the spiritual headquarters of cricket?",
+        "options": ["The Home of Cricket", "The Cathedral", "The Ancient Ground", "The Mecca"],
+        "answer": "The Home of Cricket"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Lord's has hosted how many Cricket World Cup finals (1975, 1979, 1983, 1999, 2019)?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      }
+    ]
+  },
+  "cricket_oval": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what English city is The Oval located?",
+        "options": ["London", "Manchester", "Bristol", "Liverpool"],
+        "answer": "London"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The Oval traditionally hosts which fixture of England's home Test summer?",
+        "options": ["The final Test", "The first Test", "Boxing Day Test", "Day-night Test"],
+        "answer": "The final Test"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "In 1882 at The Oval, England's defeat to Australia inspired a satirical obituary that gave rise to which legendary Test trophy?",
+        "options": ["The Ashes", "The Frank Worrell Trophy", "The Border-Gavaskar Trophy", "The Wisden Trophy"],
+        "answer": "The Ashes"
+      }
+    ]
+  },
+  "cricket_trent_bridge": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what English city is Trent Bridge located?",
+        "options": ["Nottingham", "Leeds", "Birmingham", "Sheffield"],
+        "answer": "Nottingham"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Trent Bridge's overhead conditions famously help which type of bowler more than any other?",
+        "options": ["Swing bowlers", "Leg spinners", "Wrist spinners", "Slow left-armers"],
+        "answer": "Swing bowlers"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Stuart Broad's 8/15 at Trent Bridge in the 2015 Ashes skittled Australia for what first-innings total inside one session?",
+        "options": ["60", "84", "111", "127"],
+        "answer": "60"
+      }
+    ]
+  },
+  "cricket_headingley": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what northern English city is Headingley located?",
+        "options": ["Leeds", "Manchester", "Newcastle", "Sheffield"],
+        "answer": "Leeds"
+      },
+      {
+        "difficulty": "medium",
+        "question": "At Headingley in 1981, which all-rounder smashed a heroic 149 not out to lead England to a stunning Ashes win after following on?",
+        "options": ["Ian Botham", "Bob Willis", "David Gower", "Geoff Boycott"],
+        "answer": "Ian Botham"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Ben Stokes's miracle 135* at Headingley in 2019 chased down what 4th-innings target against Australia?",
+        "options": ["298", "359", "401", "452"],
+        "answer": "359"
+      }
+    ]
+  },
+  "cricket_old_trafford": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what English city is Old Trafford Cricket Ground located (distinct from the football stadium of the same name)?",
+        "options": ["Manchester", "London", "Liverpool", "Birmingham"],
+        "answer": "Manchester"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Old Trafford Cricket Ground is the home of which English first-class county cricket club?",
+        "options": ["Lancashire", "Yorkshire", "Surrey", "Middlesex"],
+        "answer": "Lancashire"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At Old Trafford in 1956, off-spinner Jim Laker famously took 10 wickets in the second innings against Australia. How many wickets did he take across the whole match (still a Test record)?",
+        "options": ["15", "17", "19", "20"],
+        "answer": "19"
+      }
+    ]
+  },
+  "cricket_mcg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Australian city is the Melbourne Cricket Ground located?",
+        "options": ["Melbourne", "Sydney", "Adelaide", "Perth"],
+        "answer": "Melbourne"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The MCG hosted the very first men's Test match in 1877 between Australia and which opponent?",
+        "options": ["England", "South Africa", "West Indies", "New Zealand"],
+        "answer": "England"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The MCG hosted the 2015 ICC Cricket World Cup final, which was won by which team?",
+        "options": ["Australia", "New Zealand", "India", "Sri Lanka"],
+        "answer": "Australia"
+      }
+    ]
+  },
+  "cricket_scg": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Australian city is the Sydney Cricket Ground located?",
+        "options": ["Sydney", "Melbourne", "Brisbane", "Perth"],
+        "answer": "Sydney"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The SCG traditionally hosts which annual Test match, played at the start of January?",
+        "options": ["New Year's Test", "Boxing Day Test", "Anzac Test", "Easter Test"],
+        "answer": "New Year's Test"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At the SCG in 1932-33, the controversial 'Bodyline' tactics targeting Don Bradman were ordered by which England captain?",
+        "options": ["Douglas Jardine", "Wally Hammond", "Percy Chapman", "Bob Wyatt"],
+        "answer": "Douglas Jardine"
+      }
+    ]
+  },
+  "cricket_adelaide_oval": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Australian city is Adelaide Oval located?",
+        "options": ["Adelaide", "Melbourne", "Sydney", "Perth"],
+        "answer": "Adelaide"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Adelaide Oval is famous for hosting the first-ever Test cricket match played under lights with a pink ball — what is this format called?",
+        "options": ["Day-night Test", "Twilight Test", "Pink-out Test", "Floodlit Test"],
+        "answer": "Day-night Test"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Don Bradman's career Test batting average — set partly through dominant innings at Adelaide Oval — finished at what near-mythical number?",
+        "options": ["88.50", "94.10", "99.94", "101.20"],
+        "answer": "99.94"
+      }
+    ]
+  },
+  "cricket_gabba": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Australian city is The Gabba located?",
+        "options": ["Brisbane", "Sydney", "Melbourne", "Perth"],
+        "answer": "Brisbane"
+      },
+      {
+        "difficulty": "medium",
+        "question": "The 'Gabba' nickname is shortened from which Brisbane suburb name?",
+        "options": ["Woolloongabba", "Toowoomba", "Boondall", "Kangaroo Point"],
+        "answer": "Woolloongabba"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "The Gabba hosted the first tied Test match in cricket history in 1960, between Australia and which touring side?",
+        "options": ["West Indies", "England", "Pakistan", "India"],
+        "answer": "West Indies"
+      }
+    ]
+  },
+  "cricket_eden_gardens": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Indian city is Eden Gardens located?",
+        "options": ["Kolkata", "Mumbai", "Delhi", "Chennai"],
+        "answer": "Kolkata"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Eden Gardens is one of the world's largest cricket stadiums. What is its current approximate seating capacity?",
+        "options": ["40,000", "55,000", "68,000", "95,000"],
+        "answer": "68,000"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At Eden Gardens in 2001, VVS Laxman scored a famous 281 to help India beat Australia after following on. Who was India's captain in that historic Test?",
+        "options": ["Sourav Ganguly", "Sachin Tendulkar", "Rahul Dravid", "Anil Kumble"],
+        "answer": "Sourav Ganguly"
+      }
+    ]
+  },
+  "cricket_wankhede": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Indian city is Wankhede Stadium located?",
+        "options": ["Mumbai", "Delhi", "Chennai", "Bengaluru"],
+        "answer": "Mumbai"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Wankhede Stadium hosted the 2011 ICC Cricket World Cup final, in which India defeated which team?",
+        "options": ["Sri Lanka", "Australia", "Pakistan", "South Africa"],
+        "answer": "Sri Lanka"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Sachin Tendulkar played his 200th and final Test at Wankhede in 2013 against which touring side?",
+        "options": ["West Indies", "Australia", "England", "South Africa"],
+        "answer": "West Indies"
+      }
+    ]
+  },
+  "cricket_chinnaswamy": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which Indian city is M. Chinnaswamy Stadium located?",
+        "options": ["Bengaluru", "Chennai", "Hyderabad", "Pune"],
+        "answer": "Bengaluru"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Chinnaswamy Stadium is the home ground of which IPL franchise?",
+        "options": ["Royal Challengers Bangalore", "Chennai Super Kings", "Sunrisers Hyderabad", "Mumbai Indians"],
+        "answer": "Royal Challengers Bangalore"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At Chinnaswamy during the 2011 Cricket World Cup, India and England played out a thrilling tied ODI with both sides scoring how many runs?",
+        "options": ["283", "338", "359", "381"],
+        "answer": "338"
+      }
+    ]
+  },
+  "cricket_modi": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Indian city is Narendra Modi Stadium located?",
+        "options": ["Ahmedabad", "Mumbai", "Delhi", "Bengaluru"],
+        "answer": "Ahmedabad"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Narendra Modi Stadium, formerly known as Motera, is the largest cricket stadium in the world. What is its approximate seating capacity?",
+        "options": ["86,000", "100,000", "132,000", "160,000"],
+        "answer": "132,000"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Narendra Modi Stadium hosted the 2023 ICC Cricket World Cup final between India and which team?",
+        "options": ["Australia", "England", "New Zealand", "South Africa"],
+        "answer": "Australia"
+      }
+    ]
+  },
+  "cricket_kensington_oval": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On which Caribbean island is Kensington Oval located?",
+        "options": ["Barbados", "Jamaica", "Trinidad", "Antigua"],
+        "answer": "Barbados"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Kensington Oval hosted the 2007 ICC Cricket World Cup final, won by which team?",
+        "options": ["Australia", "Sri Lanka", "India", "South Africa"],
+        "answer": "Australia"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Kensington Oval also hosted the 2010 ICC World Twenty20 final, in which which country lifted their first global white-ball trophy?",
+        "options": ["England", "Australia", "Pakistan", "Sri Lanka"],
+        "answer": "England"
+      }
+    ]
+  },
+  "cricket_sabina_park": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "On which Caribbean island is Sabina Park located?",
+        "options": ["Jamaica", "Barbados", "Trinidad", "Guyana"],
+        "answer": "Jamaica"
+      },
+      {
+        "difficulty": "medium",
+        "question": "At Sabina Park in 1958, which West Indian batsman scored a then-Test record 365 not out against Pakistan?",
+        "options": ["Garfield Sobers", "Frank Worrell", "Everton Weekes", "Clyde Walcott"],
+        "answer": "Garfield Sobers"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Sobers's record 365* at Sabina Park stood for 36 years before being broken in 1994 by which West Indian batsman with 375?",
+        "options": ["Brian Lara", "Viv Richards", "Gordon Greenidge", "Carl Hooper"],
+        "answer": "Brian Lara"
+      }
+    ]
+  },
+  "cricket_newlands": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what South African city is Newlands Cricket Ground located?",
+        "options": ["Cape Town", "Johannesburg", "Durban", "Pretoria"],
+        "answer": "Cape Town"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Newlands is famous for its picturesque view of which iconic flat-topped mountain?",
+        "options": ["Table Mountain", "Lion's Head", "Devil's Peak", "Drakensberg"],
+        "answer": "Table Mountain"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At Newlands in 2018, which Australian Test captain was central to a ball-tampering scandal involving sandpaper?",
+        "options": ["Steve Smith", "Tim Paine", "Michael Clarke", "Pat Cummins"],
+        "answer": "Steve Smith"
+      }
+    ]
+  },
+  "cricket_wanderers": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what South African city is The Wanderers Stadium located?",
+        "options": ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
+        "answer": "Johannesburg"
+      },
+      {
+        "difficulty": "medium",
+        "question": "At The Wanderers in 2006, South Africa famously chased down what then-record ODI target set by Australia?",
+        "options": ["375", "402", "434", "468"],
+        "answer": "434"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "South Africa's record 438/9 chase at The Wanderers in 2006 was won by what margin off the second-to-last ball?",
+        "options": ["1 wicket", "2 wickets", "3 wickets", "4 wickets"],
+        "answer": "1 wicket"
+      }
+    ]
+  },
+  "cricket_galle": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which country is Galle International Stadium located?",
+        "options": ["Sri Lanka", "Bangladesh", "India", "Pakistan"],
+        "answer": "Sri Lanka"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Galle's outfield was destroyed by which devastating natural disaster in 2004, requiring a rebuild before the ground reopened?",
+        "options": ["Indian Ocean tsunami", "Cyclone", "Earthquake", "Flooding"],
+        "answer": "Indian Ocean tsunami"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Sri Lankan spin great Muttiah Muralitharan took his historic 800th and final Test wicket at Galle in 2010 against which touring side?",
+        "options": ["India", "Pakistan", "England", "Australia"],
+        "answer": "India"
+      }
+    ]
+  },
+  "cricket_premadasa": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In which country's capital, Colombo, is R. Premadasa Stadium located?",
+        "options": ["Sri Lanka", "India", "Bangladesh", "Pakistan"],
+        "answer": "Sri Lanka"
+      },
+      {
+        "difficulty": "medium",
+        "question": "R. Premadasa Stadium is named after which Sri Lankan political figure who was assassinated in 1993?",
+        "options": ["Ranasinghe Premadasa", "J. R. Jayewardene", "Chandrika Kumaratunga", "Mahinda Rajapaksa"],
+        "answer": "Ranasinghe Premadasa"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "At Premadasa in 2002, the ICC Champions Trophy final was washed out twice by rain, leading to it being shared by Sri Lanka and which co-winners?",
+        "options": ["India", "Pakistan", "Australia", "South Africa"],
+        "answer": "India"
+      }
+    ]
+  },
+  "cricket_gaddafi": {
+    "questions": [
+      {
+        "difficulty": "easy",
+        "question": "In what Pakistani city is Gaddafi Stadium located?",
+        "options": ["Lahore", "Karachi", "Islamabad", "Peshawar"],
+        "answer": "Lahore"
+      },
+      {
+        "difficulty": "medium",
+        "question": "Gaddafi Stadium hosted the 1996 ICC Cricket World Cup final, won by which country?",
+        "options": ["Sri Lanka", "Australia", "Pakistan", "India"],
+        "answer": "Sri Lanka"
+      },
+      {
+        "difficulty": "medium_hard",
+        "question": "Gaddafi Stadium was renamed in the 1970s after which Libyan leader, who had publicly backed Pakistan's right to develop nuclear weapons?",
+        "options": ["Muammar Gaddafi", "Hosni Mubarak", "Yasser Arafat", "Saddam Hussein"],
+        "answer": "Muammar Gaddafi"
+      }
+    ]
   }
 }

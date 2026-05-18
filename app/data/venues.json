@@ -1647,5 +1647,166 @@
     "city": "Paris, France",
     "lat": 48.8414,
     "lng": 2.2530
+  },
+
+  "cricket_lords": {
+    "league": "cricket",
+    "team": "England",
+    "name": "Lord's Cricket Ground",
+    "city": "London, England",
+    "lat": 51.5294,
+    "lng": -0.1727
+  },
+  "cricket_oval": {
+    "league": "cricket",
+    "team": "England",
+    "name": "The Oval",
+    "city": "London, England",
+    "lat": 51.4836,
+    "lng": -0.1149
+  },
+  "cricket_trent_bridge": {
+    "league": "cricket",
+    "team": "England",
+    "name": "Trent Bridge",
+    "city": "Nottingham, England",
+    "lat": 52.9376,
+    "lng": -1.1326
+  },
+  "cricket_headingley": {
+    "league": "cricket",
+    "team": "England",
+    "name": "Headingley Cricket Ground",
+    "city": "Leeds, England",
+    "lat": 53.8175,
+    "lng": -1.5828
+  },
+  "cricket_old_trafford": {
+    "league": "cricket",
+    "team": "England",
+    "name": "Old Trafford Cricket Ground",
+    "city": "Manchester, England",
+    "lat": 53.4569,
+    "lng": -2.2861
+  },
+  "cricket_mcg": {
+    "league": "cricket",
+    "team": "Australia",
+    "name": "Melbourne Cricket Ground",
+    "city": "Melbourne, Australia",
+    "lat": -37.8200,
+    "lng": 144.9833
+  },
+  "cricket_scg": {
+    "league": "cricket",
+    "team": "Australia",
+    "name": "Sydney Cricket Ground",
+    "city": "Sydney, Australia",
+    "lat": -33.8917,
+    "lng": 151.2244
+  },
+  "cricket_adelaide_oval": {
+    "league": "cricket",
+    "team": "Australia",
+    "name": "Adelaide Oval",
+    "city": "Adelaide, Australia",
+    "lat": -34.9156,
+    "lng": 138.5961
+  },
+  "cricket_gabba": {
+    "league": "cricket",
+    "team": "Australia",
+    "name": "The Gabba",
+    "city": "Brisbane, Australia",
+    "lat": -27.4858,
+    "lng": 153.0386
+  },
+  "cricket_eden_gardens": {
+    "league": "cricket",
+    "team": "India",
+    "name": "Eden Gardens",
+    "city": "Kolkata, India",
+    "lat": 22.5645,
+    "lng": 88.3433
+  },
+  "cricket_wankhede": {
+    "league": "cricket",
+    "team": "India",
+    "name": "Wankhede Stadium",
+    "city": "Mumbai, India",
+    "lat": 18.9389,
+    "lng": 72.8258
+  },
+  "cricket_chinnaswamy": {
+    "league": "cricket",
+    "team": "India",
+    "name": "M. Chinnaswamy Stadium",
+    "city": "Bengaluru, India",
+    "lat": 12.9789,
+    "lng": 77.5995
+  },
+  "cricket_modi": {
+    "league": "cricket",
+    "team": "India",
+    "name": "Narendra Modi Stadium",
+    "city": "Ahmedabad, India",
+    "lat": 23.0922,
+    "lng": 72.5972
+  },
+  "cricket_kensington_oval": {
+    "league": "cricket",
+    "team": "West Indies",
+    "name": "Kensington Oval",
+    "city": "Bridgetown, Barbados",
+    "lat": 13.1067,
+    "lng": -59.6175
+  },
+  "cricket_sabina_park": {
+    "league": "cricket",
+    "team": "West Indies",
+    "name": "Sabina Park",
+    "city": "Kingston, Jamaica",
+    "lat": 17.9756,
+    "lng": -76.7714
+  },
+  "cricket_newlands": {
+    "league": "cricket",
+    "team": "South Africa",
+    "name": "Newlands Cricket Ground",
+    "city": "Cape Town, South Africa",
+    "lat": -33.9758,
+    "lng": 18.4642
+  },
+  "cricket_wanderers": {
+    "league": "cricket",
+    "team": "South Africa",
+    "name": "The Wanderers Stadium",
+    "city": "Johannesburg, South Africa",
+    "lat": -26.1453,
+    "lng": 28.0481
+  },
+  "cricket_galle": {
+    "league": "cricket",
+    "team": "Sri Lanka",
+    "name": "Galle International Stadium",
+    "city": "Galle, Sri Lanka",
+    "lat": 6.0314,
+    "lng": 80.2169
+  },
+  "cricket_premadasa": {
+    "league": "cricket",
+    "team": "Sri Lanka",
+    "name": "R. Premadasa Stadium",
+    "city": "Colombo, Sri Lanka",
+    "lat": 6.9117,
+    "lng": 79.8769
+  },
+  "cricket_gaddafi": {
+    "league": "cricket",
+    "team": "Pakistan",
+    "name": "Gaddafi Stadium",
+    "city": "Lahore, Pakistan",
+    "lat": 31.5142,
+    "lng": 74.3286
   }
 }
