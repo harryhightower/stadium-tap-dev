@@ -2,51 +2,73 @@
   "sec_football": {
     "name": "SEC Football",
     "icon": "🏈",
-    "sort": 1
+    "sort": 1,
+    "region": "us"
   },
   "big_ten_football": {
     "name": "Big Ten Football",
     "icon": "🏈",
-    "sort": 2
+    "sort": 2,
+    "region": "us"
   },
   "nfl": {
     "name": "NFL",
     "icon": "🏈",
-    "sort": 3
+    "sort": 3,
+    "region": "us"
   },
   "mlb": {
     "name": "MLB",
     "icon": "⚾",
-    "sort": 4
+    "sort": 4,
+    "region": "us"
   },
   "nba": {
     "name": "NBA",
     "icon": "🏀",
-    "sort": 5
+    "sort": 5,
+    "region": "us"
   },
   "premier_league": {
     "name": "Premier League",
     "icon": "⚽",
-    "sort": 6
+    "sort": 6,
+    "region": "intl"
   },
   "bundesliga": {
     "name": "Bundesliga",
     "icon": "⚽",
-    "sort": 7
+    "sort": 7,
+    "region": "intl"
   },
   "serie_a": {
     "name": "Serie A",
     "icon": "⚽",
-    "sort": 8
+    "sort": 8,
+    "region": "intl"
   },
   "la_liga": {
     "name": "La Liga",
     "icon": "⚽",
-    "sort": 9
+    "sort": 9,
+    "region": "intl"
   },
   "ligue_1_psg": {
     "name": "Ligue 1 (PSG)",
     "icon": "⚽",
-    "sort": 10
+    "sort": 10,
+    "region": "intl"
+  },
+  "cricket": {
+    "name": "Cricket",
+    "icon": "🏏",
+    "sort": 11,
+    "region": "intl"
+  },
+  "f1": {
+    "name": "Formula 1",
+    "icon": "🏎️",
+    "sort": 12,
+    "region": "intl"
   }
 }

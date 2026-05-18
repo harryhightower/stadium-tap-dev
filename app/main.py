@@ -103,10 +103,20 @@ def today_et_date() -> str:
     return datetime.now(ET).date().isoformat()
 
 
-def todays_quiz_venues(date_str: str, size: int = DAILY_QUIZ_SIZE) -> List[str]:
+def todays_quiz_venues(
+    date_str: str,
+    size: int = DAILY_QUIZ_SIZE,
+    region: Optional[str] = None,
+) -> List[str]:
     seed = hashlib.md5(date_str.encode()).hexdigest()
     rng = random.Random(seed)
-    populated = sorted(k for k in VENUES.keys() if k in TRIVIA)
+    populated = [k for k in VENUES.keys() if k in TRIVIA]
+    if region:
+        populated = [
+            k for k in populated
+            if LEAGUES.get(VENUES[k].get("league"), {}).get("region") == region
+        ]
+    populated.sort()
     return rng.sample(populated, min(size, len(populated)))
 
 
@@ -379,6 +389,7 @@ def leaderboard(
     mode: str = "browse",
     scope: str = "alltime",
     date: Optional[str] = None,
+    region: Optional[str] = None,
     player=Depends(get_player),
 ):
     """Leaderboard with optional filters.
@@ -389,6 +400,8 @@ def leaderboard(
       For mode='quiz' it matches play_date; for mode='browse' it matches the
       created_at date.
     - league: optional league filter (only meaningful for browse mode).
+    - region: optional region filter for mode='quiz' ('us' or 'intl');
+      restricts attempts to venues whose league has that region.
     """
     if mode not in ("browse", "quiz"):
         raise HTTPException(400, "Invalid mode")
@@ -411,6 +424,14 @@ def leaderboard(
             join_conditions.append("date(a.created_at) = ?")
         params.append(date)
 
+    region_filter = region if mode == "quiz" and region in ("us", "intl") else None
+    if region_filter:
+        region_leagues = [k for k, v in LEAGUES.items() if v.get("region") == region_filter]
+        if region_leagues:
+            placeholders = ",".join("?" * len(region_leagues))
+            join_conditions.append(f"a.league_key IN ({placeholders})")
+            params.extend(region_leagues)
+
     sql = f"""
         SELECT p.name,
                COUNT(a.id) AS venues_played,
@@ -426,7 +447,15 @@ def leaderboard(
     conn.close()
 
     if mode == "quiz":
-        total_venues = len(todays_quiz_venues(date)) if scope == "daily" else DAILY_QUIZ_SIZE
+        if scope == "daily":
+            total_venues = len(todays_quiz_venues(date, region=region_filter))
+        elif region_filter:
+            total_venues = sum(
+                1 for k, v in VENUES.items()
+                if k in TRIVIA and LEAGUES.get(v.get("league"), {}).get("region") == region_filter
+            )
+        else:
+            total_venues = DAILY_QUIZ_SIZE
     elif league:
         total_venues = len(venues_by_league(league))
     else:
@@ -437,17 +466,24 @@ def leaderboard(
         "mode": mode,
         "scope": scope,
         "date": date if scope == "daily" else None,
+        "region": region_filter,
         "total_venues": total_venues,
         "rows": [dict(r) for r in rows],
     }
 
 
 @app.get("/api/daily-quiz")
-def daily_quiz(player=Depends(get_player)):
-    """Today's cross-league daily quiz. Same shape as /api/venues but with the
-    sampled 10-venue set; played status reflects only today's quiz attempts."""
+def daily_quiz(
+    region: Optional[str] = "us",
+    player=Depends(get_player),
+):
+    """Today's region-scoped daily quiz. Same shape as /api/venues but with the
+    sampled 10-venue set; played status reflects only today's quiz attempts.
+    region='us' or 'intl' filters by league.region; anything else (or empty)
+    falls back to all populated venues."""
+    region_filter = region if region in ("us", "intl") else None
     play_date = today_et_date()
-    venue_keys = todays_quiz_venues(play_date)
+    venue_keys = todays_quiz_venues(play_date, region=region_filter)
 
     conn = get_db()
     rows = conn.execute(
